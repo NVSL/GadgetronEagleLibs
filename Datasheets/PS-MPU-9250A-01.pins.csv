@@ -1,0 +1,26 @@
+Pin Group,Number,Name,Type,Swap,Seq.
+Gate-A,23,SLC/SCLK,Undefined,0,1
+Gate-A,24,SDA/SDI,Undefined,0,2
+Gate-A,9,AD0/SDO,Undefined,0,3
+Gate-A,22,NCS,Undefined,0,4
+Gate-A,12,INT,Undefined,0,5
+Gate-A,11,FSYNC,Undefined,0,6
+Gate-A,21,AUX_DA,Undefined,0,7
+Gate-A,7,AUX_CL,Undefined,0,8
+Gate-A,8,VDDIO,Undefined,0,9
+Gate-A,1,RESV/VDDIO,Undefined,0,10
+Gate-A,13,VDD,Undefined,0,11
+Gate-A,10,REGOUT,Undefined,0,12
+Gate-A,18,GND,Undefined,0,13
+Gate-A,25,GND,Undefined,0,14
+Gate-A,20,RESV/GND,Undefined,0,15
+Gate-A,19,RESV/DNC,Undefined,0,16
+Unused Pin,2,,,,
+Unused Pin,3,,,,
+Unused Pin,4,,,,
+Unused Pin,5,,,,
+Unused Pin,6,,,,
+Unused Pin,14,,,,
+Unused Pin,15,,,,
+Unused Pin,16,,,,
+Unused Pin,17,,,,
