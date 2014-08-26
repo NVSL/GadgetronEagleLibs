@@ -1,24 +1,8 @@
-UTIL=../../Util/PCBArt/
+default: ../EAGLE/Artwork.lbr
 
-default: ../PADS/Logos.l ../PADS/Squares.l
+LOGOS=$(wildcard *.png)
 
-LOGOS=$(wildcard *Logo*.png)
-
-SQUARES=$(wildcard *Square*.png)
-
-../PADS/Logos.l : $(LOGOS:.png=.l) 
-	$(UTIL)/lCat.py $^ >$@
-	@ echo @@@@@@@@@@@@@@@@@@@  You still need to import the  @@@@@@@@@@@@@@@@@
-	@ echo @@@@@@@@@@@@@@@@@@@   contents of $@ into $*.pt9   @@@@@@@@@@@@@@@@@
-
-../PADS/Squares.l : $(SQUARES:.png=.l) 
-	$(UTIL)/lCat.py $^ >$@
-	@ echo @@@@@@@@@@@@@@@@@@@  You still need to import the  @@@@@@@@@@@@@@@@@
-	@ echo @@@@@@@@@@@@@@@@@@@   contents of $@ into $*.pt9   @@@@@@@@@@@@@@@@@
-
-%.l : %.png 
-	$(UTIL)/pngToLine.py $< $@
-
+../EAGLE/Artwork.lbr : $(LOGOS) 
+	for i in $(LOGOS); do pngToLine.py --png $$i --lbr $@ --force --width 0.025; done
 
 clean:
-	rm -rf *.l
