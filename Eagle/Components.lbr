@@ -160,47 +160,27 @@ Manually-created devices used by Gadgetron components.</description>
 <pad name="P$1" x="0" y="0" drill="2.2" diameter="3"/>
 <text x="-0.87" y="-2.74" size="0.8128" layer="48">2,0</text>
 </package>
-<package name="FACEPLATE_MOUNTINGHOLE_2.0_PLATED">
-<circle x="0" y="0" radius="1.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="2.2" diameter="3"/>
+<package name="FACEPLATE_MOUNTINGHOLE_M2.5_UNPLATED">
+<circle x="0" y="0" radius="5" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="42"/>
 <text x="-0.87" y="-2.74" size="0.8128" layer="48">2,0</text>
-<circle x="0" y="0" radius="1" width="0.127" layer="150"/>
+<hole x="0" y="0" drill="2.6"/>
+<circle x="0" y="0" radius="2.6" width="0.127" layer="150"/>
 </package>
-<package name="BACKPLATE_MOUNTINGHOLE_2.0_PLATED">
-<circle x="0" y="0" radius="1.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="2.2" diameter="3"/>
+<package name="FACEPLATE_MOUNTINGHOLE_M2.5_PLATED">
+<circle x="0" y="0" radius="5" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.7" width="2.032" layer="42"/>
 <text x="-0.87" y="-2.74" size="0.8128" layer="48">2,0</text>
-</package>
-<package name="FACEPLATE_MOUNTINGHOLE_2.0_UNPLATED">
-<circle x="0" y="0" radius="1.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<text x="-0.87" y="-2.74" size="0.8128" layer="48">2,0</text>
-<hole x="0" y="0" drill="2"/>
-<circle x="0" y="0" radius="1" width="0.127" layer="150"/>
-</package>
-<package name="BACKPLATE_MOUNTINGHOLE_2.0_UNPLATED">
-<circle x="0" y="0" radius="1.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="2.2" diameter="3"/>
-<text x="-0.87" y="-2.74" size="0.8128" layer="48">2,0</text>
+<pad name="P$1" x="0" y="0" drill="2.1" diameter="5.5"/>
+<circle x="0" y="0" radius="2.6" width="0.127" layer="150"/>
 </package>
 <package name="MOUNTINGHOLE_3.0_PLATEDTHIN">
 <circle x="0" y="0" radius="2.2" width="0.2" layer="21"/>
@@ -996,28 +976,14 @@ Manually-created devices used by Gadgetron components.</description>
 </technology>
 </technologies>
 </device>
-<device name="BP-2.0-UNPLATED" package="BACKPLATE_MOUNTINGHOLE_2.0_UNPLATED">
+<device name="FP-M2.5-UNPLATED" package="FACEPLATE_MOUNTINGHOLE_M2.5_UNPLATED">
 <technologies>
 <technology name="">
 <attribute name="BOM" value="EXCLUDE" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="FP-2.0-UNPLATED" package="FACEPLATE_MOUNTINGHOLE_2.0_UNPLATED">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="BP-2.0-PLATED" package="BACKPLATE_MOUNTINGHOLE_2.0_PLATED">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="FP-2.0-PLATED" package="FACEPLATE_MOUNTINGHOLE_2.0_PLATED">
+<device name="FP-M2.5-PLATED" package="FACEPLATE_MOUNTINGHOLE_M2.5_PLATED">
 <technologies>
 <technology name="">
 <attribute name="BOM" value="EXCLUDE" constant="no"/>
