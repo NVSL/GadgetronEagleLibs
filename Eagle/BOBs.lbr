@@ -158,18 +158,18 @@
 <wire x1="12.065" y1="33.02" x2="8.255" y2="33.02" width="0.1999" layer="21"/>
 <wire x1="8.255" y1="33.02" x2="8.255" y2="31.75" width="0.1999" layer="21"/>
 <wire x1="8.255" y1="31.75" x2="8.255" y2="31.75" width="0.1999" layer="21"/>
-<pad name="1" x="1.27" y="29.845" drill="1.016" diameter="1.778"/>
-<pad name="2" x="1.27" y="27.305" drill="1.016" diameter="1.778"/>
-<pad name="3" x="1.27" y="24.765" drill="1.016" diameter="1.778"/>
-<pad name="4" x="1.27" y="22.225" drill="1.016" diameter="1.778"/>
-<pad name="5" x="1.27" y="19.685" drill="1.016" diameter="1.778"/>
-<pad name="6" x="1.27" y="17.145" drill="1.016" diameter="1.778"/>
-<pad name="7" x="1.27" y="14.605" drill="1.016" diameter="1.778"/>
-<pad name="8" x="1.27" y="12.065" drill="1.016" diameter="1.778"/>
-<pad name="9" x="1.27" y="9.525" drill="1.016" diameter="1.778"/>
-<pad name="10" x="1.27" y="6.985" drill="1.016" diameter="1.778"/>
-<pad name="11" x="1.27" y="4.445" drill="1.016" diameter="1.778"/>
-<pad name="12" x="1.27" y="1.905" drill="1.016" diameter="1.778"/>
+<pad name="BAT" x="1.27" y="29.845" drill="1.016" diameter="1.778"/>
+<pad name="GND" x="1.27" y="27.305" drill="1.016" diameter="1.778"/>
+<pad name="SPKR+" x="1.27" y="24.765" drill="1.016" diameter="1.778"/>
+<pad name="SPKR-" x="1.27" y="22.225" drill="1.016" diameter="1.778"/>
+<pad name="RST" x="1.27" y="19.685" drill="1.016" diameter="1.778"/>
+<pad name="PS" x="1.27" y="17.145" drill="1.016" diameter="1.778"/>
+<pad name="KEY" x="1.27" y="14.605" drill="1.016" diameter="1.778"/>
+<pad name="RI" x="1.27" y="12.065" drill="1.016" diameter="1.778"/>
+<pad name="TX" x="1.27" y="9.525" drill="1.016" diameter="1.778"/>
+<pad name="RX" x="1.27" y="6.985" drill="1.016" diameter="1.778"/>
+<pad name="NS" x="1.27" y="4.445" drill="1.016" diameter="1.778"/>
+<pad name="VIO" x="1.27" y="1.905" drill="1.016" diameter="1.778"/>
 <text x="17.78" y="20.32" size="1.27" layer="21">Adafurit FONA</text>
 </package>
 <package name="EINK-2.7IN-EMBEDDEDARTISTS">
@@ -192,20 +192,20 @@
 <wire x1="27" y1="41" x2="27" y2="16" width="0.2" layer="21"/>
 <wire x1="27" y1="16" x2="27" y2="16" width="0.2" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.2" layer="21"/>
-<pad name="1" x="30" y="21" drill="1.016" diameter="1.778"/>
-<pad name="2" x="32.54" y="21" drill="1.016" diameter="1.778"/>
-<pad name="3" x="30" y="23.54" drill="1.016" diameter="1.778"/>
-<pad name="4" x="32.54" y="23.54" drill="1.016" diameter="1.778"/>
-<pad name="5" x="30" y="26.08" drill="1.016" diameter="1.778"/>
-<pad name="6" x="32.54" y="26.08" drill="1.016" diameter="1.778"/>
-<pad name="7" x="30" y="28.62" drill="1.016" diameter="1.778"/>
-<pad name="8" x="32.54" y="28.62" drill="1.016" diameter="1.778"/>
-<pad name="9" x="30" y="31.16" drill="1.016" diameter="1.778"/>
-<pad name="10" x="32.54" y="31.16" drill="1.016" diameter="1.778"/>
-<pad name="11" x="30" y="33.7" drill="1.016" diameter="1.778"/>
-<pad name="12" x="32.54" y="33.7" drill="1.016" diameter="1.778"/>
-<pad name="13" x="30" y="36.24" drill="1.016" diameter="1.778"/>
-<pad name="14" x="32.54" y="36.24" drill="1.016" diameter="1.778"/>
+<pad name="GND" x="30" y="21" drill="1.016" diameter="1.778"/>
+<pad name="3V3" x="32.54" y="21" drill="1.016" diameter="1.778"/>
+<pad name="SCK" x="30" y="23.54" drill="1.016" diameter="1.778"/>
+<pad name="MOSI" x="32.54" y="23.54" drill="1.016" diameter="1.778"/>
+<pad name="MISO" x="30" y="26.08" drill="1.016" diameter="1.778"/>
+<pad name="SSEL" x="32.54" y="26.08" drill="1.016" diameter="1.778"/>
+<pad name="BUSY" x="30" y="28.62" drill="1.016" diameter="1.778"/>
+<pad name="BORDERCTRL" x="32.54" y="28.62" drill="1.016" diameter="1.778"/>
+<pad name="SCL" x="30" y="31.16" drill="1.016" diameter="1.778"/>
+<pad name="SDA" x="32.54" y="31.16" drill="1.016" diameter="1.778"/>
+<pad name="PWM" x="30" y="33.7" drill="1.016" diameter="1.778"/>
+<pad name="RESET" x="32.54" y="33.7" drill="1.016" diameter="1.778"/>
+<pad name="PWR" x="30" y="36.24" drill="1.016" diameter="1.778"/>
+<pad name="DISCHARGE" x="32.54" y="36.24" drill="1.016" diameter="1.778"/>
 <text x="26.67" y="53.34" size="1.27" layer="21">www.embeddedartists.com</text>
 </package>
 <package name="RTC-CHRONODOT-ADAFRUIT255">
@@ -2226,6 +2226,44 @@
 <pin name="5V" x="-5.08" y="5.08" length="middle"/>
 <pin name="INT" x="-5.08" y="2.54" length="middle"/>
 </symbol>
+<symbol name="EINK-2.7IN-EMBEDDEDARTISTS">
+<pin name="GND" x="-5.08" y="27.94" length="middle"/>
+<pin name="3V3" x="-5.08" y="25.4" length="middle"/>
+<pin name="SCK" x="-5.08" y="22.86" length="middle"/>
+<pin name="MOSI" x="-5.08" y="20.32" length="middle"/>
+<pin name="MISO" x="-5.08" y="17.78" length="middle"/>
+<pin name="SSEL" x="-5.08" y="15.24" length="middle"/>
+<pin name="BUSY" x="-5.08" y="12.7" length="middle"/>
+<pin name="BORDERCTRL" x="-5.08" y="10.16" length="middle"/>
+<pin name="SCL" x="-5.08" y="7.62" length="middle"/>
+<pin name="SDA" x="-5.08" y="5.08" length="middle"/>
+<pin name="PWM" x="-5.08" y="2.54" length="middle"/>
+<pin name="RESET" x="-5.08" y="0" length="middle"/>
+<pin name="PWR" x="-5.08" y="-2.54" length="middle"/>
+<pin name="DISCHARGE" x="-5.08" y="-5.08" length="middle"/>
+<wire x1="0" y1="-7.62" x2="20.32" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="30.48" width="0.254" layer="94"/>
+<wire x1="20.32" y1="30.48" x2="0" y2="30.48" width="0.254" layer="94"/>
+<wire x1="0" y1="30.48" x2="0" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="GSM-FONA-ADAFRUIT1946">
+<pin name="BAT" x="-7.62" y="25.4" length="middle"/>
+<pin name="GND" x="-7.62" y="22.86" length="middle"/>
+<pin name="SPKR+" x="-7.62" y="20.32" length="middle"/>
+<pin name="SPKR-" x="-7.62" y="17.78" length="middle"/>
+<pin name="RST" x="-7.62" y="15.24" length="middle"/>
+<pin name="PS" x="-7.62" y="12.7" length="middle"/>
+<pin name="KEY" x="-7.62" y="10.16" length="middle"/>
+<pin name="RI" x="-7.62" y="7.62" length="middle"/>
+<pin name="TX" x="-7.62" y="5.08" length="middle"/>
+<pin name="RX" x="-7.62" y="2.54" length="middle"/>
+<pin name="NS" x="-7.62" y="0" length="middle"/>
+<pin name="VIO" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="-5.08" x2="17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="27.94" x2="-2.54" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="27.94" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RTC-CHRONODOT-ADAFRUIT255">
@@ -2402,6 +2440,60 @@
 <connect gate="G$1" pin="INT" pad="INT"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EINK-2.7IN-EMBEDDEDARTISTS">
+<gates>
+<gate name="G$1" symbol="EINK-2.7IN-EMBEDDEDARTISTS" x="-12.7" y="-10.16"/>
+</gates>
+<devices>
+<device name="-BOB" package="EINK-2.7IN-EMBEDDEDARTISTS">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="BORDERCTRL" pad="BORDERCTRL"/>
+<connect gate="G$1" pin="BUSY" pad="BUSY"/>
+<connect gate="G$1" pin="DISCHARGE" pad="DISCHARGE"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="PWM" pad="PWM"/>
+<connect gate="G$1" pin="PWR" pad="PWR"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="SSEL" pad="SSEL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GSM-FONA-ADAFRUIT1946">
+<gates>
+<gate name="G$1" symbol="GSM-FONA-ADAFRUIT1946" x="-7.62" y="-10.16"/>
+</gates>
+<devices>
+<device name="-BOB" package="GSM-FONA-ADAFRUIT1946">
+<connects>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="KEY" pad="KEY"/>
+<connect gate="G$1" pin="NS" pad="NS"/>
+<connect gate="G$1" pin="PS" pad="PS"/>
+<connect gate="G$1" pin="RI" pad="RI"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SPKR+" pad="SPKR+"/>
+<connect gate="G$1" pin="SPKR-" pad="SPKR-"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VIO" pad="VIO"/>
 </connects>
 <technologies>
 <technology name=""/>
