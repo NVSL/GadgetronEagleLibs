@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1955,6 +1955,54 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="BATTERY-LIPO-CABLED-ADAFRUIT-2500MAH">
+<wire x1="-33" y1="-26" x2="32" y2="-26" width="0.127" layer="21"/>
+<wire x1="32" y1="-26" x2="32" y2="25" width="0.127" layer="21"/>
+<wire x1="32" y1="25" x2="-33" y2="25" width="0.127" layer="21"/>
+<wire x1="-33" y1="25" x2="-33" y2="-26" width="0.127" layer="21"/>
+<text x="-4" y="-2" size="1.27" layer="21">Lipo Battery</text>
+<text x="-3" y="1" size="1.27" layer="21">2500mAh</text>
+</package>
+<package name="BATTERY-LIPO-CABLED-ADAFRUIT-1200MAH">
+<wire x1="-33" y1="-18" x2="32" y2="-18" width="0.127" layer="21"/>
+<wire x1="32" y1="-18" x2="32" y2="17" width="0.127" layer="21"/>
+<wire x1="32" y1="17" x2="-33" y2="17" width="0.127" layer="21"/>
+<wire x1="-33" y1="17" x2="-33" y2="-18" width="0.127" layer="21"/>
+<text x="-4" y="-2" size="1.27" layer="21">Lipo Battery</text>
+<text x="-3" y="1" size="1.27" layer="21">1200mAh</text>
+</package>
+<package name="BATTERY-LIPO-CABLED-ADAFRUIT-150MAH">
+<wire x1="-13.01" y1="-9.875" x2="13.01" y2="-9.875" width="0.127" layer="21"/>
+<wire x1="13.01" y1="-9.875" x2="13.01" y2="9.875" width="0.127" layer="21"/>
+<wire x1="13.01" y1="9.875" x2="-13.01" y2="9.875" width="0.127" layer="21"/>
+<wire x1="-13.01" y1="9.875" x2="-13.01" y2="-9.875" width="0.127" layer="21"/>
+<text x="-4" y="-2" size="1.27" layer="21">Lipo Battery</text>
+<text x="-3" y="1" size="1.27" layer="21">150mAh</text>
+</package>
+<package name="BATTERY-LIPO-CABLED-ADAFRUIT-500MAH">
+<wire x1="-18" y1="-15" x2="18" y2="-15" width="0.127" layer="21"/>
+<wire x1="18" y1="-15" x2="18" y2="14" width="0.127" layer="21"/>
+<wire x1="18" y1="14" x2="-18" y2="14" width="0.127" layer="21"/>
+<wire x1="-18" y1="14" x2="-18" y2="-15" width="0.127" layer="21"/>
+<text x="-4" y="-2" size="1.27" layer="21">Lipo Battery</text>
+<text x="-3" y="1" size="1.27" layer="21">500mAh</text>
+</package>
+<package name="BATTERY-LIPO-CABLED-ADAFRUIT-100MAH">
+<wire x1="-18" y1="-6.25" x2="18" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="18" y1="-6.25" x2="18" y2="6.25" width="0.127" layer="21"/>
+<wire x1="18" y1="6.25" x2="-18" y2="6.25" width="0.127" layer="21"/>
+<wire x1="-18" y1="6.25" x2="-18" y2="-6.25" width="0.127" layer="21"/>
+<text x="-4" y="-2" size="1.27" layer="21">Lipo Battery</text>
+<text x="-3" y="1" size="1.27" layer="21">100mAh</text>
+</package>
+<package name="BATTERY-LIPO-CABLED-ADAFRUIT-2000MAH">
+<wire x1="-30" y1="-18" x2="30" y2="-18" width="0.127" layer="21"/>
+<wire x1="30" y1="-18" x2="30" y2="18" width="0.127" layer="21"/>
+<wire x1="30" y1="18" x2="-30" y2="18" width="0.127" layer="21"/>
+<wire x1="-30" y1="18" x2="-30" y2="-18" width="0.127" layer="21"/>
+<text x="-4" y="-2" size="1.27" layer="21">Lipo Battery</text>
+<text x="-3" y="1" size="1.27" layer="21">2000mAh</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MOUNTINGHOLE">
@@ -2079,6 +2127,12 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="BATTERY-LIPO-CABLED">
+<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2626,6 +2680,43 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATTERY-LIPO-CABLED">
+<gates>
+<gate name="G$1" symbol="BATTERY-LIPO-CABLED" x="-10.16" y="-7.62"/>
+</gates>
+<devices>
+<device name="-100MAH" package="BATTERY-LIPO-CABLED-ADAFRUIT-100MAH">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1200MAH" package="BATTERY-LIPO-CABLED-ADAFRUIT-1200MAH">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-150MAH" package="BATTERY-LIPO-CABLED-ADAFRUIT-150MAH">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2000MAH" package="BATTERY-LIPO-CABLED-ADAFRUIT-2000MAH">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2500MAH" package="BATTERY-LIPO-CABLED-ADAFRUIT-2500MAH">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-500MAH" package="BATTERY-LIPO-CABLED-ADAFRUIT-500MAH">
 <technologies>
 <technology name=""/>
 </technologies>
