@@ -125,6 +125,8 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <library>
+<description>Breakout boards&lt;br /&gt;
+Groups of components that insist on having their own PCB. Usually requires header pins to attach to the main PCB.</description>
 <packages>
 <package name="GSM-FONA-ADAFRUIT1946">
 <wire x1="0" y1="0" x2="44.45" y2="0" width="0.1999" layer="21"/>
