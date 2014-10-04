@@ -1030,13 +1030,8 @@ The radius of the faceplate opening is 0.5mm larger than it "should" be to allow
 <pad name="RING_SW" x="-3.87" y="-9.045" drill="2" diameter="3.5" rot="R270"/>
 <pad name="TIP" x="-0.87" y="-4.345" drill="2" diameter="3.5" rot="R270"/>
 <pad name="RING" x="-6.77" y="-4.345" drill="2" diameter="3.5" rot="R270"/>
-<polygon width="0.127" layer="150">
-<vertex x="-15" y="-9"/>
-<vertex x="0" y="-9"/>
-<vertex x="0" y="0"/>
-<vertex x="-15" y="0"/>
-</polygon>
 <wire x1="-14.55824375" y1="-0.052128125" x2="-14.57559375" y2="-9.07015" width="0.127" layer="21"/>
+<rectangle x1="-16" y1="-9" x2="0" y2="0" layer="150"/>
 </package>
 <package name="DCJACK_2MM_SMT">
 <description>2.0/2.1mm DC Jack - SMT
