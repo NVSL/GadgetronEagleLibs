@@ -212,31 +212,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RESISTOR" prefix="R">
+<deviceset name="RESISTOR" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-TH-1/6W" package="RESAD350W45L370D210P">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Swanson"/>
-<attribute name="DIST-1" value="Digikey"/>
-<attribute name="DIST-1-PN" value="EBK-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MFR-PN" value="CFR-12"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603" package="RESC1608X55N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
