@@ -1,0 +1,177 @@
+<variant>
+  <devset>Resistor</devset>
+  <format>-%(mount)s-%(value)s-%(tolerance)s-%(power)s</format>
+  <symbol>R-US</symbol>
+  <variant>
+    <attr key="mfr" value="Yageo"/>
+    <attr key="dist" value="Digikey"/>
+    <variant>
+      <attr key="mount" value="TH"/>
+      <package>RESAD350W45L370D210P</package>
+      <pinmapping>{'1':'1', '2':'2'}</pinmapping>
+      <attr key="tolerance" value="5%"/>
+      <attr key="power" value="1/6W"/>
+      <attr key="mfrpn" value="RC0603"/>
+
+      <variant value="820K" distpn="820KEBK-ND"/>
+      <variant value="560" distpn="560EBK-ND"/>
+      <variant value="1" distpn="1.0EBK-ND"/>
+      <variant value="2.7" distpn="2.7EBK-ND"/>
+      <variant value="1.2" distpn="1.2EBK-ND"/>
+      <variant value="1.5" distpn="1.5EBK-ND"/>
+      <variant value="1.8" distpn="1.8EBK-ND"/>
+      <variant value="3.3" distpn="3.3EBK-ND"/>
+      <variant value="3.9" distpn="3.9EBK-ND"/>
+      <variant value="4.7" distpn="4.7EBK-ND"/>
+      <variant value="5.6" distpn="5.6EBK-ND"/>
+      <variant value="6.8" distpn="6.8EBK-ND"/>
+      <variant value="8.2" distpn="8.2EBK-ND"/>
+      <variant value="10" distpn="10EBK-ND"/>
+      <variant value="12" distpn="12EBK-ND"/>
+      <variant value="15" distpn="15EBK-ND"/>
+      <variant value="18" distpn="18EBK-ND"/>
+      <variant value="22" distpn="22EBK-ND"/>
+      <variant value="27" distpn="27EBK-ND"/>
+      <variant value="33" distpn="33EBK-ND"/>
+      <variant value="39" distpn="39EBK-ND"/>
+      <variant value="47" distpn="47EBK-ND"/>
+      <variant value="56" distpn="56EBK-ND"/>
+      <variant value="68" distpn="68EBK-ND"/>
+      <variant value="82" distpn="82EBK-ND"/>
+      <variant value="100" distpn="100EBK-ND"/>
+      <variant value="120" distpn="120EBK-ND"/>
+      <variant value="150" distpn="150EBK-ND"/>
+      <variant value="180" distpn="180EBK-ND"/>
+      <variant value="220" distpn="220EBK-ND"/>
+      <variant value="270" distpn="270EBK-ND"/>
+      <variant value="330" distpn="330EBK-ND"/>
+      <variant value="390" distpn="390EBK-ND"/>
+      <variant value="470" distpn="470EBK-ND"/>
+      <variant value="820" distpn="820EBK-ND"/>
+      <variant value="1K" distpn="1.0KEBK-ND"/>
+      <variant value="1.2K" distpn="1.2KEBK-ND"/>
+      <variant value="1.5K" distpn="1.5KEBK-ND"/>
+      <variant value="1.8K" distpn="1.8KEBK-ND"/>
+      <variant value="2.2K" distpn="2.2KEBK-ND"/>
+      <variant value="2.7K" distpn="2.7KEBK-ND"/>
+      <variant value="3.3K" distpn="3.3KEBK-ND"/>
+      <variant value="3.9K" distpn="3.9KEBK-ND"/>
+      <variant value="4.7K" distpn="4.7KEBK-ND"/>
+      <variant value="5.6K" distpn="5.6KEBK-ND"/>
+      <variant value="6.8K" distpn="6.8KEBK-ND"/>
+      <variant value="8.2K" distpn="8.2KEBK-ND"/>
+      <variant value="10K" distpn="10KEBK-ND"/>
+      <variant value="12K" distpn="12KEBK-ND"/>
+      <variant value="15K" distpn="15KEBK-ND"/>
+      <variant value="18K" distpn="18KEBK-ND"/>
+      <variant value="22K" distpn="22KEBK-ND"/>
+      <variant value="27K" distpn="27KEBK-ND"/>
+      <variant value="33K" distpn="33KEBK-ND"/>
+      <variant value="39K" distpn="39KEBK-ND"/>
+      <variant value="47K" distpn="47KEBK-ND"/>
+      <variant value="56K" distpn="56KEBK-ND"/>
+      <variant value="68K" distpn="68KEBK-ND"/>
+      <variant value="82K" distpn="82KEBK-ND"/>
+      <variant value="100K" distpn="100KEBK-ND"/>
+      <variant value="120K" distpn="120KEBK-ND"/>
+      <variant value="150K" distpn="150KEBK-ND"/>
+      <variant value="180K" distpn="180KEBK-ND"/>
+      <variant value="220K" distpn="220KEBK-ND"/>
+      <variant value="270K" distpn="270KEBK-ND"/>
+      <variant value="330K" distpn="330KEBK-ND"/>
+      <variant value="390K" distpn="390KEBK-ND"/>
+      <variant value="470K" distpn="470KEBK-ND"/>
+      <variant value="560K" distpn="560KEBK-ND"/>
+      <variant value="680K" distpn="680KEBK-ND"/>
+      <variant value="1M" distpn="1.0MEBK-ND"/>
+      <variant value="2.2" distpn="2.2EBK-ND"/>
+      <variant value="680" distpn="680EBK-ND"/>
+
+    </variant>
+
+
+    <variant>
+      <attr key="mount" value="0603"/>
+      <package>RESC1608X55N</package>
+      <pinmapping>{'1':'1', '2':'2'}</pinmapping>
+      <attr key="tolerance" value="5%"/>
+      <attr key="power" value="1/6W"/>
+      <attr key="mfrpn" value="RC0603"/>
+
+      <variant value="82K" distpn="311-82KGRCT-ND"/>
+      <variant value="82" distpn="311-82GRCT-ND"/>
+      <variant value="820K" distpn="311-820KGRCT-ND"/>
+      <variant value="820" distpn="311-820GRCT-ND"/>
+      <variant value="8.2K" distpn="311-8.2KGRCT-ND"/>
+      <variant value="8.2" distpn="311-8.2GRCT-ND"/>
+      <variant value="68K" distpn="311-68KGRCT-ND"/>
+      <variant value="68" distpn="311-68GRCT-ND"/>
+      <variant value="680K" distpn="311-680KGRCT-ND"/>
+      <variant value="680" distpn="311-680GRCT-ND"/>
+      <variant value="6.8K" distpn="311-6.8KGRCT-ND"/>
+      <variant value="6.8" distpn="311-6.8GRCT-ND"/>
+      <variant value="56K" distpn="311-56KGRCT-ND"/>
+      <variant value="56" distpn="311-56GRCT-ND"/>
+      <variant value="560K" distpn="311-560KGRCT-ND"/>
+      <variant value="560" distpn="311-560GRCT-ND"/>
+      <variant value="5.6K" distpn="311-5.6KGRCT-ND"/>
+      <variant value="5.6" distpn="311-5.6GRCT-ND"/>
+      <variant value="47K" distpn="311-47KGRCT-ND"/>
+      <variant value="47" distpn="311-47GRCT-ND"/>
+      <variant value="470K" distpn="311-470KGRCT-ND"/>
+      <variant value="470" distpn="311-470GRCT-ND"/>
+      <variant value="4.7K" distpn="311-4.7KGRCT-ND"/>
+      <variant value="4.7" distpn="311-4.7GRCT-ND"/>
+      <variant value="39K" distpn="311-39KGRCT-ND"/>
+      <variant value="39" distpn="311-39GRCT-ND"/>
+      <variant value="390K" distpn="311-390KGRCT-ND"/>
+      <variant value="390" distpn="311-390GRCT-ND"/>
+      <variant value="33K" distpn="311-33KGRCT-ND"/>
+      <variant value="33" distpn="311-33GRCT-ND"/>
+      <variant value="330K" distpn="311-330KGRCT-ND"/>
+      <variant value="330" distpn="311-330GRCT-ND"/>
+      <variant value="3.9K" distpn="311-3.9KGRCT-ND"/>
+      <variant value="3.9" distpn="311-3.9GRCT-ND"/>
+      <variant value="3.3K" distpn="311-3.3KGRCT-ND"/>
+      <variant value="3.3" distpn="311-3.3GRCT-ND"/>
+      <variant value="27K" distpn="311-27KGRCT-ND"/>
+      <variant value="27" distpn="311-27GRCT-ND"/>
+      <variant value="270K" distpn="311-270KGRCT-ND"/>
+      <variant value="270" distpn="311-270GRCT-ND"/>
+      <variant value="22K" distpn="311-22KGRCT-ND"/>
+      <variant value="22" distpn="311-22GRCT-ND"/>
+      <variant value="220K" distpn="311-220KGRCT-ND"/>
+      <variant value="220" distpn="311-220GRCT-ND"/>
+      <variant value="2.7K" distpn="311-2.7KGRCT-ND"/>
+      <variant value="2.7" distpn="311-2.7GRCT-ND"/>
+      <variant value="2.2K" distpn="311-2.2KGRCT-ND"/>
+      <variant value="2.2" distpn="311-2.2GRCT-ND"/>
+      <variant value="18K" distpn="311-18KGRCT-ND"/>
+      <variant value="18" distpn="311-18GRCT-ND"/>
+      <variant value="180K" distpn="311-180KGRCT-ND"/>
+      <variant value="180" distpn="311-180GRCT-ND"/>
+      <variant value="15K" distpn="311-15KGRCT-ND"/>
+      <variant value="15" distpn="311-15GRCT-ND"/>
+      <variant value="150K" distpn="311-150KGRCT-ND"/>
+      <variant value="150" distpn="311-150GRCT-ND"/>
+      <variant value="12K" distpn="311-12KGRCT-ND"/>
+      <variant value="12" distpn="311-12GRCT-ND"/>
+      <variant value="120K" distpn="311-120KGRCT-ND"/>
+      <variant value="120" distpn="311-120GRCT-ND"/>
+      <variant value="10K" distpn="311-10KGRCT-ND"/>
+      <variant value="10" distpn="311-10GRCT-ND"/>
+      <variant value="100K" distpn="311-100KGRCT-ND"/>
+      <variant value="100" distpn="311-100GRCT-ND"/>
+      <variant value="1.8K" distpn="311-1.8KGRCT-ND"/>
+      <variant value="1.6" distpn="311-1.6GRCT-ND"/>
+      <variant value="1.5K" distpn="311-1.5KGRCT-ND"/>
+      <variant value="1.3" distpn="311-1.3GRCT-ND"/>
+      <variant value="1.2K" distpn="311-1.2KGRCT-ND"/>
+      <variant value="1.1" distpn="311-1.1GRCT-ND"/>
+      <variant value="1M" distpn="311-1.0MGRCT-ND"/>
+      <variant value="1K" distpn="311-1.0KGRCT-ND"/>
+
+    </variant>
+  </variant>
+</variant>
+
