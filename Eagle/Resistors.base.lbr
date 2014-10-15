@@ -193,6 +193,31 @@
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="RESC2012X50USR">
+<description>Resistor, Chip;2.00 mm L X 1.25 mm W X 0.50 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-1.28" y="0" dx="1.57" dy="1.38" layer="1" rot="R180"/>
+<smd name="2" x="1.28" y="0" dx="1.57" dy="1.38" layer="1"/>
+<wire x1="-2.32" y1="-0.94" x2="-2.32" y2="0.94" width="0.05" layer="39"/>
+<wire x1="-2.32" y1="0.94" x2="2.32" y2="0.94" width="0.05" layer="39"/>
+<wire x1="2.32" y1="0.94" x2="2.32" y2="-0.94" width="0.05" layer="39"/>
+<wire x1="2.32" y1="-0.94" x2="-2.32" y2="-0.94" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="-0.675" x2="-1.05" y2="0.675" width="0.001" layer="51"/>
+<wire x1="-1.05" y1="0.675" x2="1.05" y2="0.675" width="0.001" layer="51"/>
+<wire x1="1.05" y1="0.675" x2="1.05" y2="-0.675" width="0.001" layer="51"/>
+<wire x1="1.05" y1="-0.675" x2="-1.05" y2="-0.675" width="0.001" layer="51"/>
+<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.12" layer="51"/>
+<wire x1="-1.05" y1="0.68" x2="1.05" y2="0.68" width="0.12" layer="51"/>
+<wire x1="1.05" y1="0.68" x2="1.05" y2="-0.68" width="0.12" layer="51"/>
+<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.12" layer="51"/>
+<wire x1="0.5" y1="0.87" x2="-0.5" y2="0.87" width="0.12" layer="21"/>
+<wire x1="0.5" y1="-0.87" x2="-0.5" y2="-0.87" width="0.12" layer="21"/>
+<text x="0" y="0" size="0.87" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -217,7 +242,29 @@
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="IGNORE1" package="RESAD350W45L370D210P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IGNORE2" package="RESC1608X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IGNORE3" package="RESC2012X50USR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
