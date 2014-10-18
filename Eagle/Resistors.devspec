@@ -16,6 +16,7 @@
       <attr key="tolerance" value="5%"/>
       <attr key="power" value="1/6W"/>
       <attr key="mfrpn" value="RC0603"/>
+      <attr key="datasheet" value="Yageo LR_CFR_2013.pdf"/>
 
       <variant>
 	<attr key="kit" value="Digikey RS112-ND"/>
@@ -103,6 +104,7 @@
       <attr key="tolerance" value="5%"/>
       <attr key="power" value="1/10W"/>
       <attr key="mfrpn" value="RC0603"/>
+      <attr key="datasheet" value="PYu-RC0603_51_RoHS_L_4.pdf"/>
 
       <variant>
 	<attr key="kit" value="Digikey PHG2A-KIT-ND"/>
@@ -189,6 +191,7 @@
       <attr key="tolerance" value="5%"/>
       <attr key="power" value="1/8W"/>
       <attr key="mfrpn" value="RC0805"/>
+      <attr key="datasheet" value="RC0805 Pb Free.pdf"/>
 
       <variant>
 	<attr key="kit" value="Adafruit 441"/>
