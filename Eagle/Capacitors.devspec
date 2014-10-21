@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<variant>
+  <devset>Capacitor</devset>
+  <symbol>R-US</symbol>
+  <attr key="creator" value="Swanson"/>
+
+  <!-- SMD Kits 0805 -->
+  <variant>
+    <attr key="mfr" value="Murata"/>
+    <attr key="dist" value="Digikey"/>
+    <attr key="mount" value="0805"/>
+    <attr key="distpn" value="GRM Series"/>
+    <attr key="datasheet" value="GRM2195C1H103JA01-01.pdf"/>
+    <format>-%(mount)s-%(value)s-%(tolerance)s-%(volts)s</format>
+    <package>CAPC2012X86N</package>
+    <pinmapping>{'1':'1', '2':'2'}</pinmapping>
+
+    <attr key="kit" value="Adafruit 441"/>
+    <variant value="22pF" tolerance="5%" volts="50V" />
+    <variant value="0.1uF" tolerance="10%" volts="25V" />
+    <variant value="27pF" tolerance="5%" volts="50V" />
+    <variant value="33pF" tolerance="5%" volts="50V" />
+    <variant value="100pF" tolerance="5%" volts="50V" />
+    <variant value="0.47uF" tolerance="10%" volts="X7R" />
+    <variant value="1.0uF" tolerance="10%" volts="X7R" />
+    <variant value="15pF" tolerance="5%" volts="50V" />
+    <variant value="47pF" tolerance="5%" volts="50V" />
+    <variant value="68pF" tolerance="5%" volts="50V" />
+    <variant value="82pF" tolerance="5%" volts="50V" />
+    <variant value="120pF" tolerance="5%" volts="50V" />
+    <variant value="150pF" tolerance="5%" volts="50V" />
+    <variant value="180pF" tolerance="5%" volts="50V" />
+    <variant value="220pF" tolerance="5%" volts="50V" />
+    <variant value="1nF" tolerance="10%" volts="50V" />
+    <variant value="10nF" tolerance="10%" volts="50V" />
+  </variant>
+
+  <!-- Through hole kits -->
+  <variant>
+    <attr key="mfr" value="Panasonic"/>
+    <attr key="dist" value="Digikey"/>
+    <attr key="mount" value="TH"/>
+    <pinmapping>{'1':'1', '2':'2'}</pinmapping>
+
+<!--    <variant>
+      <format>-%(mount)s-%(value)s-%(tolerance)s-%(volts)s-%(type)s</format>
+      <attr key="mfrpn" value="NHG Series, Type A"/>
+      <attr key="kit" value="NHG2-KIT-ND"/>
+      <attr key="datasheet" value="ABA0000CE26.pdf"/>
+      <variant value="1.0UF" distpn="P5852-ND" volts="160V" type="ALUM" tolerance="20%" />
+      <variant value="3300UF" distpn="P5577-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="2200UF" distpn="P5576-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="1000UF" distpn="P5575-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="470UF" distpn="P5574-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="330UF" distpn="P5573-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="220UF" distpn="P5572-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="100UF" distpn="P5571-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="47UF" distpn="P5570-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="33UF" distpn="P5569-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="22UF" distpn="P5568-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="10UF" distpn="P5567-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="4.7UF" distpn="P5566-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="3.3UF" distpn="P5565-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="2.2UF" distpn="P5564-ND" volts="50V" type="ALUM" tolerance="20%" />
+      <variant value="4700UF" distpn="P5558-ND" volts="35V" type="ALUM" tolerance="20%" />
+      <variant value="6800UF" distpn="P5548-ND" volts="25V" type="ALUM" tolerance="20%" />
+      <variant value="10000UF" distpn="P5538-ND" volts="16V" type="ALUM" tolerance="20%" />
+    </variant>-->
+    <variant>
+      <attr key="mfrpn" value="ECQ-V"/>
+      <attr key="kit" value="P4542-KIT-ND"/>
+      <attr key="datasheet" value="ABD0000CE8.pdf"/>
+      <format>-%(mount)s-%(value)s-%(volts)s-%(type)s</format>
+      <variant value="0.82UF" distpn="P4674-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T680H1000P</package>
+      </variant>
+      <variant value="0.68UF" distpn="P4673-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T650H1100P</package>
+      </variant>
+      <variant value="0.56UF" distpn="P4672-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T580H1100P</package>
+      </variant>
+      <variant value="0.47UF" distpn="P4671-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T600H830P</package>
+      </variant>
+      <variant value="0.33UF" distpn="P4669-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T520H800P</package>
+      </variant>
+      <variant value="0.27UF" distpn="P4668-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T460H800P</package>
+      </variant>
+      <variant value="0.22UF" distpn="P4667-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T480H650P</package>
+      </variant>
+      <variant value="1UF" distpn="P4675-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T800H1200P</package>
+      </variant>
+      <variant value="0.15UF" distpn="P4665-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T440H650P</package>
+      </variant>
+      <variant value="0.1UF" distpn="P4525-ND" volts="50VDC" type="FILM" >
+	<package>CAPRR500W50L730T400H600P</package>
+      </variant>
+      <variant value="0.082UF" distpn="P4524-ND" volts="50VDC" type="FILM">
+	<package>CAPRR500W50L730T360H600P</package>
+      </variant>
+      <variant>
+	<package>CAPRR500W50L730T320H600P</package>
+	<variant value="0.068UF" distpn="P4523-ND" volts="50VDC" type="FILM" />
+	<variant value="0.047UF" distpn="P4521-ND" volts="50VDC" type="FILM" />
+	<variant value="0.033UF" distpn="P4519-ND" volts="50VDC" type="FILM" />
+	<variant value="0.027UF" distpn="P4518-ND" volts="50VDC" type="FILM" />
+	<variant value="0.022UF" distpn="P4517-ND" volts="50VDC" type="FILM" />
+	<variant value="0.015UF" distpn="P4515-ND" volts="50VDC" type="FILM" />
+	<variant value="10000PF" distpn="P4513-ND" volts="50VDC" type="FILM" />
+      </variant>
+
+    </variant>
+  </variant>
+</variant>
+
