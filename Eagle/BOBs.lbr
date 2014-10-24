@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="51.625" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2471,6 +2471,24 @@ Groups of components that insist on having their own PCB. Usually requires heade
 <text x="6.858" y="3.302" size="1.016" layer="21" font="vector" rot="R90">3Vo</text>
 <rectangle x1="6.35" y1="15.24" x2="13.97" y2="22.86" layer="150"/>
 </package>
+<package name="SPARKFUN-SERIAL-16X2-LCD">
+<wire x1="51.625" y1="18" x2="-51.625" y2="18" width="0.127" layer="21"/>
+<wire x1="-51.625" y1="18" x2="-51.625" y2="-18" width="0.127" layer="21"/>
+<wire x1="-51.625" y1="-18" x2="51.625" y2="-18" width="0.127" layer="21"/>
+<wire x1="51.625" y1="-18" x2="51.625" y2="18" width="0.127" layer="21"/>
+<wire x1="47.525" y1="13.2" x2="-24.075" y2="13.2" width="0.127" layer="21"/>
+<wire x1="-24.075" y1="13.2" x2="-24.075" y2="-13.8" width="0.127" layer="21"/>
+<wire x1="-24.075" y1="-13.8" x2="47.525" y2="-13.8" width="0.127" layer="21"/>
+<wire x1="47.525" y1="-13.8" x2="47.525" y2="13.2" width="0.127" layer="21"/>
+<rectangle x1="-24.175" y1="-13.9" x2="47.625" y2="13.3" layer="150"/>
+<circle x="49.125" y="15.5" radius="1.25" width="0.1" layer="21"/>
+<circle x="49.125" y="-15.6" radius="1.25" width="0.1" layer="21"/>
+<circle x="-48.875" y="15.5" radius="1.25" width="0.1" layer="21"/>
+<circle x="-48.875" y="-15.6" radius="1.25" width="0.1" layer="21"/>
+<pad name="RX" x="-48.975" y="4.15" drill="0.8" shape="square"/>
+<pad name="GND" x="-48.975" y="6.61" drill="0.8" shape="square"/>
+<pad name="+5V" x="-48.975" y="9.17" drill="0.8" shape="square"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ROTARY-ENCODER-W/BUTTON-ADAFRUIT377">
@@ -2686,6 +2704,15 @@ Groups of components that insist on having their own PCB. Usually requires heade
 <pin name="DO" x="-5.08" y="7.62" length="middle"/>
 <pin name="N$2" x="-5.08" y="5.08" length="middle"/>
 <pin name="N$3" x="-5.08" y="2.54" length="middle"/>
+</symbol>
+<symbol name="SPARKFUN-SERIAL-16X2-LCD">
+<wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="+5V" x="-5.08" y="7.62" length="middle"/>
+<pin name="GND" x="-5.08" y="5.08" length="middle"/>
+<pin name="RX" x="-5.08" y="2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2960,6 +2987,23 @@ Groups of components that insist on having their own PCB. Usually requires heade
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="N$2" pad="N$2"/>
 <connect gate="G$1" pin="N$3" pad="N$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-SERIAL-16X2-LCD">
+<gates>
+<gate name="G$1" symbol="SPARKFUN-SERIAL-16X2-LCD" x="-5.08" y="-5.08"/>
+</gates>
+<devices>
+<device name="-BOB" package="SPARKFUN-SERIAL-16X2-LCD">
+<connects>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
 </connects>
 <technologies>
 <technology name=""/>

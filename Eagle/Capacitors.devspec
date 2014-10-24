@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <variant>
   <devset>Capacitor</devset>
-  <symbol>R-US</symbol>
+  <symbol>CAP</symbol>
   <attr key="creator" value="Swanson"/>
 
   <!-- SMD Kits 0805 -->
