@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="51.625" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -168,6 +168,45 @@ Groups of components that insist on having their own PCB. Usually requires heade
 <text x="17.78" y="20.32" size="1.27" layer="21">Adafurit FONA</text>
 <pad name="5V" x="17.6" y="24.4" drill="1.016" diameter="1.6764"/>
 <rectangle x1="-1.27" y1="-1.27" x2="45.72" y2="35.02" layer="150"/>
+</package>
+<package name="GSM-FONA-ADAFRUIT1946-UPSIDEDOWN">
+<wire x1="0" y1="31.75" x2="44.45" y2="31.75" width="0.1999" layer="21"/>
+<wire x1="44.45" y1="31.75" x2="44.45" y2="0" width="0.1999" layer="21"/>
+<wire x1="44.45" y1="0" x2="38.1" y2="0" width="0.1999" layer="21"/>
+<wire x1="38.1" y1="0" x2="30.48" y2="0" width="0.1999" layer="21"/>
+<wire x1="30.48" y1="0" x2="22.86" y2="0" width="0.1999" layer="21"/>
+<wire x1="22.86" y1="0" x2="17.145" y2="0" width="0.1999" layer="21"/>
+<wire x1="17.145" y1="0" x2="0" y2="0" width="0.1999" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="31.75" width="0.1999" layer="21"/>
+<wire x1="30.48" y1="-0.635" x2="38.1" y2="-0.635" width="0.1999" layer="21"/>
+<wire x1="38.1" y1="-0.635" x2="38.1" y2="0" width="0.1999" layer="21"/>
+<wire x1="30.48" y1="0" x2="30.48" y2="-0.635" width="0.1999" layer="21"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="-0.635" width="0.1999" layer="21"/>
+<wire x1="22.86" y1="-0.635" x2="17.145" y2="-0.635" width="0.1999" layer="21"/>
+<wire x1="17.145" y1="-0.635" x2="17.145" y2="0" width="0.1999" layer="21"/>
+<wire x1="13.335" y1="0" x2="6.985" y2="0" width="0.1999" layer="21"/>
+<wire x1="8.255" y1="0" x2="12.065" y2="0" width="0.1999" layer="21"/>
+<wire x1="12.065" y1="0" x2="12.065" y2="-1.27" width="0.1999" layer="21"/>
+<wire x1="12.065" y1="-1.27" x2="8.255" y2="-1.27" width="0.1999" layer="21"/>
+<wire x1="8.255" y1="-1.27" x2="8.255" y2="0" width="0.1999" layer="21"/>
+<pad name="BAT" x="1.27" y="1.905" drill="1.016" diameter="1.778"/>
+<pad name="GND" x="1.27" y="4.445" drill="1.016" diameter="1.778"/>
+<pad name="SPKR+" x="1.27" y="6.985" drill="1.016" diameter="1.778"/>
+<pad name="SPKR-" x="1.27" y="9.525" drill="1.016" diameter="1.778"/>
+<pad name="RST" x="1.27" y="12.065" drill="1.016" diameter="1.778"/>
+<pad name="PS" x="1.27" y="14.605" drill="1.016" diameter="1.778"/>
+<pad name="KEY" x="1.27" y="17.145" drill="1.016" diameter="1.778"/>
+<pad name="RI" x="1.27" y="19.685" drill="1.016" diameter="1.778"/>
+<pad name="TX" x="1.27" y="22.225" drill="1.016" diameter="1.778"/>
+<pad name="RX" x="1.27" y="24.765" drill="1.016" diameter="1.778"/>
+<pad name="NS" x="1.27" y="27.305" drill="1.016" diameter="1.778"/>
+<pad name="VIO" x="1.27" y="29.845" drill="1.016" diameter="1.778"/>
+<text x="19.78" y="4.43" size="6" layer="21">FONA</text>
+<pad name="5V" x="17.6" y="7.35" drill="1.016" diameter="1.6764"/>
+<text x="9" y="21" size="1.27" layer="21" rot="R90">2G GSM
+SIM Card</text>
+<text x="38" y="19" size="1.27" layer="21" rot="R90">adafruit!</text>
+<rectangle x1="10" y1="16" x2="36" y2="30" layer="150"/>
 </package>
 <package name="EINK-2.7IN-EMBEDDEDARTISTS">
 <wire x1="72.4" y1="52.5" x2="1.9" y2="52.5" width="0.2" layer="21"/>
@@ -2472,22 +2511,28 @@ Groups of components that insist on having their own PCB. Usually requires heade
 <rectangle x1="6.35" y1="15.24" x2="13.97" y2="22.86" layer="150"/>
 </package>
 <package name="SPARKFUN-SERIAL-16X2-LCD">
-<wire x1="51.625" y1="18" x2="-51.625" y2="18" width="0.127" layer="21"/>
-<wire x1="-51.625" y1="18" x2="-51.625" y2="-18" width="0.127" layer="21"/>
-<wire x1="-51.625" y1="-18" x2="51.625" y2="-18" width="0.127" layer="21"/>
-<wire x1="51.625" y1="-18" x2="51.625" y2="18" width="0.127" layer="21"/>
-<wire x1="47.525" y1="13.2" x2="-24.075" y2="13.2" width="0.127" layer="21"/>
-<wire x1="-24.075" y1="13.2" x2="-24.075" y2="-13.8" width="0.127" layer="21"/>
-<wire x1="-24.075" y1="-13.8" x2="47.525" y2="-13.8" width="0.127" layer="21"/>
-<wire x1="47.525" y1="-13.8" x2="47.525" y2="13.2" width="0.127" layer="21"/>
-<rectangle x1="-24.175" y1="-13.9" x2="47.625" y2="13.3" layer="150"/>
-<circle x="49.125" y="15.5" radius="1.25" width="0.1" layer="21"/>
-<circle x="49.125" y="-15.6" radius="1.25" width="0.1" layer="21"/>
-<circle x="-48.875" y="15.5" radius="1.25" width="0.1" layer="21"/>
-<circle x="-48.875" y="-15.6" radius="1.25" width="0.1" layer="21"/>
-<pad name="RX" x="-48.975" y="4.15" drill="0.8" shape="square"/>
-<pad name="GND" x="-48.975" y="6.61" drill="0.8" shape="square"/>
-<pad name="+5V" x="-48.975" y="9.17" drill="0.8" shape="square"/>
+<wire x1="51.6255" y1="18" x2="-51.6245" y2="18" width="0.127" layer="21"/>
+<wire x1="-51.6245" y1="18" x2="-51.6245" y2="-18" width="0.127" layer="21"/>
+<wire x1="-51.6245" y1="-18" x2="51.6255" y2="-18" width="0.127" layer="21"/>
+<wire x1="51.6255" y1="-18" x2="51.6255" y2="18" width="0.127" layer="21"/>
+<wire x1="47.5255" y1="13.2" x2="-24.0745" y2="13.2" width="0.127" layer="21"/>
+<wire x1="-24.0745" y1="13.2" x2="-24.0745" y2="-13.8" width="0.127" layer="21"/>
+<wire x1="-24.0745" y1="-13.8" x2="47.5255" y2="-13.8" width="0.127" layer="21"/>
+<wire x1="47.5255" y1="-13.8" x2="47.5255" y2="13.2" width="0.127" layer="21"/>
+<rectangle x1="-24.1745" y1="-13.9" x2="47.6255" y2="13.3" layer="150"/>
+<circle x="49.1255" y="15.5" radius="1.25" width="0.1" layer="21"/>
+<circle x="49.1255" y="-15.6" radius="1.25" width="0.1" layer="21"/>
+<circle x="-48.8745" y="15.5" radius="1.25" width="0.1" layer="21"/>
+<circle x="-48.8745" y="-15.6" radius="1.25" width="0.1" layer="21"/>
+<pad name="RX" x="-48.9745" y="-4.15" drill="1"/>
+<pad name="GND" x="-48.9745" y="-6.61" drill="1"/>
+<pad name="+5V" x="-48.9745" y="-9.17" drill="1"/>
+<polygon width="0.127" layer="150">
+<vertex x="47.5255" y="-8.2"/>
+<vertex x="51.7555" y="-3.5"/>
+<vertex x="51.7555" y="2.1"/>
+<vertex x="47.5255" y="6.9"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -3014,4 +3059,10 @@ Groups of components that insist on having their own PCB. Usually requires heade
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
