@@ -205,7 +205,7 @@
       <attr key="datasheet" value="RC0805 Pb Free.pdf"/>
 
       <variant>
-	<attr key="kit" value="Adafruit 441"/
+	<attr key="kit" value="Adafruit 441"/>
 	<variant value="0" />
 	<variant value="1" />
 
