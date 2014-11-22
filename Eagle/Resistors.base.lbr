@@ -267,7 +267,10 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="BAZ" value="3"/>
+<attribute name="FOO" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IGNORE2" package="RESC1608X55N">
@@ -294,7 +297,10 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="WATTS" value="0.125"/>
+</technology>
 </technologies>
 </device>
 </devices>
