@@ -1,0 +1,5 @@
+FPX V2012 Component Libfile
+Type	Data	Footprint Name	Physical Description	Case Code	Manufacturer	Part Number	Logical Description	Datasheet
+100	&cc="40002 9 0" &cd="100125 ,,210000 40000,,50000 ,,370000 ,,210000 600000"	RESAD600W45L370D210	Resistor, Axial;6.00 mm C X 0.45 mm W 3.70 mm L X 2.10 mm Dia body	CFR-12, CFR25S	Yageo	CFR Series	1/6W Carbon film TH Resistor	http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf
+100	&cc="40002 9 0" &cd="100125 ,,260000 50000,,60000 ,,680000 ,,260000 1000000"	RESAD1000W55L680D260	Resistor, Axial;10.00 mm C X 0.55 mm W 6.80 mm L X 2.60 mm Dia body	CFR-25, CFR50S	Yageo	CFR Series	1/4W Carbon film TH Resistor	http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf
+100	&cc="40002 9 0" &cd="100125 ,,360000 50000,,60000 ,,950000 ,,360000 1300000"	RESAD1300W55L950D360	Resistor, Axial;13.00 mm C X 0.55 mm W 9.50 mm L X 3.60 mm Dia body	CFR-50, CFR1WS	Yageo	CFR Series	1/2 Carbon film TH Resistor	http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf

@@ -1,0 +1,650 @@
+<FPX_UserProfile Version="FPX 2014">
+  <!--Numeric references are in micrometers x 100; 100000 = 1.0mm-->
+  <RulePreferences MinPadToPad="15000" MinPadToTab="20000" MinSMWeb="8000" GangMask="Contour" MinTrimAtA1="0" CornerSizePct="25" CornerSizeLimit="25000" CornerRound="1000" TabMaskOversize="0" TabStencilOversize="50" />
+  <DraftingPreferences AssyOutlineWidth="12000" AssyOutlineMap="Maximum" AssyOutlinePlaceRnd="1000" AssyRefDesMinHeight="50000" AssyRefDesMaxHeight="200000" AssyRefDesWidthRatio="10" CourtyardOutlineWidth="5000" IncludeCentroidCrosshair="True" ExpandCY="True" IncludeCourtyard="True" ModelOutlineWidth="100" IncludeModelOtl="True" TermOutlineWidth="100" IncludeTermOtlID="False">
+    <SilkscreenEnvGoals>
+      <User SilkOutlineWidth="12000" SilkOutlineClearance="12000" SilkOutlineMap="Maximum" SilkOutlinePlaceRnd="1000" SilkRefDesHeight="120000" SilkRefDesWidthRatio="10" SilkPolarityAttrib="0" />
+    </SilkscreenEnvGoals>
+  </DraftingPreferences>
+  <TerminalPreferences>
+    <BGACollapsingBall>
+      <UserGoals>
+        <UserGoal Size="60000" Adjustment="-25" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="100000" CourtyardRnd="10000" />
+        <UserGoal Size="55000" Adjustment="-25" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="100000" CourtyardRnd="10000" />
+        <UserGoal Size="50000" Adjustment="-20" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="50000" CourtyardRnd="10000" />
+        <UserGoal Size="45000" Adjustment="-20" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="50000" CourtyardRnd="10000" />
+        <UserGoal Size="35000" Adjustment="-20" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="50000" CourtyardRnd="10000" />
+        <UserGoal Size="30000" Adjustment="-20" PadVarPlus="0" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+        <UserGoal Size="25000" Adjustment="-20" PadVarPlus="0" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+        <UserGoal Size="20000" Adjustment="-15" PadVarPlus="3000" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+        <UserGoal Size="17000" Adjustment="-15" PadVarPlus="3000" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+        <UserGoal Size="15000" Adjustment="-15" PadVarPlus="2000" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+      </UserGoals>
+    </BGACollapsingBall>
+    <BGANonCollapsingBall>
+      <UserGoals>
+        <UserGoal Size="60000" Adjustment="15" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="100000" CourtyardRnd="10000" />
+        <UserGoal Size="55000" Adjustment="10" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="100000" CourtyardRnd="10000" />
+        <UserGoal Size="50000" Adjustment="10" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="50000" CourtyardRnd="10000" />
+        <UserGoal Size="45000" Adjustment="10" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="50000" CourtyardRnd="10000" />
+        <UserGoal Size="35000" Adjustment="10" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="50000" CourtyardRnd="10000" />
+        <UserGoal Size="30000" Adjustment="10" PadVarPlus="5000" SizeRnd="5000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+        <UserGoal Size="25000" Adjustment="10" PadVarPlus="5000" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+        <UserGoal Size="20000" Adjustment="5" PadVarPlus="3000" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+        <UserGoal Size="15000" Adjustment="5" PadVarPlus="3000" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="10000" />
+      </UserGoals>
+    </BGANonCollapsingBall>
+    <LGA>
+      <UserGoals>
+        <UserGoal Size="15000" Adjustment="0" PadVarPlus="10000" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="100000" CourtyardRnd="10000" />
+      </UserGoals>
+    </LGA>
+    <CGA>
+      <UserGoals>
+        <UserGoal Size="15000" Adjustment="0" PadVarPlus="20000" SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="100000" CourtyardRnd="10000" />
+      </UserGoals>
+    </CGA>
+    <CornerConcave>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Heel Goal="0" />
+          <Toe Goal="25000" />
+        </User>
+      </EnvironmentGoals>
+    </CornerConcave>
+    <CylindricalEndCap>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="5000" />
+          <Heel Goal="10000" />
+          <Toe Goal="40000" />
+        </User>
+      </EnvironmentGoals>
+    </CylindricalEndCap>
+    <FlatLead>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="15000" CourtyardRnd="1000">
+          <Side Goal="0" />
+          <Heel Goal="0" />
+          <Toe Goal="20000" />
+        </User>
+      </EnvironmentGoals>
+    </FlatLead>
+    <FlatLugLead>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="3000" />
+          <Heel Goal="3000" />
+          <Toe Goal="35000" />
+        </User>
+      </EnvironmentGoals>
+    </FlatLugLead>
+    <FlatNoLeadSide>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="-4000" />
+          <Heel Goal="0" />
+          <Toe Goal="30000" />
+        </User>
+      </EnvironmentGoals>
+    </FlatNoLeadSide>
+    <FlatNoLeadBottom0402>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="15000" CourtyardRnd="1000">
+          <Side Goal="-4000" />
+        </User>
+      </EnvironmentGoals>
+    </FlatNoLeadBottom0402>
+    <FlatNoLeadBottom0603>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="0" />
+        </User>
+      </EnvironmentGoals>
+    </FlatNoLeadBottom0603>
+    <Gullwing0>
+      <!--Pitch <= 0.625 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="-2000" />
+          <Heel Goal="35000" />
+          <Toe Goal="35000" />
+        </User>
+      </EnvironmentGoals>
+    </Gullwing0>
+    <Gullwing1>
+      <!--Pitch > 0.625 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="3000" />
+          <Heel Goal="35000" />
+          <Toe Goal="35000" />
+        </User>
+      </EnvironmentGoals>
+    </Gullwing1>
+    <InwardL0>
+      <!--Pitch <= 0.625 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="-2000" />
+          <Heel Goal="35000" />
+          <Toe Goal="0" />
+        </User>
+      </EnvironmentGoals>
+    </InwardL0>
+    <InwardL1>
+      <!--Pitch > 0.625 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="-2000" />
+          <Heel Goal="30000" />
+          <Toe Goal="-10000" />
+        </User>
+      </EnvironmentGoals>
+    </InwardL1>
+    <InwardFlatRibbonL>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="-5000" />
+          <Heel Goal="50000" />
+          <Toe Goal="15000" />
+        </User>
+      </EnvironmentGoals>
+    </InwardFlatRibbonL>
+    <JLead>
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="3000" />
+          <Heel Goal="35000" />
+          <Toe Goal="0" />
+        </User>
+      </EnvironmentGoals>
+    </JLead>
+    <OutwardL0>
+      <!--Pitch <= 0.625 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="-2000" />
+          <Heel Goal="35000" />
+          <Toe Goal="35000" />
+        </User>
+      </EnvironmentGoals>
+    </OutwardL0>
+    <OutwardL1>
+      <!--Pitch > 0.625 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="3000" />
+          <Heel Goal="15000" />
+          <Toe Goal="35000" />
+        </User>
+      </EnvironmentGoals>
+    </OutwardL1>
+    <RectangularEndCap10050>
+      <!--Length < 0.5 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="15000" CourtyardRnd="1000">
+          <Side Goal="0" />
+          <Heel Goal="0" />
+          <Toe Goal="10000" />
+        </User>
+      </EnvironmentGoals>
+    </RectangularEndCap10050>
+    <RectangularEndCap0201>
+      <!--Length < 1.0 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="15000" CourtyardRnd="1000">
+          <Side Goal="0" />
+          <Heel Goal="0" />
+          <Toe Goal="12000" />
+        </User>
+      </EnvironmentGoals>
+    </RectangularEndCap0201>
+    <RectangularEndCap0402>
+      <!--Length < 1.6 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="15000" CourtyardRnd="1000">
+          <Side Goal="0" />
+          <Heel Goal="0" />
+          <Toe Goal="15000" />
+        </User>
+      </EnvironmentGoals>
+    </RectangularEndCap0402>
+    <RectangularEndCap0603>
+      <!--Length >= 1.6 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="0" />
+          <Heel Goal="0" />
+          <Toe Goal="35000" />
+        </User>
+      </EnvironmentGoals>
+    </RectangularEndCap0603>
+    <SideLead0>
+      <!--Side Lead (Concave, Convex, Flat), Height <= 1.6 mm or Length < 1.6 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="-7000" />
+          <Heel Goal="-7000" />
+          <Toe Goal="45000" />
+        </User>
+      </EnvironmentGoals>
+    </SideLead0>
+    <SideLead1>
+      <!--Side Lead (Concave, Convex, Flat), Height > 1.6 mm or Length >= 1.6 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="25000" CourtyardRnd="1000">
+          <Side Goal="-5000" />
+          <Heel Goal="15000" />
+          <Toe Goal="55000" />
+        </User>
+      </EnvironmentGoals>
+    </SideLead1>
+    <UnderBodyOutwardL0>
+      <!--Height <= 10 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="50000" CourtyardRnd="1000">
+          <Side Goal="40000" />
+          <Heel Goal="-10000" />
+          <Toe Goal="50000" />
+        </User>
+      </EnvironmentGoals>
+    </UnderBodyOutwardL0>
+    <UnderBodyOutwardL1>
+      <!--Height > 10 mm-->
+      <Settings FabTol="5000" PlaceTol="2500" PlaceRnd="1000" SizeRnd="1000" MaskAdjustX="0" MaskAdjustY="0" StencilAdjustX="0" StencilAdjustY="0" />
+      <EnvironmentGoals>
+        <User CourtyardExcess="50000" CourtyardRnd="1000">
+          <Side Goal="50000" />
+          <Heel Goal="-5000" />
+          <Toe Goal="70000" />
+        </User>
+      </EnvironmentGoals>
+    </UnderBodyOutwardL1>
+    <TH>
+      <Settings SizeRnd="1000" MaskAdjust="0" StencilAdjust="0" CourtyardExcess="25000" CourtyardRnd="1000" HoleOverLead="20000" ThermalIDOverHole="40000" ThermalODOverID="30000" SpokeWidthPct="75" PadSizeX="1.5" ThermalODSizeX="1.1" />
+    </TH>
+  </TerminalPreferences>
+  <ComponentPreferences>
+    <BGA>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <FiducialThreshold Value="80000" />
+      </Settings>
+    </BGA>
+    <CGA>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+      </Settings>
+    </CGA>
+    <LGA>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="RoundedSquare" />
+      </Settings>
+    </LGA>
+    <AlumElectrolCap>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </AlumElectrolCap>
+    <Chip>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </Chip>
+    <ChipArray>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </ChipArray>
+    <Crystal>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </Crystal>
+    <DFN>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="Rectangle" />
+      </Settings>
+    </DFN>
+    <DIOSC>
+      <Settings>
+        <Orientation Value="Up" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </DIOSC>
+    <LCC>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </LCC>
+    <MELF>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </MELF>
+    <Molded>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </Molded>
+    <OSC_CC>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </OSC_CC>
+    <OSC_J>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+        <Pin1LandShape Value="RoundedRectangle" />
+      </Settings>
+    </OSC_J>
+    <OSC_L>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </OSC_L>
+    <OSC_S>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </OSC_S>
+    <LCC>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </LCC>
+    <PLCC>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+        <Pin1LandShape Value="RoundedRectangle" />
+      </Settings>
+    </PLCC>
+    <QFN>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <TabOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+        <Pin1LandShape Value="RoundedRectangle" />
+      </Settings>
+    </QFN>
+    <QFP>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <TabOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+        <Pin1LandShape Value="RoundedRectangle" />
+        <FiducialThreshold Value="62500" />
+      </Settings>
+    </QFP>
+    <SOD>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </SOD>
+    <SOFL>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </SOFL>
+    <SOIC>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <TabOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+        <Pin1LandShape Value="RoundedRectangle" />
+      </Settings>
+    </SOIC>
+    <SOJ>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+        <Pin1LandShape Value="RoundedRectangle" />
+      </Settings>
+    </SOJ>
+    <SOL>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </SOL>
+    <SON>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <TabOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+        <Pin1LandShape Value="RoundedRectangle" />
+      </Settings>
+    </SON>
+    <SOT>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+        <Pin1LandShape Value="RoundedRectangle" />
+      </Settings>
+    </SOT>
+    <SMD_TO>
+      <Settings>
+        <Orientation Value="Down" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <TabOnAssembly Value="None" />
+        <DefaultLandShape Value="RoundedRectangle" />
+      </Settings>
+    </SMD_TO>
+    <Axial>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </Axial>
+    <TH_XTL>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+      </Settings>
+    </TH_XTL>
+    <Connector>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="Pin1" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </Connector>
+    <DIP>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </DIP>
+    <HDR>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="Pin1" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </HDR>
+    <TH_OSC>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </TH_OSC>
+    <Radial>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </Radial>
+    <PGA>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </PGA>
+    <SIP>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="Pin1" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </SIP>
+    <SIP>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="Pin1" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+      </Settings>
+    </SIP>
+    <TH_TO220>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="Pin1" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </TH_TO220>
+    <TH_TOCyl>
+      <Settings>
+        <Orientation Value="Left" />
+        <Origin Value="CenterOfExtents" />
+        <PadOnAssembly Value="None" />
+        <HoleOnAssembly Value="None" />
+        <DefaultLandShape Value="Circle" />
+        <Pin1LandShape Value="Square" />
+      </Settings>
+    </TH_TOCyl>
+  </ComponentPreferences>
+  <FiducialPreferences>
+    <User Shape="Circle" Orientation="0" FiducialTopSize="75000" FiducialSolderMaskSize="150000" FiducialKeepoutSize="150000" />
+  </FiducialPreferences>
+</FPX_UserProfile>
