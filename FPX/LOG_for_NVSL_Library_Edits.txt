@@ -1,0 +1,13 @@
+NVSL Library Management notes, 020515 Steve Deiss:
+
+Starting with 5 FPX files of 6 intended (NVSL-TH-ICs.fpx not started yet)
+These files have the parts needed for the NVSL Trinket Pro with power breakout options.
+NVSL-SMD-Connectors
+NVSL-SMD-ICs
+NVSL-SMD-passives
+NVSL-TH-Connectors
+NVSL-TH-Passives
+
+NVSL-Hand-Solder-UserPreferences was used with each to build the .lbr files.  Internal IPC defaults were used with these.  The UserPreferences file eliminated the pin 1 dot everywhere, and otherwise used the maximal IPC settings.  We may need to tune this over time to get better hand soldering yield.
+
+Please note further changes in this file.
