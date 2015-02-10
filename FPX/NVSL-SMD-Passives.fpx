@@ -1,6 +1,6 @@
 FPX V2012 Component Libfile
 Type	Data	Footprint Name	Physical Description	Case Code	Manufacturer	Part Number	Logical Description	Datasheet
-6	&cc="40002 0 0" &cd="2121 ,,90000 150000,,170000 70000,,90000 20000,,50000"	http://media.digikey.com/pdf/Catalog%20Drawings/Switches/KMR%20Series%20FTPRT.jpg	Capacitor, Chip;1.60 mm L X 0.80 mm W X 0.90 mm H body	Inch 0603, Metric 1608	Murata	GRM Series	Ceramic Capacitor	http://psearch.murata.com/capacitor/product/GRM188R71A225KE15%23.pdf
+6	&cc="40002 0 0" &cd="2121 ,,90000 150000,,170000 70000,,90000 20000,,50000"	CAPC1608X90	Capacitor, Chip;1.60 mm L X 0.80 mm W X 0.90 mm H body	Inch 0603, Metric 1608	Murata	GRM Series	Ceramic Capacitor	http://psearch.murata.com/capacitor/product/GRM188R71A225KE15%23.pdf
 6	_u="0" _f="0" A=",,140000" D="185000,,215000" E="110000,,140000" L="20000,,70000"	CAPC2012X140	Capacitor, Chip;2.00 mm L X 1.25 mm W X 1.40 mm H body	Inch 0805, Metric 2012	Murata	GRMSeries	Ceramic Capacitor	http://psearch.murata.com/capacitor/product/GCM21BR72A104KA37%23.pdf
 6	&cc="40002 1 0" &cd="2121 ,,100000 160000,,180000 85000,,100000 15000,,50000"	CAPCP1709X100	Capacitor, Polarized, Chip;1.70 mm L X 0.925 mm W X 1.00 mm H body	Inch 0603, Metric 1609	AVX	TAC Series	Pol Tantalum Cap	https://www.avx.com/docs/masterpubs/mccc.pdf
 17	&cc="40002 1 0" &cd="2125 ,,150000 90000,,120000 185000,,225000 125000,,155000 30000,,50000"	CAPMP2014X150	Capacitor, Polarized, Molded Body;2.05 mm L X 1.40 mm W X 1.50 mm H body	Inch 0805, Metric 2014	AVX	TAJ Series	Pol Tantalum Cap	http://www.avx.com/docs/Catalogs/tajlp.pdf
