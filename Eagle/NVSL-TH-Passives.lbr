@@ -71,7 +71,7 @@
 </layers>
 <library>
 <packages>
-<package name="RESAD600W45L370D210">
+<package name="RESAD600W45L370D210_HS">
 <description>Resistor, Axial;6.00 mm C X 0.45 mm W 3.70 mm L X 2.10 mm Dia body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="-3" y="0" drill="0.7" diameter="1.05" rot="R80" stop="no" first="yes"/>
 <pad name="2" x="3" y="0" drill="0.7" diameter="1.05" rot="R80" stop="no"/>
@@ -186,7 +186,7 @@
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="RESAD1000W55L680D260">
+<package name="RESAD1000W55L680D260_HS">
 <description>Resistor, Axial;10.00 mm C X 0.55 mm W 6.80 mm L X 2.60 mm Dia body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="-5" y="0" drill="0.8" diameter="1.2" rot="R80" stop="no" first="yes"/>
 <pad name="2" x="5" y="0" drill="0.8" diameter="1.2" rot="R80" stop="no"/>
@@ -301,7 +301,7 @@
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="RESAD1300W55L950D360">
+<package name="RESAD1300W55L950D360_HS">
 <description>Resistor, Axial;13.00 mm C X 0.55 mm W 9.50 mm L X 3.60 mm Dia body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="-6.5" y="0" drill="0.8" diameter="1.2" rot="R80" stop="no" first="yes"/>
 <pad name="2" x="6.5" y="0" drill="0.8" diameter="1.2" rot="R80" stop="no"/>

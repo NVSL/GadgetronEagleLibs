@@ -71,7 +71,7 @@
 </layers>
 <library>
 <packages>
-<package name="HDRV9W63P254_9X1_2286X254H838">
+<package name="HDRV9W63P254_9X1_2286X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,9 pins,1 row,9 pins per row,22.86 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -414,7 +414,7 @@
 <text x="10.16" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="10.16" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV8W63P254_8X1_2032X254H838">
+<package name="HDRV8W63P254_8X1_2032X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,8 pins,1 row,8 pins per row,20.32 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -718,7 +718,7 @@
 <text x="8.89" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="8.89" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV7W63P254_7X1_1778X254H838">
+<package name="HDRV7W63P254_7X1_1778X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,7 pins,1 row,7 pins per row,17.78 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -983,7 +983,7 @@
 <text x="7.62" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="7.62" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV6W63P254_6X1_1524X254H838">
+<package name="HDRV6W63P254_6X1_1524X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,6 pins,1 row,6 pins per row,15.24 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -1209,7 +1209,7 @@
 <text x="6.35" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="6.35" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV5W63P254_5X1_1270X254H838">
+<package name="HDRV5W63P254_5X1_1270X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,5 pins,1 row,5 pins per row,12.70 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -1396,7 +1396,7 @@
 <text x="5.08" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="5.08" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV4W63P254_4X1_1016X254H838">
+<package name="HDRV4W63P254_4X1_1016X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,4 pins,1 row,4 pins per row,10.16 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -1544,7 +1544,7 @@
 <text x="3.81" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="3.81" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV3W63P254_3X1_762X254H838">
+<package name="HDRV3W63P254_3X1_762X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,3 pins,1 row,3 pins per row,7.62 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -1653,7 +1653,7 @@
 <text x="2.54" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="2.54" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV2W63P254_2X1_508X254H838">
+<package name="HDRV2W63P254_2X1_508X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,2 pins,1 row,2 pins per row,5.08 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -1723,7 +1723,7 @@
 <text x="1.27" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="1.27" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV1W63P0_1X1_254X254H838">
+<package name="HDRV1W63P0_1X1_254X254H838_HS">
 <description>Header, Vertical;0.635 mm lead width, single pin,2.54 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <polygon width="0.01" layer="29">
@@ -1751,7 +1751,7 @@
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV16W63P254_16X1_4064X254H838">
+<package name="HDRV16W63P254_16X1_4064X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,16 pins,1 row,16 pins per row,40.64 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -2367,7 +2367,7 @@
 <text x="19.05" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="19.05" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV15W63P254_15X1_3810X254H838">
+<package name="HDRV15W63P254_15X1_3810X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,15 pins,1 row,15 pins per row,38.10 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -2944,7 +2944,7 @@
 <text x="17.78" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="17.78" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV14W63P254_14X1_3556X254H838">
+<package name="HDRV14W63P254_14X1_3556X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,14 pins,1 row,14 pins per row,35.56 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -3482,7 +3482,7 @@
 <text x="16.51" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="16.51" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV13W63P254_13X1_3302X254H838">
+<package name="HDRV13W63P254_13X1_3302X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,13 pins,1 row,13 pins per row,33.02 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -3981,7 +3981,7 @@
 <text x="15.24" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="15.24" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV12W63P254_12X1_3048X254H838">
+<package name="HDRV12W63P254_12X1_3048X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,12 pins,1 row,12 pins per row,30.48 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -4441,7 +4441,7 @@
 <text x="13.97" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="13.97" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV11W63P254_11X1_2794X254H838">
+<package name="HDRV11W63P254_11X1_2794X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,11 pins,1 row,11 pins per row,27.94 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -4862,7 +4862,7 @@
 <text x="12.7" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="12.7" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV10W63P254_10X1_2540X254H838">
+<package name="HDRV10W63P254_10X1_2540X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,10 pins,1 row,10 pins per row,25.40 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>
@@ -5244,7 +5244,7 @@
 <text x="11.43" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="11.43" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="HDRV50W63P254_50X1_12700X254H838">
+<package name="HDRV50W63P254_50X1_12700X254H838_HS">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,50 pins,1 row,50 pins per row,127.00 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square" stop="no" first="yes"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65" rot="R80" stop="no"/>

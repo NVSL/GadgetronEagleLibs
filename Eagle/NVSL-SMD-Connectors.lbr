@@ -71,7 +71,7 @@
 </layers>
 <library>
 <packages>
-<package name="FCI_10033526">
+<package name="FCI_10033526_HS">
 <description>Connector, USB Receptacle Right Angle;9 pin,9.20 mm L X 7.70 mm W X 3.90 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-3.85" y="-1.6" dx="2.25" dy="0.5" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-3.85" y="-0.8" dx="2.25" dy="0.5" layer="1" stop="no" cream="no"/>
@@ -290,7 +290,7 @@
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="JST_S2B-PH-SM4-TB">
+<package name="JST_S2B-PH-SM4-TB_HS">
 <description>Connector, Right Angle Shrouded Receptacle;4 pin,7.60 mm L X 7.90 mm W X 5.50 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-3.45" y="1" dx="3.5" dy="1" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-3.45" y="-1" dx="3.5" dy="1" layer="1" stop="no" cream="no"/>

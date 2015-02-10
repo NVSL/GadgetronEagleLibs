@@ -71,7 +71,7 @@
 </layers>
 <library>
 <packages>
-<package name="HTTP://MEDIA.DIGIKEY.COM/PDF/CATALOG%20DRAWINGS/SWITCHES/KMR%20SERIES%20FTPRT.JPG_HS">
+<package name="CAPC1608X90_HS">
 <description>Capacitor, Chip;1.60 mm L X 0.80 mm W X 0.90 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-0.77" y="0" dx="0.89" dy="0.93" layer="1" roundness="49" rot="R180" stop="no" cream="no"/>
 <smd name="2" x="0.77" y="0" dx="0.89" dy="0.93" layer="1" roundness="49" stop="no" cream="no"/>
@@ -983,7 +983,7 @@
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
-<package name="CK_KMR211GLSR">
+<package name="CK_KMR211GLSR_HS">
 <description>Tactile SMT Switch;5 pin,4.20 mm L X 2.80 mm W X 1.90 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
@@ -1070,7 +1070,7 @@
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="MURATA_CSTCEXXMYYV53-R0">
+<package name="MURATA_CSTCEXXMYYV53-R0_HS">
 <description>Resonator;3 pin,3.20 mm L X 1.30 mm W X 1.00 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-0.95" y="0" dx="2" dy="0.7" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="2" x="0" y="0" dx="2" dy="0.5" layer="1" rot="R90" stop="no" cream="no"/>
