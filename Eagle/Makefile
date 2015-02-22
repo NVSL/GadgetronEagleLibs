@@ -1,9 +1,9 @@
 
-TARGETS=Resistors.lbr Capacitors.lbr
+TARGETS=Picker.lbr
 default: $(TARGETS)
 
-%.lbr: %.devspec %.base.lbr
-	devFamily.py --db $< --lbrin $*.base.lbr --lbrout $@
+Picker.lbr: PickerBase.lbr
+	buildResolverParts.py --lbr $< --out $@
 
 clean:
 	rm -rf $(TARGETS)
