@@ -1,5 +1,5 @@
 
-TARGETS=PickerBuild.lbr PickerDesign.lbr
+TARGETS=KoalaBuild.lbr KoalaDesign.lbr
 default: $(TARGETS)
 
 KoalaBuild.lbr KoalaDesign.lbr: KoalaBase.lbr
