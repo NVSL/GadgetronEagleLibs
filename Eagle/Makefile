@@ -2,8 +2,8 @@
 TARGETS=PickerBuild.lbr PickerDesign.lbr
 default: $(TARGETS)
 
-PickerBuild.lbr PickerDesign.lbr: PickerBase.lbr
-	buildResolverParts.py --baselib PickerBase.lbr  --buildlib PickerBuild.lbr --designlib PickerDesign.lbr
+KoalaBuild.lbr KoalaDesign.lbr: KoalaBase.lbr
+	buildResolverParts.py --baselib KoalaBase.lbr  --buildlib KoalaBuild.lbr --designlib KoalaDesign.lbr
 
 clean:
 	rm -rf $(TARGETS)
