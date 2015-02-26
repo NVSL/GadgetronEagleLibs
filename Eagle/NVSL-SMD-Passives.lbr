@@ -37,24 +37,24 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -274,6 +274,75 @@
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="CAPMP2013X120_HS">
+<description>Capacitor, Polarized, Molded Body;2.00 mm L X 1.30 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-0.86" y="0" dx="1.5" dy="0.93" layer="1" roundness="49" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="0.86" y="0" dx="1.5" dy="0.93" layer="1" roundness="49" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-0.86" y="0.465"/>
+<vertex x="-0.34" y="0.465" curve="-90"/>
+<vertex x="-0.11" y="0.235"/>
+<vertex x="-0.11" y="-0.235" curve="-90"/>
+<vertex x="-0.34" y="-0.465"/>
+<vertex x="-1.38" y="-0.465" curve="-90"/>
+<vertex x="-1.61" y="-0.235"/>
+<vertex x="-1.61" y="0.235" curve="-90"/>
+<vertex x="-1.38" y="0.465"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.86" y="0.465"/>
+<vertex x="-0.34" y="0.465" curve="-90"/>
+<vertex x="-0.11" y="0.235"/>
+<vertex x="-0.11" y="-0.235" curve="-90"/>
+<vertex x="-0.34" y="-0.465"/>
+<vertex x="-1.38" y="-0.465" curve="-90"/>
+<vertex x="-1.61" y="-0.235"/>
+<vertex x="-1.61" y="0.235" curve="-90"/>
+<vertex x="-1.38" y="0.465"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="0.86" y="-0.465"/>
+<vertex x="0.34" y="-0.465" curve="-90"/>
+<vertex x="0.11" y="-0.235"/>
+<vertex x="0.11" y="0.235" curve="-90"/>
+<vertex x="0.34" y="0.465"/>
+<vertex x="1.38" y="0.465" curve="-90"/>
+<vertex x="1.61" y="0.235"/>
+<vertex x="1.61" y="-0.235" curve="-90"/>
+<vertex x="1.38" y="-0.465"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="0.86" y="-0.465"/>
+<vertex x="0.34" y="-0.465" curve="-90"/>
+<vertex x="0.11" y="-0.235"/>
+<vertex x="0.11" y="0.235" curve="-90"/>
+<vertex x="0.34" y="0.465"/>
+<vertex x="1.38" y="0.465" curve="-90"/>
+<vertex x="1.61" y="0.235"/>
+<vertex x="1.61" y="-0.235" curve="-90"/>
+<vertex x="1.38" y="-0.465"/>
+</polygon>
+<wire x1="-1.1" y1="0.25" x2="-1.1" y2="0.75" width="0.001" layer="51"/>
+<wire x1="-1.1" y1="0.75" x2="-0.6" y2="0.75" width="0.001" layer="51"/>
+<wire x1="-1.86" y1="-1" x2="-1.86" y2="1" width="0.05" layer="39"/>
+<wire x1="-1.86" y1="1" x2="1.86" y2="1" width="0.05" layer="39"/>
+<wire x1="1.86" y1="1" x2="1.86" y2="-1" width="0.05" layer="39"/>
+<wire x1="1.86" y1="-1" x2="-1.86" y2="-1" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.25" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.25" x2="-0.6" y2="0.75" width="0.12" layer="51"/>
+<wire x1="-0.6" y1="0.75" x2="1.1" y2="0.75" width="0.12" layer="51"/>
+<wire x1="1.1" y1="0.75" x2="1.1" y2="-0.75" width="0.12" layer="51"/>
+<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.12" layer="51"/>
+<wire x1="1.1" y1="0.75" x2="-1.79" y2="0.75" width="0.12" layer="21"/>
+<wire x1="-1.79" y1="0.75" x2="-1.79" y2="-0.75" width="0.12" layer="21"/>
+<wire x1="-1.79" y1="-0.75" x2="1.1" y2="-0.75" width="0.12" layer="21"/>
+<text x="0" y="0" size="1.02" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
 <package name="CAPMP2014X150_HS">
 <description>Capacitor, Polarized, Molded Body;2.05 mm L X 1.40 mm W X 1.50 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-0.99" y="0" dx="1.29" dy="1.12" layer="1" roundness="45" rot="R180" stop="no" cream="no"/>
@@ -344,6 +413,783 @@
 <text x="0" y="0" size="1.07" layer="51" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP3216X120_HS">
+<description>Capacitor, Polarized, Molded Body;3.20 mm L X 1.60 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-1.31" y="0" dx="1.8" dy="1.23" layer="1" roundness="41" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="1.31" y="0" dx="1.8" dy="1.23" layer="1" roundness="41" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-1.31" y="0.615"/>
+<vertex x="-0.66" y="0.615" curve="-90"/>
+<vertex x="-0.41" y="0.365"/>
+<vertex x="-0.41" y="-0.365" curve="-90"/>
+<vertex x="-0.66" y="-0.615"/>
+<vertex x="-1.96" y="-0.615" curve="-90"/>
+<vertex x="-2.21" y="-0.365"/>
+<vertex x="-2.21" y="0.365" curve="-90"/>
+<vertex x="-1.96" y="0.615"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.31" y="0.615"/>
+<vertex x="-0.66" y="0.615" curve="-90"/>
+<vertex x="-0.41" y="0.365"/>
+<vertex x="-0.41" y="-0.365" curve="-90"/>
+<vertex x="-0.66" y="-0.615"/>
+<vertex x="-1.96" y="-0.615" curve="-90"/>
+<vertex x="-2.21" y="-0.365"/>
+<vertex x="-2.21" y="0.365" curve="-90"/>
+<vertex x="-1.96" y="0.615"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.31" y="-0.615"/>
+<vertex x="0.66" y="-0.615" curve="-90"/>
+<vertex x="0.41" y="-0.365"/>
+<vertex x="0.41" y="0.365" curve="-90"/>
+<vertex x="0.66" y="0.615"/>
+<vertex x="1.96" y="0.615" curve="-90"/>
+<vertex x="2.21" y="0.365"/>
+<vertex x="2.21" y="-0.365" curve="-90"/>
+<vertex x="1.96" y="-0.615"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.31" y="-0.615"/>
+<vertex x="0.66" y="-0.615" curve="-90"/>
+<vertex x="0.41" y="-0.365"/>
+<vertex x="0.41" y="0.365" curve="-90"/>
+<vertex x="0.66" y="0.615"/>
+<vertex x="1.96" y="0.615" curve="-90"/>
+<vertex x="2.21" y="0.365"/>
+<vertex x="2.21" y="-0.365" curve="-90"/>
+<vertex x="1.96" y="-0.615"/>
+</polygon>
+<wire x1="-1.7" y1="0.3" x2="-1.7" y2="0.9" width="0.001" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="-1.1" y2="0.9" width="0.001" layer="51"/>
+<wire x1="-2.46" y1="-1.15" x2="-2.46" y2="1.15" width="0.05" layer="39"/>
+<wire x1="-2.46" y1="1.15" x2="2.46" y2="1.15" width="0.05" layer="39"/>
+<wire x1="2.46" y1="1.15" x2="2.46" y2="-1.15" width="0.05" layer="39"/>
+<wire x1="2.46" y1="-1.15" x2="-2.46" y2="-1.15" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.3" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.3" x2="-1.1" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="-2.39" y2="0.9" width="0.12" layer="21"/>
+<wire x1="-2.39" y1="0.9" x2="-2.39" y2="-0.9" width="0.12" layer="21"/>
+<wire x1="-2.39" y1="-0.9" x2="1.7" y2="-0.9" width="0.12" layer="21"/>
+<text x="0" y="0" size="1.32" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP3216X180_HS">
+<description>Capacitor, Polarized, Molded Body;3.20 mm L X 1.60 mm W X 1.80 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-1.31" y="0" dx="1.8" dy="1.23" layer="1" roundness="41" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="1.31" y="0" dx="1.8" dy="1.23" layer="1" roundness="41" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-1.31" y="0.615"/>
+<vertex x="-0.66" y="0.615" curve="-90"/>
+<vertex x="-0.41" y="0.365"/>
+<vertex x="-0.41" y="-0.365" curve="-90"/>
+<vertex x="-0.66" y="-0.615"/>
+<vertex x="-1.96" y="-0.615" curve="-90"/>
+<vertex x="-2.21" y="-0.365"/>
+<vertex x="-2.21" y="0.365" curve="-90"/>
+<vertex x="-1.96" y="0.615"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.31" y="0.615"/>
+<vertex x="-0.66" y="0.615" curve="-90"/>
+<vertex x="-0.41" y="0.365"/>
+<vertex x="-0.41" y="-0.365" curve="-90"/>
+<vertex x="-0.66" y="-0.615"/>
+<vertex x="-1.96" y="-0.615" curve="-90"/>
+<vertex x="-2.21" y="-0.365"/>
+<vertex x="-2.21" y="0.365" curve="-90"/>
+<vertex x="-1.96" y="0.615"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.31" y="-0.615"/>
+<vertex x="0.66" y="-0.615" curve="-90"/>
+<vertex x="0.41" y="-0.365"/>
+<vertex x="0.41" y="0.365" curve="-90"/>
+<vertex x="0.66" y="0.615"/>
+<vertex x="1.96" y="0.615" curve="-90"/>
+<vertex x="2.21" y="0.365"/>
+<vertex x="2.21" y="-0.365" curve="-90"/>
+<vertex x="1.96" y="-0.615"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.31" y="-0.615"/>
+<vertex x="0.66" y="-0.615" curve="-90"/>
+<vertex x="0.41" y="-0.365"/>
+<vertex x="0.41" y="0.365" curve="-90"/>
+<vertex x="0.66" y="0.615"/>
+<vertex x="1.96" y="0.615" curve="-90"/>
+<vertex x="2.21" y="0.365"/>
+<vertex x="2.21" y="-0.365" curve="-90"/>
+<vertex x="1.96" y="-0.615"/>
+</polygon>
+<wire x1="-1.7" y1="0.3" x2="-1.7" y2="0.9" width="0.001" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="-1.1" y2="0.9" width="0.001" layer="51"/>
+<wire x1="-2.46" y1="-1.15" x2="-2.46" y2="1.15" width="0.05" layer="39"/>
+<wire x1="-2.46" y1="1.15" x2="2.46" y2="1.15" width="0.05" layer="39"/>
+<wire x1="2.46" y1="1.15" x2="2.46" y2="-1.15" width="0.05" layer="39"/>
+<wire x1="2.46" y1="-1.15" x2="-2.46" y2="-1.15" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.3" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.3" x2="-1.1" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="-2.39" y2="0.9" width="0.12" layer="21"/>
+<wire x1="-2.39" y1="0.9" x2="-2.39" y2="-0.9" width="0.12" layer="21"/>
+<wire x1="-2.39" y1="-0.9" x2="1.7" y2="-0.9" width="0.12" layer="21"/>
+<text x="0" y="0" size="1.32" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP3528X120_HS">
+<description>Capacitor, Polarized, Molded Body;3.50 mm L X 2.80 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-1.46" y="0" dx="1.8" dy="2.23" layer="1" roundness="28" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="1.46" y="0" dx="1.8" dy="2.23" layer="1" roundness="28" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-1.46" y="1.115"/>
+<vertex x="-0.81" y="1.115" curve="-90"/>
+<vertex x="-0.56" y="0.865"/>
+<vertex x="-0.56" y="-0.865" curve="-90"/>
+<vertex x="-0.81" y="-1.115"/>
+<vertex x="-2.11" y="-1.115" curve="-90"/>
+<vertex x="-2.36" y="-0.865"/>
+<vertex x="-2.36" y="0.865" curve="-90"/>
+<vertex x="-2.11" y="1.115"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.46" y="1.115"/>
+<vertex x="-0.81" y="1.115" curve="-90"/>
+<vertex x="-0.56" y="0.865"/>
+<vertex x="-0.56" y="-0.865" curve="-90"/>
+<vertex x="-0.81" y="-1.115"/>
+<vertex x="-2.11" y="-1.115" curve="-90"/>
+<vertex x="-2.36" y="-0.865"/>
+<vertex x="-2.36" y="0.865" curve="-90"/>
+<vertex x="-2.11" y="1.115"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.46" y="-1.115"/>
+<vertex x="0.81" y="-1.115" curve="-90"/>
+<vertex x="0.56" y="-0.865"/>
+<vertex x="0.56" y="0.865" curve="-90"/>
+<vertex x="0.81" y="1.115"/>
+<vertex x="2.11" y="1.115" curve="-90"/>
+<vertex x="2.36" y="0.865"/>
+<vertex x="2.36" y="-0.865" curve="-90"/>
+<vertex x="2.11" y="-1.115"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.46" y="-1.115"/>
+<vertex x="0.81" y="-1.115" curve="-90"/>
+<vertex x="0.56" y="-0.865"/>
+<vertex x="0.56" y="0.865" curve="-90"/>
+<vertex x="0.81" y="1.115"/>
+<vertex x="2.11" y="1.115" curve="-90"/>
+<vertex x="2.36" y="0.865"/>
+<vertex x="2.36" y="-0.865" curve="-90"/>
+<vertex x="2.11" y="-1.115"/>
+</polygon>
+<wire x1="-1.85" y1="0.5" x2="-1.85" y2="1.5" width="0.001" layer="51"/>
+<wire x1="-1.85" y1="1.5" x2="-0.85" y2="1.5" width="0.001" layer="51"/>
+<wire x1="-2.61" y1="-1.75" x2="-2.61" y2="1.75" width="0.05" layer="39"/>
+<wire x1="-2.61" y1="1.75" x2="2.61" y2="1.75" width="0.05" layer="39"/>
+<wire x1="2.61" y1="1.75" x2="2.61" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="2.61" y1="-1.75" x2="-2.61" y2="-1.75" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-1.85" y1="-1.5" x2="-1.85" y2="0.5" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="0.5" x2="-0.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="1.5" x2="1.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="1.85" y1="1.5" x2="1.85" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="1.85" y1="1.5" x2="-2.54" y2="1.5" width="0.12" layer="21"/>
+<wire x1="-2.54" y1="1.5" x2="-2.54" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-2.54" y1="-1.5" x2="1.85" y2="-1.5" width="0.12" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP3528X210_HS">
+<description>Capacitor, Polarized, Molded Body;3.50 mm L X 2.80 mm W X 2.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-1.46" y="0" dx="1.8" dy="2.23" layer="1" roundness="28" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="1.46" y="0" dx="1.8" dy="2.23" layer="1" roundness="28" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-1.46" y="1.115"/>
+<vertex x="-0.81" y="1.115" curve="-90"/>
+<vertex x="-0.56" y="0.865"/>
+<vertex x="-0.56" y="-0.865" curve="-90"/>
+<vertex x="-0.81" y="-1.115"/>
+<vertex x="-2.11" y="-1.115" curve="-90"/>
+<vertex x="-2.36" y="-0.865"/>
+<vertex x="-2.36" y="0.865" curve="-90"/>
+<vertex x="-2.11" y="1.115"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.46" y="1.115"/>
+<vertex x="-0.81" y="1.115" curve="-90"/>
+<vertex x="-0.56" y="0.865"/>
+<vertex x="-0.56" y="-0.865" curve="-90"/>
+<vertex x="-0.81" y="-1.115"/>
+<vertex x="-2.11" y="-1.115" curve="-90"/>
+<vertex x="-2.36" y="-0.865"/>
+<vertex x="-2.36" y="0.865" curve="-90"/>
+<vertex x="-2.11" y="1.115"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.46" y="-1.115"/>
+<vertex x="0.81" y="-1.115" curve="-90"/>
+<vertex x="0.56" y="-0.865"/>
+<vertex x="0.56" y="0.865" curve="-90"/>
+<vertex x="0.81" y="1.115"/>
+<vertex x="2.11" y="1.115" curve="-90"/>
+<vertex x="2.36" y="0.865"/>
+<vertex x="2.36" y="-0.865" curve="-90"/>
+<vertex x="2.11" y="-1.115"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.46" y="-1.115"/>
+<vertex x="0.81" y="-1.115" curve="-90"/>
+<vertex x="0.56" y="-0.865"/>
+<vertex x="0.56" y="0.865" curve="-90"/>
+<vertex x="0.81" y="1.115"/>
+<vertex x="2.11" y="1.115" curve="-90"/>
+<vertex x="2.36" y="0.865"/>
+<vertex x="2.36" y="-0.865" curve="-90"/>
+<vertex x="2.11" y="-1.115"/>
+</polygon>
+<wire x1="-1.85" y1="0.5" x2="-1.85" y2="1.5" width="0.001" layer="51"/>
+<wire x1="-1.85" y1="1.5" x2="-0.85" y2="1.5" width="0.001" layer="51"/>
+<wire x1="-2.61" y1="-1.75" x2="-2.61" y2="1.75" width="0.05" layer="39"/>
+<wire x1="-2.61" y1="1.75" x2="2.61" y2="1.75" width="0.05" layer="39"/>
+<wire x1="2.61" y1="1.75" x2="2.61" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="2.61" y1="-1.75" x2="-2.61" y2="-1.75" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-1.85" y1="-1.5" x2="-1.85" y2="0.5" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="0.5" x2="-0.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="1.5" x2="1.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="1.85" y1="1.5" x2="1.85" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="1.85" y1="1.5" x2="-2.54" y2="1.5" width="0.12" layer="21"/>
+<wire x1="-2.54" y1="1.5" x2="-2.54" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-2.54" y1="-1.5" x2="1.85" y2="-1.5" width="0.12" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP6032X150_HS">
+<description>Capacitor, Polarized, Molded Body;6.00 mm L X 3.20 mm W X 1.50 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-2.47" y="0" dx="2.37" dy="2.23" layer="1" roundness="22" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="2.47" y="0" dx="2.37" dy="2.23" layer="1" roundness="22" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-2.47" y="1.115"/>
+<vertex x="-1.535" y="1.115" curve="-90"/>
+<vertex x="-1.285" y="0.865"/>
+<vertex x="-1.285" y="-0.865" curve="-90"/>
+<vertex x="-1.535" y="-1.115"/>
+<vertex x="-3.405" y="-1.115" curve="-90"/>
+<vertex x="-3.655" y="-0.865"/>
+<vertex x="-3.655" y="0.865" curve="-90"/>
+<vertex x="-3.405" y="1.115"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-2.47" y="1.115"/>
+<vertex x="-1.535" y="1.115" curve="-90"/>
+<vertex x="-1.285" y="0.865"/>
+<vertex x="-1.285" y="-0.865" curve="-90"/>
+<vertex x="-1.535" y="-1.115"/>
+<vertex x="-3.405" y="-1.115" curve="-90"/>
+<vertex x="-3.655" y="-0.865"/>
+<vertex x="-3.655" y="0.865" curve="-90"/>
+<vertex x="-3.405" y="1.115"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="2.47" y="-1.115"/>
+<vertex x="1.535" y="-1.115" curve="-90"/>
+<vertex x="1.285" y="-0.865"/>
+<vertex x="1.285" y="0.865" curve="-90"/>
+<vertex x="1.535" y="1.115"/>
+<vertex x="3.405" y="1.115" curve="-90"/>
+<vertex x="3.655" y="0.865"/>
+<vertex x="3.655" y="-0.865" curve="-90"/>
+<vertex x="3.405" y="-1.115"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="2.47" y="-1.115"/>
+<vertex x="1.535" y="-1.115" curve="-90"/>
+<vertex x="1.285" y="-0.865"/>
+<vertex x="1.285" y="0.865" curve="-90"/>
+<vertex x="1.535" y="1.115"/>
+<vertex x="3.405" y="1.115" curve="-90"/>
+<vertex x="3.655" y="0.865"/>
+<vertex x="3.655" y="-0.865" curve="-90"/>
+<vertex x="3.405" y="-1.115"/>
+</polygon>
+<wire x1="-3.15" y1="0.5833" x2="-3.15" y2="1.75" width="0.001" layer="51"/>
+<wire x1="-3.15" y1="1.75" x2="-1.9833" y2="1.75" width="0.001" layer="51"/>
+<wire x1="-3.91" y1="-2" x2="-3.91" y2="2" width="0.05" layer="39"/>
+<wire x1="-3.91" y1="2" x2="3.91" y2="2" width="0.05" layer="39"/>
+<wire x1="3.91" y1="2" x2="3.91" y2="-2" width="0.05" layer="39"/>
+<wire x1="3.91" y1="-2" x2="-3.91" y2="-2" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-3.15" y1="-1.75" x2="-3.15" y2="0.5833" width="0.12" layer="51"/>
+<wire x1="-3.15" y1="0.5833" x2="-1.9833" y2="1.75" width="0.12" layer="51"/>
+<wire x1="-1.9833" y1="1.75" x2="3.15" y2="1.75" width="0.12" layer="51"/>
+<wire x1="3.15" y1="1.75" x2="3.15" y2="-1.75" width="0.12" layer="51"/>
+<wire x1="3.15" y1="-1.75" x2="-3.15" y2="-1.75" width="0.12" layer="51"/>
+<wire x1="3.15" y1="1.75" x2="-3.835" y2="1.75" width="0.12" layer="21"/>
+<wire x1="-3.835" y1="1.75" x2="-3.835" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-3.835" y1="-1.75" x2="3.15" y2="-1.75" width="0.12" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP6032X280_HS">
+<description>Capacitor, Polarized, Molded Body;6.00 mm L X 3.20 mm W X 2.80 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-2.47" y="0" dx="2.37" dy="2.23" layer="1" roundness="22" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="2.47" y="0" dx="2.37" dy="2.23" layer="1" roundness="22" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-2.47" y="1.115"/>
+<vertex x="-1.535" y="1.115" curve="-90"/>
+<vertex x="-1.285" y="0.865"/>
+<vertex x="-1.285" y="-0.865" curve="-90"/>
+<vertex x="-1.535" y="-1.115"/>
+<vertex x="-3.405" y="-1.115" curve="-90"/>
+<vertex x="-3.655" y="-0.865"/>
+<vertex x="-3.655" y="0.865" curve="-90"/>
+<vertex x="-3.405" y="1.115"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-2.47" y="1.115"/>
+<vertex x="-1.535" y="1.115" curve="-90"/>
+<vertex x="-1.285" y="0.865"/>
+<vertex x="-1.285" y="-0.865" curve="-90"/>
+<vertex x="-1.535" y="-1.115"/>
+<vertex x="-3.405" y="-1.115" curve="-90"/>
+<vertex x="-3.655" y="-0.865"/>
+<vertex x="-3.655" y="0.865" curve="-90"/>
+<vertex x="-3.405" y="1.115"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="2.47" y="-1.115"/>
+<vertex x="1.535" y="-1.115" curve="-90"/>
+<vertex x="1.285" y="-0.865"/>
+<vertex x="1.285" y="0.865" curve="-90"/>
+<vertex x="1.535" y="1.115"/>
+<vertex x="3.405" y="1.115" curve="-90"/>
+<vertex x="3.655" y="0.865"/>
+<vertex x="3.655" y="-0.865" curve="-90"/>
+<vertex x="3.405" y="-1.115"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="2.47" y="-1.115"/>
+<vertex x="1.535" y="-1.115" curve="-90"/>
+<vertex x="1.285" y="-0.865"/>
+<vertex x="1.285" y="0.865" curve="-90"/>
+<vertex x="1.535" y="1.115"/>
+<vertex x="3.405" y="1.115" curve="-90"/>
+<vertex x="3.655" y="0.865"/>
+<vertex x="3.655" y="-0.865" curve="-90"/>
+<vertex x="3.405" y="-1.115"/>
+</polygon>
+<wire x1="-3.15" y1="0.5833" x2="-3.15" y2="1.75" width="0.001" layer="51"/>
+<wire x1="-3.15" y1="1.75" x2="-1.9833" y2="1.75" width="0.001" layer="51"/>
+<wire x1="-3.91" y1="-2" x2="-3.91" y2="2" width="0.05" layer="39"/>
+<wire x1="-3.91" y1="2" x2="3.91" y2="2" width="0.05" layer="39"/>
+<wire x1="3.91" y1="2" x2="3.91" y2="-2" width="0.05" layer="39"/>
+<wire x1="3.91" y1="-2" x2="-3.91" y2="-2" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-3.15" y1="-1.75" x2="-3.15" y2="0.5833" width="0.12" layer="51"/>
+<wire x1="-3.15" y1="0.5833" x2="-1.9833" y2="1.75" width="0.12" layer="51"/>
+<wire x1="-1.9833" y1="1.75" x2="3.15" y2="1.75" width="0.12" layer="51"/>
+<wire x1="3.15" y1="1.75" x2="3.15" y2="-1.75" width="0.12" layer="51"/>
+<wire x1="3.15" y1="-1.75" x2="-3.15" y2="-1.75" width="0.12" layer="51"/>
+<wire x1="3.15" y1="1.75" x2="-3.835" y2="1.75" width="0.12" layer="21"/>
+<wire x1="-3.835" y1="1.75" x2="-3.835" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-3.835" y1="-1.75" x2="3.15" y2="-1.75" width="0.12" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP7343X200_HS">
+<description>Capacitor, Polarized, Molded Body;7.30 mm L X 4.30 mm W X 2.00 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-3.12" y="0" dx="2.37" dy="2.43" layer="1" roundness="21" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="3.12" y="0" dx="2.37" dy="2.43" layer="1" roundness="21" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-3.12" y="1.215"/>
+<vertex x="-2.185" y="1.215" curve="-90"/>
+<vertex x="-1.935" y="0.965"/>
+<vertex x="-1.935" y="-0.965" curve="-90"/>
+<vertex x="-2.185" y="-1.215"/>
+<vertex x="-4.055" y="-1.215" curve="-90"/>
+<vertex x="-4.305" y="-0.965"/>
+<vertex x="-4.305" y="0.965" curve="-90"/>
+<vertex x="-4.055" y="1.215"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.12" y="1.215"/>
+<vertex x="-2.185" y="1.215" curve="-90"/>
+<vertex x="-1.935" y="0.965"/>
+<vertex x="-1.935" y="-0.965" curve="-90"/>
+<vertex x="-2.185" y="-1.215"/>
+<vertex x="-4.055" y="-1.215" curve="-90"/>
+<vertex x="-4.305" y="-0.965"/>
+<vertex x="-4.305" y="0.965" curve="-90"/>
+<vertex x="-4.055" y="1.215"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="3.12" y="-1.215"/>
+<vertex x="2.185" y="-1.215" curve="-90"/>
+<vertex x="1.935" y="-0.965"/>
+<vertex x="1.935" y="0.965" curve="-90"/>
+<vertex x="2.185" y="1.215"/>
+<vertex x="4.055" y="1.215" curve="-90"/>
+<vertex x="4.305" y="0.965"/>
+<vertex x="4.305" y="-0.965" curve="-90"/>
+<vertex x="4.055" y="-1.215"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.12" y="-1.215"/>
+<vertex x="2.185" y="-1.215" curve="-90"/>
+<vertex x="1.935" y="-0.965"/>
+<vertex x="1.935" y="0.965" curve="-90"/>
+<vertex x="2.185" y="1.215"/>
+<vertex x="4.055" y="1.215" curve="-90"/>
+<vertex x="4.305" y="0.965"/>
+<vertex x="4.305" y="-0.965" curve="-90"/>
+<vertex x="4.055" y="-1.215"/>
+</polygon>
+<wire x1="-3.8" y1="1.03" x2="-3.8" y2="2.3" width="0.001" layer="51"/>
+<wire x1="-3.8" y1="2.3" x2="-2.53" y2="2.3" width="0.001" layer="51"/>
+<wire x1="-4.56" y1="-2.55" x2="-4.56" y2="2.55" width="0.05" layer="39"/>
+<wire x1="-4.56" y1="2.55" x2="4.56" y2="2.55" width="0.05" layer="39"/>
+<wire x1="4.56" y1="2.55" x2="4.56" y2="-2.55" width="0.05" layer="39"/>
+<wire x1="4.56" y1="-2.55" x2="-4.56" y2="-2.55" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-3.8" y1="-2.3" x2="-3.8" y2="1.03" width="0.12" layer="51"/>
+<wire x1="-3.8" y1="1.03" x2="-2.53" y2="2.3" width="0.12" layer="51"/>
+<wire x1="-2.53" y1="2.3" x2="3.8" y2="2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="2.3" x2="3.8" y2="-2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="-2.3" x2="-3.8" y2="-2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="2.3" x2="-4.485" y2="2.3" width="0.12" layer="21"/>
+<wire x1="-4.485" y1="2.3" x2="-4.485" y2="-2.3" width="0.12" layer="21"/>
+<wire x1="-4.485" y1="-2.3" x2="3.8" y2="-2.3" width="0.12" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP7343X310_HS">
+<description>Capacitor, Polarized, Molded Body;7.30 mm L X 4.30 mm W X 3.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-3.12" y="0" dx="2.37" dy="2.43" layer="1" roundness="21" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="3.12" y="0" dx="2.37" dy="2.43" layer="1" roundness="21" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-3.12" y="1.215"/>
+<vertex x="-2.185" y="1.215" curve="-90"/>
+<vertex x="-1.935" y="0.965"/>
+<vertex x="-1.935" y="-0.965" curve="-90"/>
+<vertex x="-2.185" y="-1.215"/>
+<vertex x="-4.055" y="-1.215" curve="-90"/>
+<vertex x="-4.305" y="-0.965"/>
+<vertex x="-4.305" y="0.965" curve="-90"/>
+<vertex x="-4.055" y="1.215"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.12" y="1.215"/>
+<vertex x="-2.185" y="1.215" curve="-90"/>
+<vertex x="-1.935" y="0.965"/>
+<vertex x="-1.935" y="-0.965" curve="-90"/>
+<vertex x="-2.185" y="-1.215"/>
+<vertex x="-4.055" y="-1.215" curve="-90"/>
+<vertex x="-4.305" y="-0.965"/>
+<vertex x="-4.305" y="0.965" curve="-90"/>
+<vertex x="-4.055" y="1.215"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="3.12" y="-1.215"/>
+<vertex x="2.185" y="-1.215" curve="-90"/>
+<vertex x="1.935" y="-0.965"/>
+<vertex x="1.935" y="0.965" curve="-90"/>
+<vertex x="2.185" y="1.215"/>
+<vertex x="4.055" y="1.215" curve="-90"/>
+<vertex x="4.305" y="0.965"/>
+<vertex x="4.305" y="-0.965" curve="-90"/>
+<vertex x="4.055" y="-1.215"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.12" y="-1.215"/>
+<vertex x="2.185" y="-1.215" curve="-90"/>
+<vertex x="1.935" y="-0.965"/>
+<vertex x="1.935" y="0.965" curve="-90"/>
+<vertex x="2.185" y="1.215"/>
+<vertex x="4.055" y="1.215" curve="-90"/>
+<vertex x="4.305" y="0.965"/>
+<vertex x="4.305" y="-0.965" curve="-90"/>
+<vertex x="4.055" y="-1.215"/>
+</polygon>
+<wire x1="-3.8" y1="1.03" x2="-3.8" y2="2.3" width="0.001" layer="51"/>
+<wire x1="-3.8" y1="2.3" x2="-2.53" y2="2.3" width="0.001" layer="51"/>
+<wire x1="-4.56" y1="-2.55" x2="-4.56" y2="2.55" width="0.05" layer="39"/>
+<wire x1="-4.56" y1="2.55" x2="4.56" y2="2.55" width="0.05" layer="39"/>
+<wire x1="4.56" y1="2.55" x2="4.56" y2="-2.55" width="0.05" layer="39"/>
+<wire x1="4.56" y1="-2.55" x2="-4.56" y2="-2.55" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-3.8" y1="-2.3" x2="-3.8" y2="1.03" width="0.12" layer="51"/>
+<wire x1="-3.8" y1="1.03" x2="-2.53" y2="2.3" width="0.12" layer="51"/>
+<wire x1="-2.53" y1="2.3" x2="3.8" y2="2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="2.3" x2="3.8" y2="-2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="-2.3" x2="-3.8" y2="-2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="2.3" x2="-4.485" y2="2.3" width="0.12" layer="21"/>
+<wire x1="-4.485" y1="2.3" x2="-4.485" y2="-2.3" width="0.12" layer="21"/>
+<wire x1="-4.485" y1="-2.3" x2="3.8" y2="-2.3" width="0.12" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP7343X430_HS">
+<description>Capacitor, Polarized, Molded Body;7.30 mm L X 4.30 mm W X 4.30 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-3.12" y="0" dx="2.37" dy="2.43" layer="1" roundness="21" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="3.12" y="0" dx="2.37" dy="2.43" layer="1" roundness="21" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-3.12" y="1.215"/>
+<vertex x="-2.185" y="1.215" curve="-90"/>
+<vertex x="-1.935" y="0.965"/>
+<vertex x="-1.935" y="-0.965" curve="-90"/>
+<vertex x="-2.185" y="-1.215"/>
+<vertex x="-4.055" y="-1.215" curve="-90"/>
+<vertex x="-4.305" y="-0.965"/>
+<vertex x="-4.305" y="0.965" curve="-90"/>
+<vertex x="-4.055" y="1.215"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.12" y="1.215"/>
+<vertex x="-2.185" y="1.215" curve="-90"/>
+<vertex x="-1.935" y="0.965"/>
+<vertex x="-1.935" y="-0.965" curve="-90"/>
+<vertex x="-2.185" y="-1.215"/>
+<vertex x="-4.055" y="-1.215" curve="-90"/>
+<vertex x="-4.305" y="-0.965"/>
+<vertex x="-4.305" y="0.965" curve="-90"/>
+<vertex x="-4.055" y="1.215"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="3.12" y="-1.215"/>
+<vertex x="2.185" y="-1.215" curve="-90"/>
+<vertex x="1.935" y="-0.965"/>
+<vertex x="1.935" y="0.965" curve="-90"/>
+<vertex x="2.185" y="1.215"/>
+<vertex x="4.055" y="1.215" curve="-90"/>
+<vertex x="4.305" y="0.965"/>
+<vertex x="4.305" y="-0.965" curve="-90"/>
+<vertex x="4.055" y="-1.215"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.12" y="-1.215"/>
+<vertex x="2.185" y="-1.215" curve="-90"/>
+<vertex x="1.935" y="-0.965"/>
+<vertex x="1.935" y="0.965" curve="-90"/>
+<vertex x="2.185" y="1.215"/>
+<vertex x="4.055" y="1.215" curve="-90"/>
+<vertex x="4.305" y="0.965"/>
+<vertex x="4.305" y="-0.965" curve="-90"/>
+<vertex x="4.055" y="-1.215"/>
+</polygon>
+<wire x1="-3.8" y1="1.03" x2="-3.8" y2="2.3" width="0.001" layer="51"/>
+<wire x1="-3.8" y1="2.3" x2="-2.53" y2="2.3" width="0.001" layer="51"/>
+<wire x1="-4.56" y1="-2.55" x2="-4.56" y2="2.55" width="0.05" layer="39"/>
+<wire x1="-4.56" y1="2.55" x2="4.56" y2="2.55" width="0.05" layer="39"/>
+<wire x1="4.56" y1="2.55" x2="4.56" y2="-2.55" width="0.05" layer="39"/>
+<wire x1="4.56" y1="-2.55" x2="-4.56" y2="-2.55" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-3.8" y1="-2.3" x2="-3.8" y2="1.03" width="0.12" layer="51"/>
+<wire x1="-3.8" y1="1.03" x2="-2.53" y2="2.3" width="0.12" layer="51"/>
+<wire x1="-2.53" y1="2.3" x2="3.8" y2="2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="2.3" x2="3.8" y2="-2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="-2.3" x2="-3.8" y2="-2.3" width="0.12" layer="51"/>
+<wire x1="3.8" y1="2.3" x2="-4.485" y2="2.3" width="0.12" layer="21"/>
+<wire x1="-4.485" y1="2.3" x2="-4.485" y2="-2.3" width="0.12" layer="21"/>
+<wire x1="-4.485" y1="-2.3" x2="3.8" y2="-2.3" width="0.12" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CAPMP7360X380_HS">
+<description>Capacitor, Polarized, Molded Body;7.30 mm L X 6.00 mm W X 3.80 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-3.12" y="0" dx="2.37" dy="4.13" layer="1" roundness="21" rot="R180" stop="no" cream="no"/>
+<smd name="2" x="3.12" y="0" dx="2.37" dy="4.13" layer="1" roundness="21" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-3.12" y="2.065"/>
+<vertex x="-2.185" y="2.065" curve="-90"/>
+<vertex x="-1.935" y="1.815"/>
+<vertex x="-1.935" y="-1.815" curve="-90"/>
+<vertex x="-2.185" y="-2.065"/>
+<vertex x="-4.055" y="-2.065" curve="-90"/>
+<vertex x="-4.305" y="-1.815"/>
+<vertex x="-4.305" y="1.815" curve="-90"/>
+<vertex x="-4.055" y="2.065"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.12" y="2.065"/>
+<vertex x="-2.185" y="2.065" curve="-90"/>
+<vertex x="-1.935" y="1.815"/>
+<vertex x="-1.935" y="-1.815" curve="-90"/>
+<vertex x="-2.185" y="-2.065"/>
+<vertex x="-4.055" y="-2.065" curve="-90"/>
+<vertex x="-4.305" y="-1.815"/>
+<vertex x="-4.305" y="1.815" curve="-90"/>
+<vertex x="-4.055" y="2.065"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="3.12" y="-2.065"/>
+<vertex x="2.185" y="-2.065" curve="-90"/>
+<vertex x="1.935" y="-1.815"/>
+<vertex x="1.935" y="1.815" curve="-90"/>
+<vertex x="2.185" y="2.065"/>
+<vertex x="4.055" y="2.065" curve="-90"/>
+<vertex x="4.305" y="1.815"/>
+<vertex x="4.305" y="-1.815" curve="-90"/>
+<vertex x="4.055" y="-2.065"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.12" y="-2.065"/>
+<vertex x="2.185" y="-2.065" curve="-90"/>
+<vertex x="1.935" y="-1.815"/>
+<vertex x="1.935" y="1.815" curve="-90"/>
+<vertex x="2.185" y="2.065"/>
+<vertex x="4.055" y="2.065" curve="-90"/>
+<vertex x="4.305" y="1.815"/>
+<vertex x="4.305" y="-1.815" curve="-90"/>
+<vertex x="4.055" y="-2.065"/>
+</polygon>
+<wire x1="-3.8" y1="1.88" x2="-3.8" y2="3.15" width="0.001" layer="51"/>
+<wire x1="-3.8" y1="3.15" x2="-2.53" y2="3.15" width="0.001" layer="51"/>
+<wire x1="-4.56" y1="-3.4" x2="-4.56" y2="3.4" width="0.05" layer="39"/>
+<wire x1="-4.56" y1="3.4" x2="4.56" y2="3.4" width="0.05" layer="39"/>
+<wire x1="4.56" y1="3.4" x2="4.56" y2="-3.4" width="0.05" layer="39"/>
+<wire x1="4.56" y1="-3.4" x2="-4.56" y2="-3.4" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-3.8" y1="-3.15" x2="-3.8" y2="1.88" width="0.12" layer="51"/>
+<wire x1="-3.8" y1="1.88" x2="-2.53" y2="3.15" width="0.12" layer="51"/>
+<wire x1="-2.53" y1="3.15" x2="3.8" y2="3.15" width="0.12" layer="51"/>
+<wire x1="3.8" y1="3.15" x2="3.8" y2="-3.15" width="0.12" layer="51"/>
+<wire x1="3.8" y1="-3.15" x2="-3.8" y2="-3.15" width="0.12" layer="51"/>
+<wire x1="3.8" y1="3.15" x2="-4.485" y2="3.15" width="0.12" layer="21"/>
+<wire x1="-4.485" y1="3.15" x2="-4.485" y2="-3.15" width="0.12" layer="21"/>
+<wire x1="-4.485" y1="-3.15" x2="3.8" y2="-3.15" width="0.12" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CK_KMR211GLSR">
+<description>Tactile SMT Switch;5 pin,4.20 mm L X 2.80 mm W X 1.90 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="2.05" y="0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="5" x="0" y="1.425" dx="1.7" dy="0.55" layer="1" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-2.5" y="0.3"/>
+<vertex x="-2.5" y="1.3"/>
+<vertex x="-1.6" y="1.3"/>
+<vertex x="-1.6" y="0.3"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-2.5" y="0.3"/>
+<vertex x="-2.5" y="1.3"/>
+<vertex x="-1.6" y="1.3"/>
+<vertex x="-1.6" y="0.3"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-2.5" y="-1.3"/>
+<vertex x="-2.5" y="-0.3"/>
+<vertex x="-1.6" y="-0.3"/>
+<vertex x="-1.6" y="-1.3"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-2.5" y="-1.3"/>
+<vertex x="-2.5" y="-0.3"/>
+<vertex x="-1.6" y="-0.3"/>
+<vertex x="-1.6" y="-1.3"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.6" y="-1.3"/>
+<vertex x="1.6" y="-0.3"/>
+<vertex x="2.5" y="-0.3"/>
+<vertex x="2.5" y="-1.3"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.6" y="-1.3"/>
+<vertex x="1.6" y="-0.3"/>
+<vertex x="2.5" y="-0.3"/>
+<vertex x="2.5" y="-1.3"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.6" y="0.3"/>
+<vertex x="1.6" y="1.3"/>
+<vertex x="2.5" y="1.3"/>
+<vertex x="2.5" y="0.3"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.6" y="0.3"/>
+<vertex x="1.6" y="1.3"/>
+<vertex x="2.5" y="1.3"/>
+<vertex x="2.5" y="0.3"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-0.85" y="1.15"/>
+<vertex x="-0.85" y="1.7"/>
+<vertex x="0.85" y="1.7"/>
+<vertex x="0.85" y="1.15"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.85" y="1.15"/>
+<vertex x="-0.85" y="1.7"/>
+<vertex x="0.85" y="1.7"/>
+<vertex x="0.85" y="1.15"/>
+</polygon>
+<wire x1="-2.1" y1="0.4667" x2="-2.1" y2="1.4" width="0.001" layer="51"/>
+<wire x1="-2.1" y1="1.4" x2="-1.1667" y2="1.4" width="0.001" layer="51"/>
+<wire x1="-2.75" y1="-1.65" x2="-2.75" y2="1.95" width="0.05" layer="39"/>
+<wire x1="-2.75" y1="1.95" x2="2.75" y2="1.95" width="0.05" layer="39"/>
+<wire x1="2.75" y1="1.95" x2="2.75" y2="-1.65" width="0.05" layer="39"/>
+<wire x1="2.75" y1="-1.65" x2="-2.75" y2="-1.65" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-1.42" y1="-1.46" x2="1.42" y2="-1.46" width="0.12" layer="21"/>
+<wire x1="1.03" y1="1.46" x2="1.42" y2="1.46" width="0.12" layer="21"/>
+<wire x1="-2.1" y1="-1.4" x2="-2.1" y2="0.4667" width="0.12" layer="51"/>
+<wire x1="-2.1" y1="0.4667" x2="-1.1667" y2="1.4" width="0.12" layer="51"/>
+<wire x1="-1.1667" y1="1.4" x2="2.1" y2="1.4" width="0.12" layer="51"/>
+<wire x1="2.1" y1="1.4" x2="2.1" y2="-1.4" width="0.12" layer="51"/>
+<wire x1="2.1" y1="-1.4" x2="-2.1" y2="-1.4" width="0.12" layer="51"/>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
 </package>
 <package name="DIOM5436X330_HS">
 <description>Diode, Molded Body;5.40 mm L X 3.62 mm W X 3.30 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -708,6 +1554,69 @@
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="MURATA_CSTCEXXMYYV53-R0">
+<description>Resonator;3 pin,3.20 mm L X 1.30 mm W X 1.00 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-0.95" y="0" dx="2" dy="0.7" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="2" x="0" y="0" dx="2" dy="0.5" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="3" x="0.95" y="0" dx="2" dy="0.7" layer="1" rot="R90" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-0.6" y="-1"/>
+<vertex x="-1.3" y="-1"/>
+<vertex x="-1.3" y="1"/>
+<vertex x="-0.6" y="1"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.6" y="-1"/>
+<vertex x="-1.3" y="-1"/>
+<vertex x="-1.3" y="1"/>
+<vertex x="-0.6" y="1"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="0.25" y="-1"/>
+<vertex x="-0.25" y="-1"/>
+<vertex x="-0.25" y="1"/>
+<vertex x="0.25" y="1"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="0.25" y="-1"/>
+<vertex x="-0.25" y="-1"/>
+<vertex x="-0.25" y="1"/>
+<vertex x="0.25" y="1"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.3" y="-1"/>
+<vertex x="0.6" y="-1"/>
+<vertex x="0.6" y="1"/>
+<vertex x="1.3" y="1"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.3" y="-1"/>
+<vertex x="0.6" y="-1"/>
+<vertex x="0.6" y="1"/>
+<vertex x="1.3" y="1"/>
+</polygon>
+<wire x1="-1.6" y1="-0.2167" x2="-1.6" y2="0.2167" width="0.001" layer="51"/>
+<wire x1="-1.7" y1="-1.1" x2="-1.7" y2="1.1" width="0.05" layer="39"/>
+<wire x1="-1.7" y1="1.1" x2="1.7" y2="1.1" width="0.05" layer="39"/>
+<wire x1="1.7" y1="1.1" x2="1.7" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="1.7" y1="-1.1" x2="-1.7" y2="-1.1" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-1.66" y1="-0.71" x2="-1.66" y2="-0.2367" width="0.12" layer="21"/>
+<wire x1="1.66" y1="-0.71" x2="1.66" y2="0.71" width="0.12" layer="21"/>
+<wire x1="-1.66" y1="0.2367" x2="-1.66" y2="0.71" width="0.12" layer="21"/>
+<wire x1="1.6" y1="-0.65" x2="-1.6" y2="-0.65" width="0.12" layer="51"/>
+<wire x1="-1.6" y1="-0.65" x2="-1.6" y2="-0.2167" width="0.12" layer="51"/>
+<wire x1="-1.6" y1="-0.2167" x2="-1.1667" y2="0" width="0.12" layer="51"/>
+<wire x1="-1.1667" y1="0" x2="-1.6" y2="0.2167" width="0.12" layer="51"/>
+<wire x1="-1.6" y1="0.2167" x2="-1.6" y2="0.65" width="0.12" layer="51"/>
+<wire x1="-1.6" y1="0.65" x2="1.6" y2="0.65" width="0.12" layer="51"/>
+<wire x1="1.6" y1="0.65" x2="1.6" y2="-0.65" width="0.12" layer="51"/>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="0" y="0" size="0.82" layer="51" font="vector" ratio="10">&gt;NAME</text>
+</package>
 <package name="RESC1608X55_HS">
 <description>Resistor, Chip;1.60 mm L X 0.80 mm W X 0.55 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-0.82" y="0" dx="0.79" dy="0.93" layer="1" roundness="51" rot="R180" stop="no" cream="no"/>
@@ -982,156 +1891,6 @@
 <text x="0" y="0" size="1.32" layer="51" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-</package>
-<package name="CK_KMR211GLSR_HS">
-<description>Tactile SMT Switch;5 pin,4.20 mm L X 2.80 mm W X 1.90 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<smd name="1" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="3" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="4" x="2.05" y="0.8" dx="0.9" dy="1" layer="1" stop="no" cream="no"/>
-<smd name="5" x="0" y="1.425" dx="1.7" dy="0.55" layer="1" stop="no" cream="no"/>
-<polygon width="0.01" layer="29">
-<vertex x="-2.5" y="0.3"/>
-<vertex x="-2.5" y="1.3"/>
-<vertex x="-1.6" y="1.3"/>
-<vertex x="-1.6" y="0.3"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.5" y="0.3"/>
-<vertex x="-2.5" y="1.3"/>
-<vertex x="-1.6" y="1.3"/>
-<vertex x="-1.6" y="0.3"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-2.5" y="-1.3"/>
-<vertex x="-2.5" y="-0.3"/>
-<vertex x="-1.6" y="-0.3"/>
-<vertex x="-1.6" y="-1.3"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.5" y="-1.3"/>
-<vertex x="-2.5" y="-0.3"/>
-<vertex x="-1.6" y="-0.3"/>
-<vertex x="-1.6" y="-1.3"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="1.6" y="-1.3"/>
-<vertex x="1.6" y="-0.3"/>
-<vertex x="2.5" y="-0.3"/>
-<vertex x="2.5" y="-1.3"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.6" y="-1.3"/>
-<vertex x="1.6" y="-0.3"/>
-<vertex x="2.5" y="-0.3"/>
-<vertex x="2.5" y="-1.3"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="1.6" y="0.3"/>
-<vertex x="1.6" y="1.3"/>
-<vertex x="2.5" y="1.3"/>
-<vertex x="2.5" y="0.3"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.6" y="0.3"/>
-<vertex x="1.6" y="1.3"/>
-<vertex x="2.5" y="1.3"/>
-<vertex x="2.5" y="0.3"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-0.85" y="1.15"/>
-<vertex x="-0.85" y="1.7"/>
-<vertex x="0.85" y="1.7"/>
-<vertex x="0.85" y="1.15"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.85" y="1.15"/>
-<vertex x="-0.85" y="1.7"/>
-<vertex x="0.85" y="1.7"/>
-<vertex x="0.85" y="1.15"/>
-</polygon>
-<wire x1="-2.1" y1="0.4667" x2="-2.1" y2="1.4" width="0.001" layer="51"/>
-<wire x1="-2.1" y1="1.4" x2="-1.1667" y2="1.4" width="0.001" layer="51"/>
-<wire x1="-2.75" y1="-1.65" x2="-2.75" y2="1.95" width="0.05" layer="39"/>
-<wire x1="-2.75" y1="1.95" x2="2.75" y2="1.95" width="0.05" layer="39"/>
-<wire x1="2.75" y1="1.95" x2="2.75" y2="-1.65" width="0.05" layer="39"/>
-<wire x1="2.75" y1="-1.65" x2="-2.75" y2="-1.65" width="0.05" layer="39"/>
-<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
-<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
-<wire x1="-1.42" y1="-1.46" x2="1.42" y2="-1.46" width="0.12" layer="21"/>
-<wire x1="1.03" y1="1.46" x2="1.42" y2="1.46" width="0.12" layer="21"/>
-<wire x1="-2.1" y1="-1.4" x2="-2.1" y2="0.4667" width="0.12" layer="51"/>
-<wire x1="-2.1" y1="0.4667" x2="-1.1667" y2="1.4" width="0.12" layer="51"/>
-<wire x1="-1.1667" y1="1.4" x2="2.1" y2="1.4" width="0.12" layer="51"/>
-<wire x1="2.1" y1="1.4" x2="2.1" y2="-1.4" width="0.12" layer="51"/>
-<wire x1="2.1" y1="-1.4" x2="-2.1" y2="-1.4" width="0.12" layer="51"/>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
-</package>
-<package name="MURATA_CSTCEXXMYYV53-R0_HS">
-<description>Resonator;3 pin,3.20 mm L X 1.30 mm W X 1.00 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<smd name="1" x="-0.95" y="0" dx="2" dy="0.7" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0" y="0" dx="2" dy="0.5" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="3" x="0.95" y="0" dx="2" dy="0.7" layer="1" rot="R90" stop="no" cream="no"/>
-<polygon width="0.01" layer="29">
-<vertex x="-0.6" y="-1"/>
-<vertex x="-1.3" y="-1"/>
-<vertex x="-1.3" y="1"/>
-<vertex x="-0.6" y="1"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.6" y="-1"/>
-<vertex x="-1.3" y="-1"/>
-<vertex x="-1.3" y="1"/>
-<vertex x="-0.6" y="1"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="0.25" y="-1"/>
-<vertex x="-0.25" y="-1"/>
-<vertex x="-0.25" y="1"/>
-<vertex x="0.25" y="1"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.25" y="-1"/>
-<vertex x="-0.25" y="-1"/>
-<vertex x="-0.25" y="1"/>
-<vertex x="0.25" y="1"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="1.3" y="-1"/>
-<vertex x="0.6" y="-1"/>
-<vertex x="0.6" y="1"/>
-<vertex x="1.3" y="1"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.3" y="-1"/>
-<vertex x="0.6" y="-1"/>
-<vertex x="0.6" y="1"/>
-<vertex x="1.3" y="1"/>
-</polygon>
-<wire x1="-1.6" y1="-0.2167" x2="-1.6" y2="0.2167" width="0.001" layer="51"/>
-<wire x1="-1.7" y1="-1.1" x2="-1.7" y2="1.1" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="1.1" x2="1.7" y2="1.1" width="0.05" layer="39"/>
-<wire x1="1.7" y1="1.1" x2="1.7" y2="-1.1" width="0.05" layer="39"/>
-<wire x1="1.7" y1="-1.1" x2="-1.7" y2="-1.1" width="0.05" layer="39"/>
-<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
-<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
-<wire x1="-1.66" y1="-0.71" x2="-1.66" y2="-0.2367" width="0.12" layer="21"/>
-<wire x1="1.66" y1="-0.71" x2="1.66" y2="0.71" width="0.12" layer="21"/>
-<wire x1="-1.66" y1="0.2367" x2="-1.66" y2="0.71" width="0.12" layer="21"/>
-<wire x1="1.6" y1="-0.65" x2="-1.6" y2="-0.65" width="0.12" layer="51"/>
-<wire x1="-1.6" y1="-0.65" x2="-1.6" y2="-0.2167" width="0.12" layer="51"/>
-<wire x1="-1.6" y1="-0.2167" x2="-1.1667" y2="0" width="0.12" layer="51"/>
-<wire x1="-1.1667" y1="0" x2="-1.6" y2="0.2167" width="0.12" layer="51"/>
-<wire x1="-1.6" y1="0.2167" x2="-1.6" y2="0.65" width="0.12" layer="51"/>
-<wire x1="-1.6" y1="0.65" x2="1.6" y2="0.65" width="0.12" layer="51"/>
-<wire x1="1.6" y1="0.65" x2="1.6" y2="-0.65" width="0.12" layer="51"/>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="0" y="0" size="0.82" layer="51" font="vector" ratio="10">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
