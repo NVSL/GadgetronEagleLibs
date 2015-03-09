@@ -15726,7 +15726,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="_BASE-RESONATOR_">
+<deviceset name="_BASE-RESONATOR_" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="_BASE-RESONATOR_" x="0" y="0"/>
 </gates>
@@ -15796,7 +15796,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="_BASE-DIODE-LED_">
+<deviceset name="_BASE-DIODE-LED_" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="_BASE-DIODE-LED_" x="-2.54" y="0"/>
 </gates>
@@ -15860,7 +15860,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="_BASE-CAPACITOR-POL_">
+<deviceset name="_BASE-CAPACITOR-POL_" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="_BASE-CAPACITOR-POL_" x="0" y="0"/>
 </gates>
@@ -16167,7 +16167,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="_BASE-DIODE-SCHOTTKY_">
+<deviceset name="_BASE-DIODE-SCHOTTKY_" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="_BASE-DIODE-SCHOTTKY_" x="0" y="0"/>
 </gates>
@@ -16294,7 +16294,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="_BASE-DIODE-ZENER_">
+<deviceset name="_BASE-DIODE-ZENER_" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="_BASE-DIODE-ZENER_" x="0" y="0"/>
 </gates>
@@ -16427,7 +16427,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="_BASE-DIODE_">
+<deviceset name="_BASE-DIODE_" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="_BASE-DIODE_" x="0" y="0"/>
 </gates>
@@ -16560,7 +16560,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="_BASE-CAPACITOR-NP_">
+<deviceset name="_BASE-CAPACITOR-NP_" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="_BASE-CAPACITOR-NP_" x="0" y="0"/>
 </gates>
@@ -16747,7 +16747,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="_BASE-RESISTOR_">
+<deviceset name="_BASE-RESISTOR_" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="_BASE-RESISTOR_" x="0" y="0"/>
 </gates>
