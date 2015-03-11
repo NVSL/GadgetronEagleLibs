@@ -1200,8 +1200,8 @@ The radius of the faceplate opening is 0.5mm larger than it "should" be to allow
 <wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
 <wire x1="-2.5908" y1="1.7272" x2="-1.8542" y2="1.7272" width="0.127" layer="21"/>
 <wire x1="-2.2352" y1="1.3208" x2="-2.2352" y2="2.1082" width="0.127" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="square"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764"/>
 <text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="0" radius="1.6" width="0.127" layer="150"/>
@@ -1218,8 +1218,8 @@ The radius of the faceplate opening is 0.5mm larger than it "should" be to allow
 <wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="square"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764"/>
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="0" radius="2.7" width="0.127" layer="150"/>
@@ -1236,8 +1236,8 @@ The radius of the faceplate opening is 0.5mm larger than it "should" be to allow
 <wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="square"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764"/>
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -1253,8 +1253,8 @@ The radius of the faceplate opening is 0.5mm larger than it "should" be to allow
 <wire x1="-3.1115" y1="0" x2="0" y2="3.1115" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="0" y1="-3.1115" x2="3.1115" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
 <circle x="0" y="0" radius="3.5" width="0.1524" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="square"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764"/>
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="0" radius="5" width="0.127" layer="150"/>
