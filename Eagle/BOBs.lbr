@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1049,28 +1049,28 @@ SIM Card</text>
 <wire x1="9.779" y1="7.62" x2="11.684" y2="7.62" width="0.1524" layer="21"/>
 <wire x1="15.621" y1="7.62" x2="13.716" y2="7.62" width="0.1524" layer="21"/>
 <wire x1="11.684" y1="7.62" x2="13.716" y2="7.62" width="0.1524" layer="21" curve="-180"/>
-<wire x1="5.588" y1="20.32" x2="6.477" y2="19.558" width="0.1524" layer="121"/>
-<wire x1="18.669" y1="19.812" x2="19.304" y2="20.447" width="0.1524" layer="121"/>
-<wire x1="5.842" y1="4.826" x2="6.731" y2="5.588" width="0.1524" layer="121"/>
-<wire x1="19.177" y1="4.191" x2="18.669" y2="5.334" width="0.16" layer="121"/>
-<text x="16.9545" y="3.937" size="1" layer="121">U+</text>
-<text x="12.192" y="3.937" size="1" layer="121">1</text>
-<text x="9.779" y="3.937" size="1" layer="121">2</text>
-<text x="6.985" y="3.937" size="1" layer="121">V+</text>
-<text x="14.732" y="3.937" size="1" layer="121">0</text>
-<text x="7.1755" y="20.32" size="1" layer="121">R</text>
-<text x="9.652" y="20.32" size="1" layer="121">3</text>
-<text x="12.192" y="20.32" size="1" layer="121">4</text>
-<text x="14.5415" y="20.32" size="1" layer="121">G</text>
-<text x="16.764" y="20.32" size="1" layer="121">B+</text>
-<text x="0.81" y="0.607" size="1" layer="121">SRD 8/14</text>
-<text x="3.14" y="24" size="1" layer="121">UCSD NVSL Gadgetron</text>
-<text x="33.311" y="0.498" size="1.5" layer="121">TRINKET</text>
-<text x="42.291" y="22.8092" size="1" layer="121" align="center">J2</text>
-<text x="42.0624" y="21.1836" size="1.016" layer="121">+</text>
-<text x="42.1172" y="19.812" size="1.27" layer="121">-</text>
-<text x="40.3124" y="8.9736" size="1.016" layer="121">+</text>
-<text x="40.4272" y="8.192" size="1.27" layer="121">-</text>
+<wire x1="5.588" y1="20.32" x2="6.477" y2="19.558" width="0.1524" layer="21"/>
+<wire x1="18.669" y1="19.812" x2="19.304" y2="20.447" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="4.826" x2="6.731" y2="5.588" width="0.1524" layer="21"/>
+<wire x1="19.177" y1="4.191" x2="18.669" y2="5.334" width="0.16" layer="21"/>
+<text x="16.9545" y="3.937" size="1" layer="21">U+</text>
+<text x="12.192" y="3.937" size="1" layer="21">1</text>
+<text x="9.779" y="3.937" size="1" layer="21">2</text>
+<text x="6.985" y="3.937" size="1" layer="21">V+</text>
+<text x="14.732" y="3.937" size="1" layer="21">0</text>
+<text x="7.1755" y="20.32" size="1" layer="21">R</text>
+<text x="9.652" y="20.32" size="1" layer="21">3</text>
+<text x="12.192" y="20.32" size="1" layer="21">4</text>
+<text x="14.5415" y="20.32" size="1" layer="21">G</text>
+<text x="16.764" y="20.32" size="1" layer="21">B+</text>
+<text x="0.81" y="0.607" size="1" layer="21">SRD 8/14</text>
+<text x="3.14" y="24" size="1" layer="21">UCSD NVSL Gadgetron</text>
+<text x="33.311" y="0.498" size="1.5" layer="21">TRINKET</text>
+<text x="42.291" y="22.8092" size="1" layer="21" align="center">J2</text>
+<text x="42.0624" y="21.1836" size="1.016" layer="21">+</text>
+<text x="42.1172" y="19.812" size="1.27" layer="21">-</text>
+<text x="40.3124" y="8.9736" size="1.016" layer="21">+</text>
+<text x="40.4272" y="8.192" size="1.27" layer="21">-</text>
 <hole x="25.4" y="18.415" drill="2"/>
 <hole x="25.4" y="6.985" drill="2"/>
 <rectangle x1="0" y1="9" x2="7.5" y2="16.5" layer="150"/>
