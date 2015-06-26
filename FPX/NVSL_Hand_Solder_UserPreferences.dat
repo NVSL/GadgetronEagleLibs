@@ -1,4 +1,4 @@
-<FPX_UserProfile Version="FPX 2014">
+<FPX_UserProfile Version="FPX 2014"> 
   <!--Numeric references are in micrometers x 100; 100000 = 1.0mm-->
   <RulePreferences MinPadToPad="15000" MinPadToTab="20000" MinSMWeb="8000" GangMask="Contour" MinTrimAtA1="0" CornerSizePct="25" CornerSizeLimit="25000" CornerRound="1000" TabMaskOversize="0" TabStencilOversize="50" />
   <DraftingPreferences AssyOutlineWidth="12000" AssyOutlineMap="Maximum" AssyOutlinePlaceRnd="1000" AssyRefDesMinHeight="50000" AssyRefDesMaxHeight="200000" AssyRefDesWidthRatio="10" CourtyardOutlineWidth="5000" IncludeCentroidCrosshair="True" ExpandCY="True" IncludeCourtyard="True" ModelOutlineWidth="100" IncludeModelOtl="True" TermOutlineWidth="100" IncludeTermOtlID="False">
