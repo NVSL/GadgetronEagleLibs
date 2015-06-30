@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2484,6 +2484,14 @@
 <vertex x="-2.8093" y="-0.0101" curve="-90.012967"/>
 </polygon>
 </package>
+<package name="ADAFRUIT-3/4&quot;-CASTER">
+<circle x="0" y="0" radius="9.525" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="11.1125" width="0.127" layer="21"/>
+<hole x="-7.62" y="0" drill="2.38125"/>
+<hole x="7.62" y="0" drill="2.38125"/>
+</package>
+<package name="CASTER">
+</package>
 </packages>
 <symbols>
 <symbol name="SOLARBOTICS_G2">
@@ -2760,6 +2768,15 @@
 <text x="6.35" y="0" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="CASTER">
+<wire x1="-10.16" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="-12.7" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="8.89" width="0.254" layer="94"/>
+<wire x1="12.7" y1="8.89" x2="-12.7" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="8.89" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<text x="0" y="6.35" size="2.54" layer="94" align="center">Caster</text>
+<text x="0" y="2.54" size="2.54" layer="94" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3603,6 +3620,18 @@
 <technology name="">
 <attribute name="PROD_ID" value="COMP-08253" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CASTER" prefix="CASTER">
+<gates>
+<gate name="G$1" symbol="CASTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ADAFRUIT-3/4&quot;-CASTER">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
