@@ -11,4 +11,4 @@ NVSL-TH-Passives
 NVSL-Hand-Solder-UserPreferences was used with each to build the .lbr files.  Internal IPC defaults were used with these.  The UserPreferences file eliminated the pin 1 dot everywhere, and otherwise used the maximal IPC settings.  We may need to tune this over time to get better hand soldering yield.
 
 062515:  Rebuilt all decals with PCBLE 2015.15.7  Using default Nominal settings with pin 1 marked.
-000215:  Cleaned up atttributes, and symbols for Koala and merged NVSL lib into it.  Back annotated all Koala changes to NVSL lib.
+000215:  Cleaned up attributes, and symbols for Koala and merged NVSL lib into it.  Back annotated all Koala changes to NVSL lib.
