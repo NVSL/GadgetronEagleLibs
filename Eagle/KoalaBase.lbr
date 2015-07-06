@@ -61217,6 +61217,21 @@ http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-
 </technology>
 </technologies>
 </device>
+<device name="SMD-SOIC8-JEDEC" package="SOIC127P600X175-8L86_HS">
+<connects>
+<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1)PB1" pad="6"/>
+<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/OC1AN/AREF/PCINT0)PB0" pad="5"/>
+<connect gate="G$1" pin="(RESETN/DW/ADC0/PCINT5)PB5" pad="1"/>
+<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)PB2" pad="7"/>
+<connect gate="G$1" pin="(XTAL1/CLKI/OC1BN/ADC3/PCINT3)PB3" pad="2"/>
+<connect gate="G$1" pin="(XTAL2/CLKO/OC1B/ADC2/PCINT4)PB4" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="_BASE-MICREL-2951-REG_" prefix="U" uservalue="yes">
