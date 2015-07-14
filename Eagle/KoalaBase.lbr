@@ -60635,6 +60635,7 @@ tails</text>
 <attribute name="DESC" value="" constant="no"/>
 <attribute name="DIST1" value="" constant="no"/>
 <attribute name="DIST1PN" value="" constant="no"/>
+<attribute name="IRECT" value="" constant="no"/>
 <attribute name="MFR" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="RECOV" value="" constant="no"/>

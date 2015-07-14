@@ -51,8 +51,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -2686,6 +2686,48 @@
 <wire x1="4.5" y1="-6.5" x2="-4.5" y2="-6.5" width="0.127" layer="39"/>
 <text x="-3" y="4.5" size="1.27" layer="21">&gt;NAME</text>
 </package>
+<package name="BATTERY_9V_KEYSTONE_968">
+<pad name="N" x="-6.35" y="0" drill="2.2"/>
+<pad name="P" x="6.35" y="0" drill="2.2" shape="octagon"/>
+<wire x1="-6.225" y1="6.225" x2="-6.225" y2="-6.225" width="0.4064" layer="21" curve="180"/>
+<wire x1="-6.225" y1="-6.225" x2="6.225" y2="-6.225" width="0.4064" layer="21"/>
+<wire x1="6.225" y1="-6.225" x2="6.225" y2="6.225" width="0.4064" layer="21" curve="180"/>
+<wire x1="6.225" y1="6.225" x2="-6.225" y2="6.225" width="0.4064" layer="21"/>
+<circle x="6.35" y="0" radius="2.2450625" width="0.4064" layer="21"/>
+<circle x="6.35" y="0" radius="3.54975625" width="0.4064" layer="21"/>
+<circle x="-6.35" y="0" radius="2.86190625" width="0.4064" layer="21"/>
+<circle x="-6.35" y="0" radius="3.54975625" width="0.4064" layer="21"/>
+<wire x1="-7.9375" y1="3.96875" x2="-4.7625" y2="3.96875" width="0.4064" layer="21"/>
+<wire x1="-4.7625" y1="3.96875" x2="-4.7625" y2="3.175" width="0.4064" layer="21"/>
+<wire x1="-4.7625" y1="3.175" x2="-7.9375" y2="3.175" width="0.4064" layer="21"/>
+<wire x1="-7.9375" y1="3.175" x2="-7.9375" y2="3.96875" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="1.5875" x2="-2.38125" y2="1.5875" width="0.4064" layer="21"/>
+<wire x1="-2.38125" y1="1.5875" x2="-2.38125" y2="-1.5875" width="0.4064" layer="21"/>
+<wire x1="-2.38125" y1="-1.5875" x2="-3.175" y2="-1.5875" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="-1.5875" x2="-3.175" y2="1.5875" width="0.4064" layer="21"/>
+<wire x1="-4.7625" y1="-3.96875" x2="-7.9375" y2="-3.96875" width="0.4064" layer="21"/>
+<wire x1="-7.9375" y1="-3.96875" x2="-7.9375" y2="-3.175" width="0.4064" layer="21"/>
+<wire x1="-7.9375" y1="-3.175" x2="-4.7625" y2="-3.175" width="0.4064" layer="21"/>
+<wire x1="-4.7625" y1="-3.175" x2="-4.7625" y2="-3.96875" width="0.4064" layer="21"/>
+<wire x1="-9.525" y1="-1.5875" x2="-10.31875" y2="-1.5875" width="0.4064" layer="21"/>
+<wire x1="-10.31875" y1="-1.5875" x2="-10.31875" y2="1.5875" width="0.4064" layer="21"/>
+<wire x1="-10.31875" y1="1.5875" x2="-9.525" y2="1.5875" width="0.4064" layer="21"/>
+<wire x1="-9.525" y1="1.5875" x2="-9.525" y2="-1.5875" width="0.4064" layer="21"/>
+<wire x1="-13.75" y1="-7.75" x2="-13.75" y2="7.75" width="0.4064" layer="21"/>
+<wire x1="-13.75" y1="7.75" x2="-12.75" y2="8.75" width="0.4064" layer="21" curve="-90"/>
+<wire x1="-12.75" y1="8.75" x2="12.75" y2="8.75" width="0.4064" layer="21"/>
+<wire x1="12.75" y1="8.75" x2="13.75" y2="7.75" width="0.4064" layer="21" curve="-90"/>
+<wire x1="13.75" y1="7.75" x2="13.75" y2="-7.75" width="0.4064" layer="21"/>
+<wire x1="13.75" y1="-7.75" x2="12.75" y2="-8.75" width="0.4064" layer="21" curve="-90"/>
+<wire x1="12.75" y1="-8.75" x2="-12.75" y2="-8.75" width="0.4064" layer="21"/>
+<wire x1="-12.75" y1="-8.75" x2="-13.75" y2="-7.75" width="0.4064" layer="21" curve="-90"/>
+<text x="11" y="5.5" size="2.54" layer="21">+</text>
+<text x="-12.75" y="5.5" size="2.54" layer="21">-</text>
+<wire x1="-15" y1="10" x2="15" y2="10" width="0.4064" layer="39"/>
+<wire x1="15" y1="10" x2="15" y2="-10" width="0.4064" layer="39"/>
+<wire x1="15" y1="-10" x2="-15" y2="-10" width="0.4064" layer="39"/>
+<wire x1="-15" y1="-10" x2="-15" y2="10" width="0.4064" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X2">
@@ -3879,6 +3921,15 @@ Mouser part #12BH412 - but pretty much any 1x AAA battery holder should be the s
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-9V-VERTICAL" package="BATTERY_9V_KEYSTONE_968">
+<connects>
+<connect gate="G$1" pin="+" pad="P"/>
+<connect gate="G$1" pin="-" pad="N"/>
 </connects>
 <technologies>
 <technology name=""/>
