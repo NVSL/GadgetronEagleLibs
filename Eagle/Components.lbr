@@ -4135,6 +4135,11 @@ By SpringRC
 </gates>
 <devices>
 <device name="" package="SM-S3317SR">
+<connects>
+<connect gate="G$1" pin="DATA" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="VCC" pad="P$3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
