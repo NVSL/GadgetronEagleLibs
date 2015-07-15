@@ -2727,6 +2727,45 @@
 <wire x1="15" y1="10" x2="15" y2="-10" width="0.4064" layer="39"/>
 <wire x1="15" y1="-10" x2="-15" y2="-10" width="0.4064" layer="39"/>
 <wire x1="-15" y1="-10" x2="-15" y2="10" width="0.4064" layer="39"/>
+<text x="-2" y="-8" size="1.27" layer="21">&gt;name</text>
+</package>
+<package name="BATTERY_9V_FLAT">
+<pad name="P1" x="-11.495" y="1.45" drill="2.9"/>
+<pad name="P2" x="-6.35" y="7.8" drill="2.9"/>
+<pad name="N2" x="11.495" y="1.45" drill="2.9"/>
+<pad name="N1" x="6.35" y="7.8" drill="2.9"/>
+<wire x1="8.73125" y1="-3" x2="12.25" y2="-3" width="0.127" layer="21"/>
+<wire x1="12.25" y1="-3" x2="13.25" y2="-4" width="0.127" layer="21" curve="-90"/>
+<wire x1="13.25" y1="-4" x2="13.25" y2="-50.5" width="0.127" layer="21"/>
+<wire x1="13.25" y1="-50.5" x2="12.25" y2="-51.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="12.25" y1="-51.5" x2="-12.25" y2="-51.5" width="0.127" layer="21"/>
+<wire x1="-12.25" y1="-51.5" x2="-13.25" y2="-50.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-13.25" y1="-50.5" x2="-13.25" y2="-4" width="0.127" layer="21"/>
+<wire x1="-13.25" y1="-4" x2="-12.25" y2="-3" width="0.127" layer="21" curve="-90"/>
+<wire x1="-12.25" y1="-3" x2="-8.73125" y2="-3" width="0.127" layer="21"/>
+<wire x1="-8.73125" y1="-3" x2="-3.96875" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3.96875" y1="-3" x2="3.96875" y2="-3" width="0.127" layer="21"/>
+<wire x1="3.96875" y1="-3" x2="8.73125" y2="-3" width="0.127" layer="21"/>
+<wire x1="-8.73125" y1="-3" x2="-8.73125" y2="-0.25" width="0.127" layer="21"/>
+<wire x1="-8.73125" y1="-0.25" x2="-8.48125" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="-8.48125" y1="0" x2="-4.21875" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.21875" y1="0" x2="-3.96875" y2="-0.25" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.96875" y1="-0.25" x2="-3.96875" y2="-3" width="0.127" layer="21"/>
+<wire x1="3.96875" y1="-3" x2="3.175" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-1.5875" x2="3.175" y2="-0.25" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-0.25" x2="3.425" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.425" y1="0" x2="9.275" y2="0" width="0.127" layer="21"/>
+<wire x1="9.275" y1="0" x2="9.525" y2="-0.25" width="0.127" layer="21" curve="-90"/>
+<wire x1="9.525" y1="-0.25" x2="9.525" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="9.525" y1="-1.5875" x2="8.73125" y2="-3" width="0.127" layer="21"/>
+<wire x1="-15" y1="-53" x2="15" y2="-53" width="0.127" layer="39"/>
+<wire x1="15" y1="-53" x2="15" y2="12" width="0.127" layer="39"/>
+<wire x1="15" y1="12" x2="-15" y2="12" width="0.127" layer="39"/>
+<wire x1="-15" y1="12" x2="-15" y2="-53" width="0.127" layer="39"/>
+<text x="-13" y="7" size="3.81" layer="21">+</text>
+<text x="11" y="7" size="3.81" layer="21">-</text>
+<text x="-3" y="-29" size="3.81" layer="21">9V</text>
+<text x="-3" y="10" size="1.27" layer="21">&gt;name</text>
 </package>
 </packages>
 <symbols>
@@ -3930,6 +3969,15 @@ Mouser part #12BH412 - but pretty much any 1x AAA battery holder should be the s
 <connects>
 <connect gate="G$1" pin="+" pad="P"/>
 <connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-9V-FLAT" package="BATTERY_9V_FLAT">
+<connects>
+<connect gate="G$1" pin="+" pad="P1 P2"/>
+<connect gate="G$1" pin="-" pad="N1 N2"/>
 </connects>
 <technologies>
 <technology name=""/>
