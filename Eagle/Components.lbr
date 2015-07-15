@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -3065,8 +3065,8 @@
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <text x="-7.62" y="5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<pin name="-" x="-7.62" y="0" visible="off" length="middle"/>
-<pin name="+" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="P" x="-7.62" y="0" visible="off" length="middle"/>
+<pin name="N" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
 <text x="-7.62" y="1.27" size="1.778" layer="94">+</text>
 <text x="3.81" y="1.27" size="1.778" layer="94">-</text>
 </symbol>
@@ -3956,18 +3956,14 @@
 </devices>
 </deviceset>
 <deviceset name="BATTERY" prefix="BATT">
-<description>&lt;b&gt;AAA PC pin holder&lt;/b&gt;
-&lt;p&gt;
-Mouser part #12BH412 - but pretty much any 1x AAA battery holder should be the same 
-&lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="BATTERY" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-TERMINALS" package="BATTERY-SOLDER-TERMINALS">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="N" pad="-"/>
+<connect gate="G$1" pin="P" pad="+"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3975,8 +3971,8 @@ Mouser part #12BH412 - but pretty much any 1x AAA battery holder should be the s
 </device>
 <device name="-HUBSAN-W/HOLDER" package="BATTERY-W/HOLDER-380MAH-HUBSAN">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="N" pad="-"/>
+<connect gate="G$1" pin="P" pad="+"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3984,8 +3980,8 @@ Mouser part #12BH412 - but pretty much any 1x AAA battery holder should be the s
 </device>
 <device name="-9V-VERTICAL" package="BATTERY_9V_KEYSTONE_968">
 <connects>
-<connect gate="G$1" pin="+" pad="P"/>
-<connect gate="G$1" pin="-" pad="N"/>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3993,8 +3989,8 @@ Mouser part #12BH412 - but pretty much any 1x AAA battery holder should be the s
 </device>
 <device name="-9V-FLAT" package="BATTERY_9V_FLAT">
 <connects>
-<connect gate="G$1" pin="+" pad="P1 P2"/>
-<connect gate="G$1" pin="-" pad="N1 N2"/>
+<connect gate="G$1" pin="N" pad="P1 P2"/>
+<connect gate="G$1" pin="P" pad="N1 N2"/>
 </connects>
 <technologies>
 <technology name=""/>
