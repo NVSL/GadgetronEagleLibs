@@ -2767,6 +2767,14 @@
 <text x="-3" y="-29" size="3.81" layer="21">9V</text>
 <text x="-3" y="10" size="1.27" layer="21">&gt;name</text>
 </package>
+<package name="VIBRATING_MOTOR">
+<pad name="+" x="7.3" y="-0.2" drill="1.27" shape="long" rot="R90"/>
+<text x="6.6" y="4.9" size="1.27" layer="25">&lt;NAME</text>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+<pad name="-" x="10.1" y="-0.1" drill="1.27" shape="long" rot="R90"/>
+<text x="6.1" y="1.7" size="1.27" layer="21">+</text>
+<text x="9.1" y="1.9" size="1.27" layer="21">-</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1X2">
@@ -3074,6 +3082,15 @@
 <text x="-6.35" y="-1.905" size="3.81" layer="94">BUMP</text>
 <pin name="A" x="-2.54" y="-7.62" length="middle" rot="R90"/>
 <pin name="B" x="2.54" y="-7.62" length="middle" rot="R90"/>
+</symbol>
+<symbol name="VIBRATING_MOTOR">
+<pin name="VCC" x="-12.7" y="0" length="middle" direction="in"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="in"/>
+<text x="-7.62" y="5.08" size="1" layer="95">&gt;NAME</text>
+<wire x1="-7.62" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4021,6 +4038,30 @@ Mouser part #12BH412 - but pretty much any 1x AAA battery holder should be the s
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="B" pad="B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VIBRATING_MOTOR" prefix="M">
+<description>&lt;b&gt;VIBRATING_MOTOR&lt;/b&gt; - Coin Vibration Motor
+     
+    &lt;p&gt;Technical Specifications:
+    &lt;ul&gt;
+    &lt;li&gt;Voltage: 2.3-5.0V&lt;/li&gt;
+    &lt;li&gt;Current: ~90 mA&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VIBRATING_MOTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VIBRATING_MOTOR">
+<connects>
+<connect gate="G$1" pin="GND" pad="-"/>
+<connect gate="G$1" pin="VCC" pad="+"/>
 </connects>
 <technologies>
 <technology name=""/>
