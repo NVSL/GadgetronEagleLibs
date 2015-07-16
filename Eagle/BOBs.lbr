@@ -6680,17 +6680,6 @@ MHz</text>
 </package>
 </packages>
 <symbols>
-<symbol name="ROTARY-ENCODER-W/BUTTON-ADAFRUIT377">
-<pin name="P$1" x="-12.7" y="2.54" length="middle"/>
-<pin name="P$2" x="-12.7" y="0" length="middle"/>
-<pin name="P$3" x="-12.7" y="-2.54" length="middle"/>
-<pin name="P$4" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="P$5" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-</symbol>
 <symbol name="TS2">
 <wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
