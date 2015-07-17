@@ -4073,6 +4073,7 @@ By SpringRC
 </deviceset>
 <deviceset name="VIBRATING_MOTOR" prefix="M">
 <description>&lt;b&gt;VIBRATING_MOTOR&lt;/b&gt; - Coin Vibration Motor
+
      
     &lt;p&gt;Technical Specifications:
     &lt;ul&gt;
