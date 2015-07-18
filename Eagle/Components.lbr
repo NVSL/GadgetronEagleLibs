@@ -332,7 +332,7 @@
 <wire x1="-15" y1="-53" x2="15" y2="-53" width="0.127" layer="39"/>
 <wire x1="-15" y1="12" x2="-15" y2="-53" width="0.127" layer="39"/>
 <text x="-3" y="-29" size="3.81" layer="21">9V</text>
-<text x="-3" y="10" size="1.27" layer="21">&gt;name</text>
+<text x="-3" y="10" size="1.27" layer="25">&gt;name</text>
 <wire x1="-3.96875" y1="-0.25" x2="-3.96875" y2="-3" width="0.127" layer="21"/>
 <wire x1="-3.96875" y1="-3" x2="3.96875" y2="-3" width="0.127" layer="21"/>
 <wire x1="-4.21875" y1="0" x2="-3.96875" y2="-0.25" width="0.127" layer="21" curve="-90"/>
@@ -2373,7 +2373,6 @@
 <vertex x="20.32" y="8.89"/>
 <vertex x="20.32" y="0"/>
 <vertex x="29.21" y="0"/>
-<vertex x="29.21" y="1.27"/>
 <vertex x="29.21" y="-13.97"/>
 <vertex x="53.34" y="-13.97"/>
 <vertex x="53.34" y="-35.56"/>
