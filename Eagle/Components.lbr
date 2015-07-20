@@ -3,7 +3,7 @@
 <eagle version="7.2.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
@@ -19,6 +19,7 @@
 <layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
 <layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
 <layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
@@ -2762,6 +2763,71 @@
 <pad name="+" x="7.3" y="-0.2" drill="1.27" shape="long" rot="R90"/>
 <pad name="-" x="10.1" y="-0.1" drill="1.27" shape="long" rot="R90"/>
 </package>
+<package name="SIDE_SERVO">
+<wire x1="0" y1="0" x2="0" y2="22.75" width="0.127" layer="21"/>
+<wire x1="0" y1="22.75" x2="0" y2="30" width="0.127" layer="21"/>
+<wire x1="0" y1="30" x2="6.5" y2="30" width="0.127" layer="21"/>
+<wire x1="38" y1="30" x2="44.5" y2="30" width="0.127" layer="21"/>
+<wire x1="44.5" y1="30" x2="44.5" y2="22.75" width="0.127" layer="21"/>
+<wire x1="44.5" y1="22.75" x2="44.5" y2="0" width="0.127" layer="21"/>
+<wire x1="44.5" y1="0" x2="38" y2="0" width="0.127" layer="21"/>
+<wire x1="6.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="6.5" y1="30" x2="6.5" y2="22.75" width="0.127" layer="21"/>
+<wire x1="6.5" y1="22.75" x2="6.5" y2="0" width="0.127" layer="21"/>
+<wire x1="38" y1="30" x2="38" y2="22.75" width="0.127" layer="21"/>
+<circle x="3" y="3.65" radius="1.35" width="0.127" layer="21"/>
+<circle x="3" y="16.05" radius="1.35" width="0.127" layer="21"/>
+<wire x1="38" y1="22.75" x2="38" y2="0" width="0.127" layer="21"/>
+<wire x1="6.5" y1="22.75" x2="0" y2="22.75" width="0.127" layer="21"/>
+<wire x1="44.5" y1="22.75" x2="38" y2="22.75" width="0.127" layer="21"/>
+<circle x="41.65" y="16.05" radius="1.35" width="0.127" layer="21"/>
+<circle x="41.65" y="3.65" radius="1.35" width="0.127" layer="21"/>
+<wire x1="6.4" y1="12.2" x2="37.7" y2="12.2" width="0.127" layer="21"/>
+<wire x1="37.7" y1="12.2" x2="37.7" y2="16.7" width="0.127" layer="21"/>
+<wire x1="37.7" y1="16.7" x2="37.7" y2="21.2" width="0.127" layer="21"/>
+<wire x1="37.7" y1="21.2" x2="37.7" y2="30.5" width="0.127" layer="21"/>
+<wire x1="37.7" y1="30.5" x2="37.7" y2="32.8" width="0.127" layer="21"/>
+<wire x1="37.7" y1="32.8" x2="37.7" y2="40.1" width="0.127" layer="21"/>
+<wire x1="6.4" y1="12.2" x2="6.4" y2="30.5" width="0.127" layer="21"/>
+<wire x1="6.4" y1="30.5" x2="6.4" y2="32.8" width="0.127" layer="21"/>
+<wire x1="6.4" y1="32.8" x2="6.4" y2="35.2" width="0.127" layer="21"/>
+<wire x1="37.7" y1="40.2" x2="34.7" y2="40.2" width="0.127" layer="21"/>
+<wire x1="34.7" y1="40.2" x2="32.4" y2="40.2" width="0.127" layer="21"/>
+<wire x1="32.4" y1="40.2" x2="27.6" y2="40.2" width="0.127" layer="21"/>
+<wire x1="27.6" y1="40.2" x2="25.05" y2="40.2" width="0.127" layer="21"/>
+<wire x1="25.05" y1="40.2" x2="13.8" y2="40.2" width="0.127" layer="21"/>
+<wire x1="6.4" y1="35.2" x2="13.7" y2="40.2" width="0.127" layer="21"/>
+<wire x1="43.5" y1="32.8" x2="43.5" y2="30.5" width="0.127" layer="21"/>
+<wire x1="37.7" y1="30.5" x2="43.5" y2="30.5" width="0.127" layer="21"/>
+<wire x1="37.7" y1="32.8" x2="43.5" y2="32.8" width="0.127" layer="21"/>
+<wire x1="0.7" y1="30.5" x2="6.4" y2="30.5" width="0.127" layer="21"/>
+<wire x1="0.7" y1="32.8" x2="6.4" y2="32.8" width="0.127" layer="21"/>
+<wire x1="0.7" y1="32.8" x2="0.7" y2="30.5" width="0.127" layer="21"/>
+<wire x1="32.4" y1="40.2" x2="32.4" y2="44.87" width="0.127" layer="21"/>
+<wire x1="32.4" y1="44.87" x2="27.6" y2="44.87" width="0.127" layer="21"/>
+<wire x1="27.6" y1="40.2" x2="27.6" y2="44.87" width="0.127" layer="21"/>
+<wire x1="34.7" y1="40.2" x2="34.7" y2="41.6" width="0.127" layer="21"/>
+<wire x1="25.05" y1="40.2" x2="25.05" y2="41.6" width="0.127" layer="21"/>
+<wire x1="25.05" y1="41.6" x2="34.7" y2="41.6" width="0.127" layer="21"/>
+<text x="49.1" y="5.95" size="0.5" layer="21" font="vector">White</text>
+<text x="49.1" y="8.45" size="0.5" layer="21" font="vector">Red</text>
+<text x="49.1" y="10.95" size="0.5" layer="21" font="vector">Black</text>
+<pad name="P$1" x="52.34" y="11.22" drill="0.9"/>
+<pad name="P$2" x="52.34" y="8.68" drill="0.9"/>
+<pad name="P$3" x="52.34" y="6.14" drill="0.9"/>
+<wire x1="38.95" y1="17.05" x2="38.95" y2="19.85" width="0.127" layer="21"/>
+<wire x1="37.7" y1="21.2" x2="38.95" y2="19.85" width="0.127" layer="21"/>
+<wire x1="37.7" y1="16.7" x2="38.95" y2="17.05" width="0.127" layer="21"/>
+<text x="49.3" y="14.8" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="MINI_MOTOR">
+<wire x1="0" y1="0" x2="16.7" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="11.25" width="0.127" layer="21"/>
+<wire x1="0" y1="11.25" x2="16.7" y2="11.25" width="0.127" layer="21"/>
+<wire x1="16.7" y1="0" x2="16.7" y2="11.25" width="0.127" layer="21"/>
+<wire x1="17.3" y1="11.25" x2="17.3" y2="7.2" width="0.127" layer="21"/>
+<wire x1="18" y1="7.2" x2="18" y2="0" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X2">
@@ -3994,6 +4060,16 @@ By SpringRC
 </gates>
 <devices>
 <device name="" package="SM-S3317SR">
+<connects>
+<connect gate="G$1" pin="DATA" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="VCC" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SIDE" package="SIDE_SERVO">
 <connects>
 <connect gate="G$1" pin="DATA" pad="P$1"/>
 <connect gate="G$1" pin="GND" pad="P$2"/>
