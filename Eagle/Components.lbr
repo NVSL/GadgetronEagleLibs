@@ -2775,13 +2775,9 @@
 <wire x1="6.5" y1="30" x2="6.5" y2="22.75" width="0.127" layer="21"/>
 <wire x1="6.5" y1="22.75" x2="6.5" y2="0" width="0.127" layer="21"/>
 <wire x1="38" y1="30" x2="38" y2="22.75" width="0.127" layer="21"/>
-<circle x="3" y="3.65" radius="1.35" width="0.127" layer="21"/>
-<circle x="3" y="16.05" radius="1.35" width="0.127" layer="21"/>
 <wire x1="38" y1="22.75" x2="38" y2="0" width="0.127" layer="21"/>
 <wire x1="6.5" y1="22.75" x2="0" y2="22.75" width="0.127" layer="21"/>
 <wire x1="44.5" y1="22.75" x2="38" y2="22.75" width="0.127" layer="21"/>
-<circle x="41.65" y="16.05" radius="1.35" width="0.127" layer="21"/>
-<circle x="41.65" y="3.65" radius="1.35" width="0.127" layer="21"/>
 <wire x1="6.4" y1="12.2" x2="37.7" y2="12.2" width="0.127" layer="21"/>
 <wire x1="37.7" y1="12.2" x2="37.7" y2="16.7" width="0.127" layer="21"/>
 <wire x1="37.7" y1="16.7" x2="37.7" y2="21.2" width="0.127" layer="21"/>
@@ -2819,6 +2815,10 @@
 <wire x1="37.7" y1="21.2" x2="38.95" y2="19.85" width="0.127" layer="21"/>
 <wire x1="37.7" y1="16.7" x2="38.95" y2="17.05" width="0.127" layer="21"/>
 <text x="49.3" y="14.8" size="1" layer="25">&gt;NAME</text>
+<hole x="3" y="16" drill="2.75"/>
+<hole x="3" y="3.6" drill="2.75"/>
+<hole x="41.7" y="3.6" drill="2.75"/>
+<hole x="41.7" y="16" drill="2.75"/>
 </package>
 <package name="MINI_MOTOR">
 <wire x1="0" y1="0" x2="16.7" y2="0" width="0.127" layer="21"/>
