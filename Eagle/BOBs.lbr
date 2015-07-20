@@ -10396,6 +10396,7 @@ MHz</text>
           </devices>
         </deviceset>
         <deviceset name="ADAFRUIT-LSM9DS0">
+          <description>Adafruit-LSM9DS0</description>
           <gates>
             <gate name="G$1" x="0" y="0" symbol="ADAFRUIT-LSM9DS0"/>
           </gates>
@@ -10419,7 +10420,6 @@ MHz</text>
               </connects>
             </device>
           </devices>
-          <description>Adafruit-LSM9DS0</description>
         </deviceset>
       </devicesets>
     </library>
