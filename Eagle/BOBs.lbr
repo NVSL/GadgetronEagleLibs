@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2071,7 +2071,6 @@ SIM Card</text>
 <rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
 <rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
 <rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
-<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
 <wire x1="-0.457" y1="25.883" x2="-0.457" y2="25.171" width="0.1016" layer="51"/>
 <wire x1="-1.308" y1="25.883" x2="-1.308" y2="25.171" width="0.1016" layer="51"/>
 <rectangle x1="-1.3589" y1="25.8651" x2="-0.4089" y2="26.3652" layer="51"/>
@@ -9758,42 +9757,48 @@ MHz</text>
 <pin name="RX" x="-5.08" y="2.54" length="middle"/>
 </symbol>
 <symbol name="ADAFRUIT-PRO-TRINKET-5V">
-<wire x1="0" y1="0" x2="0" y2="83.82" width="0.254" layer="94"/>
-<wire x1="0" y1="83.82" x2="25.4" y2="83.82" width="0.254" layer="94"/>
-<wire x1="25.4" y1="83.82" x2="25.4" y2="0" width="0.254" layer="94"/>
-<wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="VBAT" x="-5.08" y="81.28" length="middle"/>
-<pin name="GND2" x="-5.08" y="78.74" length="middle"/>
-<pin name="VBUS1" x="-5.08" y="76.2" length="middle"/>
-<pin name="+5V" x="-5.08" y="73.66" length="middle"/>
-<pin name="D8" x="-5.08" y="71.12" length="middle"/>
-<pin name="D6" x="-5.08" y="68.58" length="middle"/>
-<pin name="D5" x="-5.08" y="66.04" length="middle"/>
-<pin name="D4" x="-5.08" y="63.5" length="middle"/>
-<pin name="D3" x="-5.08" y="60.96" length="middle"/>
-<pin name="TXD1" x="-5.08" y="58.42" length="middle"/>
-<pin name="RXD1" x="-5.08" y="55.88" length="middle"/>
-<pin name="RESET" x="-5.08" y="53.34" length="middle"/>
-<pin name="D9" x="-5.08" y="50.8" length="middle"/>
-<pin name="D10" x="-5.08" y="48.26" length="middle"/>
-<pin name="D11" x="-5.08" y="45.72" length="middle"/>
-<pin name="D12" x="-5.08" y="43.18" length="middle"/>
-<pin name="D13" x="-5.08" y="40.64" length="middle"/>
-<pin name="AREF" x="-5.08" y="38.1" length="middle"/>
-<pin name="A0" x="-5.08" y="35.56" length="middle"/>
-<pin name="A1" x="-5.08" y="33.02" length="middle"/>
-<pin name="A2" x="-5.08" y="30.48" length="middle"/>
-<pin name="A3" x="-5.08" y="27.94" length="middle"/>
-<pin name="A4" x="-5.08" y="25.4" length="middle"/>
-<pin name="A5" x="-5.08" y="22.86" length="middle"/>
-<pin name="A6" x="-5.08" y="20.32" length="middle"/>
-<pin name="A7" x="-5.08" y="17.78" length="middle"/>
-<pin name="GND" x="-5.08" y="15.24" length="middle"/>
-<pin name="GND1" x="-5.08" y="12.7" length="middle"/>
-<pin name="VBUS" x="-5.08" y="10.16" length="middle"/>
-<pin name="RXD" x="-5.08" y="7.62" length="middle"/>
-<pin name="TXD" x="-5.08" y="5.08" length="middle"/>
-<pin name="DTR/RTS" x="-5.08" y="2.54" length="middle"/>
+<wire x1="-20.32" y1="-25.4" x2="-20.32" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="22.86" x2="20.32" y2="22.86" width="0.254" layer="94"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-25.4" x2="-20.32" y2="-25.4" width="0.254" layer="94"/>
+<pin name="VBAT" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="GND2" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="VBUS1" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="+5V" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="D8" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="D6" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="D5" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="D4" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="D3" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="TXD1" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="RXD1" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="RESET" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="D9" x="-25.4" y="20.32" length="middle"/>
+<pin name="D10" x="-25.4" y="17.78" length="middle"/>
+<pin name="D11" x="-25.4" y="15.24" length="middle"/>
+<pin name="D12" x="-25.4" y="12.7" length="middle"/>
+<pin name="D13" x="-25.4" y="10.16" length="middle"/>
+<pin name="AREF" x="-25.4" y="7.62" length="middle"/>
+<pin name="A0" x="-25.4" y="5.08" length="middle"/>
+<pin name="A1" x="-25.4" y="0" length="middle"/>
+<pin name="A2" x="-25.4" y="-5.08" length="middle"/>
+<pin name="A3" x="-25.4" y="-7.62" length="middle"/>
+<pin name="A4" x="-25.4" y="-10.16" length="middle"/>
+<pin name="A5" x="-25.4" y="-12.7" length="middle"/>
+<pin name="A6" x="-25.4" y="2.54" length="middle"/>
+<pin name="A7" x="-25.4" y="-2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="-30.48" length="middle" rot="R90"/>
+<pin name="GND1" x="-7.62" y="-30.48" length="middle" rot="R90"/>
+<pin name="VBUS" x="-2.54" y="-30.48" length="middle" rot="R90"/>
+<pin name="RXD" x="2.54" y="-30.48" length="middle" rot="R90"/>
+<pin name="TXD" x="7.62" y="-30.48" length="middle" rot="R90"/>
+<pin name="DTR/RTS" x="12.7" y="-30.48" length="middle" rot="R90"/>
+<text x="-14.199" y="19.948" size="1.778" layer="97">~</text>
+<text x="-13.387" y="17.41" size="1.778" layer="97">~</text>
+<text x="-13.59" y="14.923" size="1.778" layer="97">~</text>
+<text x="13.134" y="6.903" size="1.778" layer="97">~</text>
+<text x="13.387" y="4.314" size="1.778" layer="97">~</text>
+<text x="13.387" y="-0.609" size="1.778" layer="97">~</text>
 </symbol>
 <symbol name="ADAFRUIT-PRO-TRINKET-3.3V">
 <wire x1="0" y1="0" x2="0" y2="83.82" width="0.254" layer="94"/>
@@ -9840,26 +9845,26 @@ MHz</text>
 <wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 </symbol>
 <symbol name="SPARKFUN_DUAL_MOTOR_DRIVER">
-<wire x1="0" y1="0" x2="0" y2="43.18" width="0.254" layer="94"/>
-<wire x1="0" y1="43.18" x2="25.4" y2="43.18" width="0.254" layer="94"/>
-<wire x1="25.4" y1="43.18" x2="25.4" y2="0" width="0.254" layer="94"/>
-<wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="GND2" x="-5.08" y="40.64" length="middle"/>
-<pin name="B01" x="-5.08" y="38.1" length="middle"/>
-<pin name="B02" x="-5.08" y="35.56" length="middle"/>
-<pin name="A02" x="-5.08" y="33.02" length="middle"/>
-<pin name="A01" x="-5.08" y="30.48" length="middle"/>
-<pin name="GND1" x="-5.08" y="27.94" length="middle"/>
-<pin name="VCC" x="-5.08" y="25.4" length="middle"/>
-<pin name="VM" x="-5.08" y="22.86" length="middle"/>
-<pin name="PWMA" x="-5.08" y="20.32" length="middle"/>
-<pin name="AIN2" x="-5.08" y="17.78" length="middle"/>
-<pin name="AIN1" x="-5.08" y="15.24" length="middle"/>
-<pin name="STBY" x="-5.08" y="12.7" length="middle"/>
-<pin name="BIN1" x="-5.08" y="10.16" length="middle"/>
-<pin name="BIN2" x="-5.08" y="7.62" length="middle"/>
-<pin name="PWMB" x="-5.08" y="5.08" length="middle"/>
-<pin name="GND" x="-5.08" y="2.54" length="middle"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<pin name="GND2" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="B01" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="B02" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="A02" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="A01" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="GND1" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="VCC" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="VM" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="PWMA" x="-17.78" y="10.16" length="middle"/>
+<pin name="AIN2" x="-17.78" y="7.62" length="middle"/>
+<pin name="AIN1" x="-17.78" y="5.08" length="middle"/>
+<pin name="STBY" x="-17.78" y="2.54" length="middle"/>
+<pin name="BIN1" x="-17.78" y="0" length="middle"/>
+<pin name="BIN2" x="-17.78" y="-2.54" length="middle"/>
+<pin name="PWMB" x="-17.78" y="-5.08" length="middle"/>
+<pin name="GND" x="-17.78" y="-7.62" length="middle"/>
 </symbol>
 <symbol name="ADAFRUIT_SOLAR_CHARGER">
 <wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
