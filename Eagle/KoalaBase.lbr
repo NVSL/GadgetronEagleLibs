@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -61638,6 +61638,10 @@ tails</text>
 </gates>
 <devices>
 <device name="SMD-RIGHT-ANGLE2" package="TE_1571262-2_HS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="CASE" value="" constant="no"/>
@@ -61651,6 +61655,10 @@ tails</text>
 </technologies>
 </device>
 <device name="SMD-RIGHT-ANGLE" package="TE_157407-2_HS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="CASE" value="" constant="no"/>
@@ -61681,6 +61689,10 @@ tails</text>
 </technologies>
 </device>
 <device name="TH-RIGHT-ANGLE" package="TE_X-1824027-Y_HS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="CASE" value="" constant="no"/>
