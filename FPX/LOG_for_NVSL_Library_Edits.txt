@@ -14,3 +14,4 @@ NVSL-Hand-Solder-UserPreferences was used with each to build the .lbr files.  In
 062515:  Rebuilt all decals with PCBLE 2015.15.7  Using default Nominal settings with pin 1 marked.
 070215:  Cleaned up attributes, and symbols for Koala and merged NVSL lib into it.  Back annotated all Koala changes to NVSL lib.
 091715:  Added another pushbutton decal to ..fpx, ..lbr, ..scr, koalabase.lbr, NVSL.lbr, and ...xlsx & ...csv
+092315:  Repaired KoalaBase library which had missing bottom mask.  Also fixed connections on one pushbutton switch.
