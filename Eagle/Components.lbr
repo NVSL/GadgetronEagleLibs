@@ -156,6 +156,8 @@
 <circle x="0" y="0" radius="11.1125" width="0.127" layer="51"/>
 <circle x="0" y="0" radius="9.525" width="0.127" layer="51"/>
 <hole x="7.62" y="0" drill="2"/>
+<rectangle x1="-11.43" y1="-11.43" x2="11.58" y2="11.682" layer="40"/>
+<rectangle x1="-9.129" y1="-1.397" x2="8.96" y2="1.312" layer="39"/>
 </package>
 <package name="BATTERY-LIPO-CABLED-ADAFRUIT-100MAH">
 <wire x1="-18" y1="-6.25" x2="18" y2="-6.25" width="0.127" layer="21"/>
