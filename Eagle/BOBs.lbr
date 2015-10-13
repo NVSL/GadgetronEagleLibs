@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12367,6 +12367,7 @@ MHz</text>
 <circle x="-18.415" y="-13.97" radius="1" width="0" layer="21"/>
 <circle x="18.415" y="13.97" radius="1" width="0" layer="21"/>
 <circle x="18.415" y="-13.97" radius="1" width="0" layer="21"/>
+<rectangle x1="-19.685" y1="-5.715" x2="-17.145" y2="5.715" layer="40"/>
 </package>
 </packages>
 <symbols>
