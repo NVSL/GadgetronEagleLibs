@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -73,7 +73,7 @@
 <layer number="114" name="Unresolved" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="Resolved" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Generic" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="tFaceplate" color="11" fill="1" visible="no" active="yes"/>
+<layer number="150" name="tFaceplate" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="bFaceplate" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="160" name="tMountFaceplate" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="161" name="bMountFaceplate" color="11" fill="1" visible="yes" active="yes"/>
@@ -106,7 +106,7 @@
 </package>
 <package name="1206">
 <description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
-	  7022X Series SMT LEDs 1206 Package Size</description>
+      7022X Series SMT LEDs 1206 Package Size</description>
 <rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
 <wire x1="-0.55" y1="-0.5" x2="-0.55" y2="0.5" width="0.1016" layer="51" curve="-84.547378" cap="flat"/>
 <wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.1016" layer="21" curve="95.452622" cap="flat"/>
@@ -611,8 +611,8 @@
 </package>
 <package name="BUTTON-TACTILE-ROUND-ADAFRUIT1009">
 <description>Round, colorful tactile button from adafruit
-	  &lt;br&gt;
-	  The radius of the faceplate opening is 0.5mm larger than it "should" be to allow for small misalignments between the faceplace and board.</description>
+      &lt;br&gt;
+      The radius of the faceplate opening is 0.5mm larger than it "should" be to allow for small misalignments between the faceplace and board.</description>
 <rectangle x1="-7.5" y1="-7" x2="7.5" y2="7" layer="39"/>
 <hole x="0" y="-4.5" drill="1.4"/>
 <circle x="0" y="0" radius="6.25" width="0.127" layer="150"/>
@@ -625,9 +625,9 @@
 </package>
 <package name="BUTTON-TACTILE-SQUARE-ADAFRUIT1010">
 <description>Square, colorful tactile button from adafruit
-	  &lt;br&gt;
+      &lt;br&gt;
 
-	  The size of the faceplate opening is 0.5mm larger than it "should" be to allow for small misalignments between the faceplace and board.</description>
+      The size of the faceplate opening is 0.5mm larger than it "should" be to allow for small misalignments between the faceplace and board.</description>
 <wire x1="-5" y1="-5" x2="-5" y2="5" width="0.127" layer="21"/>
 <wire x1="-5" y1="5" x2="5" y2="5" width="0.127" layer="21"/>
 <rectangle x1="-5.25" y1="-5.25" x2="5.25" y2="5.25" layer="150"/>
@@ -758,9 +758,9 @@
 </package>
 <package name="BUZZER-12MM-NS-KIT">
 <description>&lt;h3&gt;BUZZER-12MM-NS-KIT&lt;/h3&gt;
-	  Through-hole buzzer&lt;br&gt;
-	  &lt;br&gt;
-	  &lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+      Through-hole buzzer&lt;br&gt;
+      &lt;br&gt;
+      &lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
 <text x="-2.54" y="2.54" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-3.048" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="0" radius="1.27" width="0.2032" layer="51"/>
@@ -812,9 +812,9 @@
 </package>
 <package name="BUZZER-CCV-KIT">
 <description>&lt;h3&gt;BUZZER-CCV-KIT&lt;/h3&gt;
-	  SMD Buzzer&lt;br&gt;
-	  &lt;br&gt;
-	  &lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has longer pads to aid in hand soldering.</description>
+      SMD Buzzer&lt;br&gt;
+      &lt;br&gt;
+      &lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has longer pads to aid in hand soldering.</description>
 <wire x1="-2.6" y1="-6" x2="-2.6" y2="-3.6" width="0.2032" layer="21"/>
 <wire x1="-2.6" y1="-6" x2="-2.6" y2="-3.7" width="0.127" layer="51"/>
 <wire x1="-2.6" y1="-6" x2="2.6" y2="-6" width="0.2032" layer="21"/>
@@ -857,8 +857,8 @@
 </package>
 <package name="CHIP-LED0603">
 <description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-	  LB Q993&lt;br&gt;
-	  Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
+      LB Q993&lt;br&gt;
+      Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
 <wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
 <rectangle x1="-0.45" y1="-0.85" x2="0.45" y2="-0.45" layer="51"/>
@@ -873,8 +873,8 @@
 </package>
 <package name="CHIP-LED0805">
 <description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-	  LB R99A&lt;br&gt;
-	  Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
+      LB R99A&lt;br&gt;
+      Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
 <wire x1="-0.625" y1="0.45" x2="-0.625" y2="-0.45" width="0.1016" layer="51"/>
 <rectangle x1="-0.675" y1="-1.05" x2="0.675" y2="-0.45" layer="51"/>
@@ -890,10 +890,10 @@
 </package>
 <package name="CHIPLED-0603-TTW">
 <description>&lt;b&gt;CHIPLED-0603&lt;/b&gt;&lt;p&gt;
-	  Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603&lt;br&gt;
-	  Package able to withstand TTW-soldering heat&lt;br&gt;
-	  Package suitable for TTW-soldering&lt;br&gt;
-	  Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
+      Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603&lt;br&gt;
+      Package able to withstand TTW-soldering heat&lt;br&gt;
+      Package suitable for TTW-soldering&lt;br&gt;
+      Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
 <rectangle x1="-0.175" y1="-0.675" x2="0.175" y2="-0.325" layer="29"/>
 <rectangle x1="-0.175" y1="0.325" x2="0.175" y2="0.7" layer="29"/>
@@ -923,7 +923,7 @@
 </package>
 <package name="CHIPLED_0603">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
 <rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
 <rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
@@ -947,7 +947,7 @@
 </package>
 <package name="CHIPLED_0805">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
 <rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
 <rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
@@ -972,7 +972,7 @@
 </package>
 <package name="CHIPLED_1206">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
 <wire x1="-0.4" y1="1.625" x2="0.4" y2="1.625" width="0.1016" layer="51" curve="180" cap="flat"/>
 <rectangle x1="-0.45" y1="1.225" x2="-0.325" y2="1.45" layer="51"/>
@@ -995,8 +995,8 @@
 </package>
 <package name="DCJACK_2MM_SMT">
 <description>2.0/2.1mm DC Jack - SMT
-	  &lt;p&gt;4UConnector: 03267&lt;/p&gt;
-	  &lt;p&gt;Note: Small tRestrict polygon's were added to the ground pads to improve solderability when this part is used in combination with a ground pour.  By default, Eagle will product four large bridges to the ground pour significantly increasing the heat distribution on the pads and preventing lead-free solder from reflowing in certain situations.  For more details, see: http://www.microbuilder.eu/Blog/09-12-14/Reducing_Thermals_for_Large_Pads_in_Eagle.aspx&lt;/p&gt;</description>
+      &lt;p&gt;4UConnector: 03267&lt;/p&gt;
+      &lt;p&gt;Note: Small tRestrict polygon's were added to the ground pads to improve solderability when this part is used in combination with a ground pour.  By default, Eagle will product four large bridges to the ground pour significantly increasing the heat distribution on the pads and preventing lead-free solder from reflowing in certain situations.  For more details, see: http://www.microbuilder.eu/Blog/09-12-14/Reducing_Thermals_for_Large_Pads_in_Eagle.aspx&lt;/p&gt;</description>
 <text x="-1.016" y="-3.81" size="0.8128" layer="21">GND</text>
 <wire x1="-1.668" y1="4.5" x2="-4" y2="4.5" width="0.127" layer="21"/>
 <wire x1="-4" y1="-4.5" x2="-1.684" y2="-4.5" width="0.127" layer="21"/>
@@ -1091,7 +1091,7 @@
 </package>
 <package name="IRL80A">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
-	  IR transmitter Siemens</description>
+      IR transmitter Siemens</description>
 <wire x1="-0.889" y1="-0.762" x2="-0.889" y2="-1.778" width="0.1524" layer="51"/>
 <wire x1="-0.889" y1="-0.762" x2="-0.889" y2="0.762" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-0.889" y1="-1.778" x2="-0.889" y2="-2.286" width="0.1524" layer="21"/>
@@ -1114,7 +1114,7 @@
 </package>
 <package name="LD260">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-	  5 mm, square, Siemens</description>
+      5 mm, square, Siemens</description>
 <wire x1="-0.508" y1="0" x2="0" y2="0.508" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-0.889" y1="0" x2="0" y2="0.889" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-0.9917" y1="-0.7934" x2="0" y2="-1.27" width="0.1524" layer="21" curve="51.33923" cap="flat"/>
@@ -1144,7 +1144,7 @@
 </package>
 <package name="LED10MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-	  5 mm, round</description>
+      5 mm, round</description>
 <wire x1="-2.286" y1="0" x2="0" y2="2.286" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-2.7305" y1="0" x2="0" y2="2.7305" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-3.1115" y1="0" x2="0" y2="3.1115" width="0.1524" layer="51" curve="-90" cap="flat"/>
@@ -1161,7 +1161,7 @@
 </package>
 <package name="LED2X5">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-	  2 x 5 mm, rectangle</description>
+      2 x 5 mm, rectangle</description>
 <wire x1="-0.508" y1="0.381" x2="-0.508" y2="-0.381" width="0.1524" layer="51"/>
 <wire x1="-0.508" y1="0.381" x2="0.508" y2="0" width="0.1524" layer="51"/>
 <wire x1="-1.905" y1="0" x2="0.508" y2="0" width="0.1524" layer="51"/>
@@ -1189,7 +1189,7 @@
 </package>
 <package name="LED3MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-	  3 mm, round</description>
+      3 mm, round</description>
 <wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876" cap="flat"/>
@@ -1219,7 +1219,7 @@
 </package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-	  5 mm, round</description>
+      5 mm, round</description>
 <wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
@@ -1239,7 +1239,7 @@
 </package>
 <package name="LED5MM-COVERED">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-	  5 mm, round</description>
+      5 mm, round</description>
 <wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
@@ -1270,7 +1270,7 @@
 </package>
 <package name="LSU260">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-	  1 mm, round, Siemens</description>
+      1 mm, round, Siemens</description>
 <wire x1="-0.254" y1="0" x2="0" y2="0.254" width="0.1524" layer="21" curve="-90" cap="flat"/>
 <wire x1="-0.381" y1="-0.381" x2="-0.254" y2="-0.508" width="0.1524" layer="21"/>
 <wire x1="-0.381" y1="0.381" x2="-0.254" y2="0.508" width="0.1524" layer="21"/>
@@ -1301,7 +1301,7 @@
 </package>
 <package name="LZR181">
 <description>&lt;B&gt;LED BLOCK&lt;/B&gt;&lt;p&gt;
-	  1 LED, Siemens</description>
+      1 LED, Siemens</description>
 <wire x1="-0.508" y1="0" x2="0" y2="0.508" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-0.8678" y1="-0.7439" x2="0" y2="-1.143" width="0.1524" layer="21" curve="49.396139" cap="flat"/>
 <wire x1="-0.8678" y1="0.7439" x2="0" y2="1.143" width="0.1524" layer="21" curve="-49.396139" cap="flat"/>
@@ -1331,7 +1331,7 @@
 </package>
 <package name="MICRO-SIDELED">
 <description>&lt;b&gt;Hyper Micro SIDELED®&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf</description>
 <wire x1="-0.1" y1="-1.1" x2="0.65" y2="-1.1" width="0.1016" layer="51"/>
 <wire x1="-0.1" y1="1.1" x2="-0.35" y2="1" width="0.1016" layer="51"/>
 <rectangle x1="-0.125" y1="-1.75" x2="0.125" y2="-1.125" layer="51"/>
@@ -1354,7 +1354,7 @@
 </package>
 <package name="MINI-TOPLED-SANTANA">
 <description>&lt;b&gt;Mini TOPLED Santana®&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <rectangle x1="-0.2" y1="-0.4" x2="0.15" y2="-0.05" layer="21"/>
 <wire x1="-0.45" y1="-0.7" x2="-0.45" y2="0.7" width="0.1016" layer="21"/>
 <wire x1="-0.45" y1="-1" x2="-0.7" y2="-1" width="0.1016" layer="21"/>
@@ -1478,7 +1478,7 @@
 </package>
 <package name="OSRAM-MINI-TOP-LED">
 <description>&lt;b&gt;BLUE LINETM Hyper Mini TOPLED® Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LB M676.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LB M676.pdf</description>
 <rectangle x1="-0.15" y1="-0.6" x2="0.15" y2="-0.3" layer="51"/>
 <wire x1="-0.4" y1="-0.9" x2="0.6" y2="-0.9" width="0.1016" layer="51"/>
 <wire x1="-0.45" y1="-0.9" x2="-0.4" y2="-0.9" width="0.1016" layer="51"/>
@@ -1505,8 +1505,8 @@
 </package>
 <package name="OSRAM-SIDELED">
 <description>&lt;b&gt;Super SIDELED® High-Current LED&lt;/b&gt;&lt;p&gt;
-	  LG A672, LP A672 &lt;br&gt;
-	  Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</description>
+      LG A672, LP A672 &lt;br&gt;
+      Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</description>
 <wire x1="-0.55" y1="-0.9" x2="-0.55" y2="0.9" width="0.1016" layer="51" curve="-167.319617"/>
 <wire x1="-0.55" y1="-0.9" x2="0.85" y2="-1.2" width="0.1016" layer="51" style="shortdash"/>
 <wire x1="-0.55" y1="0.9" x2="0.85" y2="1.2" width="0.1016" layer="51" style="shortdash"/>
@@ -1538,7 +1538,7 @@
 </package>
 <package name="P-LCC-2">
 <description>&lt;b&gt;TOPLED® High-optical Power LED (HOP)&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... ls_t675.pdf</description>
+      Source: http://www.osram.convergy.de/ ... ls_t675.pdf</description>
 <rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="21"/>
 <text x="-0.635" y="-3.81" size="1.27" layer="21">C</text>
 <text x="-0.635" y="2.54" size="1.27" layer="21">A</text>
@@ -1570,7 +1570,7 @@
 </package>
 <package name="P-LCC-2-TOPLED-RG">
 <description>&lt;b&gt;Hyper TOPLED® RG Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf</description>
 <rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="21"/>
 <text x="-0.635" y="-4.56" size="1.27" layer="21">C</text>
 <text x="-0.635" y="3.29" size="1.27" layer="21">A</text>
@@ -1602,7 +1602,7 @@
 </package>
 <package name="P-LCC-4">
 <description>&lt;b&gt;Power TOPLED®&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
 <rectangle x1="-0.2" y1="-0.2" x2="0.2" y2="0.2" layer="21"/>
 <wire x1="-0.5" y1="-1.8" x2="-0.5" y2="-1.65" width="0.1016" layer="51"/>
 <wire x1="-0.5" y1="1.8" x2="-0.5" y2="1.65" width="0.1016" layer="51"/>
@@ -1879,7 +1879,7 @@
 </package>
 <package name="Q62902-B152">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-	  Siemens</description>
+      Siemens</description>
 <wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="21" curve="-90" cap="flat"/>
 <wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.1351" y1="-0.8987" x2="0" y2="-1.4478" width="0.1524" layer="21" curve="51.629985" cap="flat"/>
@@ -1922,7 +1922,7 @@
 </package>
 <package name="Q62902-B153">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-	  Siemens</description>
+      Siemens</description>
 <wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
@@ -1950,7 +1950,7 @@
 </package>
 <package name="Q62902-B155">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-	  Siemens</description>
+      Siemens</description>
 <wire x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="-3.048" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="-3.048" x2="2.921" y2="-3.048" width="0.1524" layer="21"/>
@@ -1978,7 +1978,7 @@
 </package>
 <package name="Q62902-B156">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-	  Siemens</description>
+      Siemens</description>
 <wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
@@ -2071,9 +2071,9 @@
 </package>
 <package name="SFH480">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
-	  infrared emitting diode, Infineon
-	  TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
-	  Inifineon</description>
+      infrared emitting diode, Infineon
+      TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
+      Inifineon</description>
 <wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
@@ -2098,9 +2098,9 @@
 </package>
 <package name="SFH482">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
-	  infrared emitting diode, Infineon
-	  TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
-	  Inifineon</description>
+      infrared emitting diode, Infineon
+      TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
+      Inifineon</description>
 <wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
@@ -2191,7 +2191,7 @@
 </package>
 <package name="SMART-LED">
 <description>&lt;b&gt;SmartLEDTM Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-	  Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY L896.pdf</description>
+      Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY L896.pdf</description>
 <rectangle x1="-0.15" y1="-0.35" x2="0.15" y2="-0.05" layer="21"/>
 <rectangle x1="-0.15" y1="-0.85" x2="0.15" y2="-0.6" layer="51"/>
 <rectangle x1="-0.15" y1="0.6" x2="0.15" y2="0.85" layer="51"/>
@@ -2207,10 +2207,10 @@
 </package>
 <package name="SMARTLED-TTW">
 <description>&lt;b&gt;SmartLED TTW&lt;/b&gt;&lt;p&gt;
-	  Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603&lt;br&gt;
-	  Package able to withstand TTW-soldering heat&lt;br&gt;
-	  Package suitable for TTW-soldering&lt;br&gt;
-	  Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
+      Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603&lt;br&gt;
+      Package able to withstand TTW-soldering heat&lt;br&gt;
+      Package suitable for TTW-soldering&lt;br&gt;
+      Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <rectangle x1="-0.15" y1="-0.35" x2="0.15" y2="-0.05" layer="21"/>
 <rectangle x1="-0.15" y1="-0.85" x2="0.15" y2="-0.6" layer="51"/>
 <rectangle x1="-0.15" y1="0.6" x2="0.15" y2="0.85" layer="51"/>
@@ -2253,7 +2253,7 @@
 </package>
 <package name="SOD-123">
 <description>&lt;b&gt;SOD-123&lt;/b&gt;
-	  &lt;p&gt;Source: http://www.diodes.com/datasheets/ds30139.pdf&lt;/p&gt;</description>
+      &lt;p&gt;Source: http://www.diodes.com/datasheets/ds30139.pdf&lt;/p&gt;</description>
 <wire x1="-0.3" y1="0" x2="0.3" y2="0.4" width="0.2032" layer="21"/>
 <rectangle x1="-0.5" y1="-0.5" x2="-0.3" y2="0.5" layer="21"/>
 <wire x1="-0.873" y1="-0.7" x2="-0.873" y2="0.7" width="0.2032" layer="51"/>
@@ -2297,7 +2297,7 @@
 <package name="SOD-523">
 <description>SOD-523 (0.8x1.2mm)
 
-	  &lt;p&gt;Source: http://www.rohm.com/products/databook/di/pdf/rb751s-40.pdf&lt;/p&gt;</description>
+      &lt;p&gt;Source: http://www.rohm.com/products/databook/di/pdf/rb751s-40.pdf&lt;/p&gt;</description>
 <rectangle x1="-0.1" y1="-0.2254" x2="0.1" y2="0.5746" layer="21" rot="R270"/>
 <rectangle x1="-0.1" y1="-0.85" x2="0.1" y2="-0.45" layer="51" rot="R270"/>
 <rectangle x1="-0.1" y1="0.45" x2="0.1" y2="0.85" layer="51" rot="R270"/>
@@ -2533,24 +2533,6 @@
 <rectangle x1="-26" y1="-34" x2="3" y2="34" layer="150"/>
 <wire x1="2" y1="-32.5" x2="-25" y2="-32.5" width="0.127" layer="21"/>
 <wire x1="2" y1="-32.5" x2="2" y2="32.5" width="0.127" layer="21"/>
-<polygon width="0.127" layer="42">
-<vertex x="33" y="11.5"/>
-<vertex x="33" y="-12.5"/>
-<vertex x="19" y="-12.5"/>
-<vertex x="19" y="11.5"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="19" y="11.5"/>
-<vertex x="33" y="11.5"/>
-<vertex x="33" y="-12.5"/>
-<vertex x="19" y="-12.5"/>
-</polygon>
-<polygon width="0.127" layer="43">
-<vertex x="33" y="11.5"/>
-<vertex x="33" y="-12.5"/>
-<vertex x="19" y="-12.5"/>
-<vertex x="19" y="11.5"/>
-</polygon>
 <text x="10" y="-21.23" size="3" layer="21">SPARKFUN</text>
 <text x="10" y="-26.23" size="3" layer="21">HOBBY MOTOR</text>
 <wire x1="18" y1="-33.5" x2="18" y2="-39.5" width="0.127" layer="150"/>
@@ -2599,34 +2581,16 @@
 <wire x1="53" y1="-33.5" x2="53" y2="-11.5" width="0.127" layer="150"/>
 <pad name="+" x="41.18" y="-1.18" drill="1.27" shape="long" rot="R90"/>
 <pad name="-" x="44.72" y="-1.18" drill="1.27" shape="long" rot="R90"/>
-<polygon width="0.127" layer="40">
-<vertex x="3.81" y="11.39"/>
-<vertex x="20.32" y="11.39"/>
-<vertex x="20.32" y="2.5"/>
-<vertex x="29.21" y="2.5"/>
-<vertex x="29.21" y="-11.47"/>
-<vertex x="53.34" y="-11.47"/>
-<vertex x="53.34" y="-33.06"/>
-<vertex x="27.94" y="-33.06"/>
-<vertex x="27.94" y="-39.41"/>
-<vertex x="17.78" y="-39.41"/>
-<vertex x="17.78" y="-34.33"/>
-<vertex x="3.81" y="-34.33"/>
-</polygon>
-<polygon width="0.127" layer="39">
-<vertex x="17.78" y="-34.29"/>
-<vertex x="17.78" y="-39.37"/>
-<vertex x="27.94" y="-39.37"/>
-<vertex x="27.94" y="-33.02"/>
-<vertex x="53.34" y="-33.02"/>
-<vertex x="53.34" y="-11.43"/>
-<vertex x="33.02" y="-11.43"/>
-<vertex x="33.02" y="11.43"/>
-<vertex x="3.81" y="11.43"/>
-<vertex x="3.81" y="-34.29"/>
-<vertex x="17.78" y="-34.29"/>
-<vertex x="17.78" y="-39.37"/>
-</polygon>
+<rectangle x1="13.97" y1="-12.065" x2="33.655" y2="12.065" layer="42"/>
+<rectangle x1="15.875" y1="-12.7" x2="33.655" y2="12.065" layer="40"/>
+<rectangle x1="38.1" y1="-5.08" x2="47.625" y2="3.81" layer="40"/>
+<rectangle x1="38.735" y1="-4.445" x2="46.99" y2="1.905" layer="39"/>
+<rectangle x1="3.81" y1="-33.655" x2="34.29" y2="11.43" layer="39"/>
+<rectangle x1="4.445" y1="-33.655" x2="53.34" y2="-10.795" layer="39"/>
+<rectangle x1="17.78" y1="-40.005" x2="28.575" y2="-31.115" layer="39"/>
+<rectangle x1="13.335" y1="-13.335" x2="36.195" y2="13.97" layer="41"/>
+<rectangle x1="20.955" y1="-12.065" x2="28.575" y2="-3.175" layer="42"/>
+<rectangle x1="20.955" y1="3.175" x2="29.21" y2="10.16" layer="42"/>
 </package>
 <package name="SPARKFUN_HOBBY_MOTOR_LEFT">
 <wire x1="4" y1="-2.5" x2="-5" y2="-2.5" width="0.127" layer="21"/>
@@ -2704,20 +2668,6 @@
 <wire x1="-53" y1="-33.5" x2="-53" y2="-11.5" width="0.127" layer="150"/>
 <pad name="+" x="-41.18" y="-1.18" drill="1.27" shape="long" rot="R90"/>
 <pad name="-" x="-44.72" y="-1.18" drill="1.27" shape="long" rot="R90"/>
-<polygon width="0.127" layer="40">
-<vertex x="-3.81" y="11.39"/>
-<vertex x="-20.32" y="11.39"/>
-<vertex x="-20.32" y="2.5"/>
-<vertex x="-29.21" y="2.5"/>
-<vertex x="-29.21" y="-11.47"/>
-<vertex x="-53.34" y="-11.47"/>
-<vertex x="-53.34" y="-33.06"/>
-<vertex x="-27.94" y="-33.06"/>
-<vertex x="-27.94" y="-39.41"/>
-<vertex x="-17.78" y="-39.41"/>
-<vertex x="-17.78" y="-34.33"/>
-<vertex x="-3.81" y="-34.33"/>
-</polygon>
 <polygon width="0.127" layer="39">
 <vertex x="-53.34" y="-33.02"/>
 <vertex x="-27.94" y="-33.02"/>
@@ -2730,6 +2680,9 @@
 <vertex x="-33.02" y="-11.43"/>
 <vertex x="-53.34" y="-11.43"/>
 </polygon>
+<rectangle x1="-47.625" y1="-5.08" x2="-36.83" y2="2.54" layer="40"/>
+<rectangle x1="-33.655" y1="-13.335" x2="-17.78" y2="12.065" layer="40"/>
+<rectangle x1="-46.99" y1="-4.445" x2="-38.1" y2="1.905" layer="39"/>
 </package>
 <package name="SOT23-R">
 <description>&lt;b&gt;SOT23&lt;/b&gt; - Reflow soldering</description>
@@ -2802,7 +2755,7 @@
 </package>
 <package name="U57X32">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-	  rectangle, 5.7 x 3.2 mm</description>
+      rectangle, 5.7 x 3.2 mm</description>
 <wire x1="-0.254" y1="1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="51"/>
@@ -3296,6 +3249,10 @@
 <wire x1="10.2" y1="0" x2="11.7" y2="1.5" width="0.127" layer="21" curve="-90"/>
 <wire x1="-10" y1="0" x2="-10" y2="0.1" width="0.127" layer="21"/>
 <wire x1="-10" y1="0.1" x2="-11.6" y2="1.7" width="0.127" layer="21" curve="90"/>
+<rectangle x1="-22.86" y1="22.86" x2="-17.78" y2="32.385" layer="39"/>
+<rectangle x1="-12.7" y1="12.065" x2="13.335" y2="40.64" layer="39"/>
+<rectangle x1="-12.7" y1="21.59" x2="13.335" y2="27.94" layer="40"/>
+<rectangle x1="-22.86" y1="22.86" x2="-17.78" y2="33.02" layer="40"/>
 </package>
 <package name="CATAPULT">
 <wire x1="0" y1="0" x2="22.6" y2="0" width="0.127" layer="21"/>
@@ -3796,8 +3753,8 @@
 </deviceset>
 <deviceset name="2.1MMJACK">
 <description>2.1mm x 5.5mm THM DC jack with internal switch. Digikey part #PJ-102A, 4UCON part #05537 &lt;br&gt;
-	  2.1mm x 5.5mm SMT DC jack with internal switch. Digikey part #PJ-002A-SMT, 4UCON part #03267
-	  &lt;p&gt;By microbuilder.eu &amp; adafruit.com&lt;/p&gt;</description>
+      2.1mm x 5.5mm SMT DC jack with internal switch. Digikey part #PJ-002A-SMT, 4UCON part #03267
+      &lt;p&gt;By microbuilder.eu &amp; adafruit.com&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="POWERJACK-1" x="0" y="0"/>
 </gates>
@@ -3989,7 +3946,7 @@
 </deviceset>
 <deviceset name="BUZZER" prefix="SG">
 <description>&lt;b&gt;Buzzer 12mm&lt;/b&gt;
-	  Spark Fun Electronics SKU : Comp-Buzzer</description>
+      Spark Fun Electronics SKU : Comp-Buzzer</description>
 <gates>
 <gate name="G$1" symbol="BUZZER" x="0" y="0"/>
 </gates>
@@ -4118,65 +4075,65 @@
 </deviceset>
 <deviceset name="LED" prefix="LED" uservalue="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
-	  &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
+      &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
-	  - &lt;u&gt;CHIPLED&lt;/u&gt;&lt;br&gt;
-	  LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971
-	  LH N974, LH R974&lt;br&gt;
-	  LS Q976, LO Q976, LY Q976&lt;br&gt;
-	  LO Q996&lt;br&gt;
+      - &lt;u&gt;CHIPLED&lt;/u&gt;&lt;br&gt;
+      LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971
+      LH N974, LH R974&lt;br&gt;
+      LS Q976, LO Q976, LY Q976&lt;br&gt;
+      LO Q996&lt;br&gt;
 
 
-	  - &lt;u&gt;Hyper CHIPLED&lt;/u&gt;&lt;br&gt;
-	  LW Q18S&lt;br&gt;
-	  LB Q993, LB Q99A, LB R99A&lt;br&gt;
+      - &lt;u&gt;Hyper CHIPLED&lt;/u&gt;&lt;br&gt;
+      LW Q18S&lt;br&gt;
+      LB Q993, LB Q99A, LB R99A&lt;br&gt;
 
-	  - &lt;u&gt;SideLED&lt;/u&gt;&lt;br&gt;
-	  LS A670, LO A670, LY A670, LG A670, LP A670&lt;br&gt;
-	  LB A673, LV A673, LT A673, LW A673&lt;br&gt;
-	  LH A674&lt;br&gt;
-	  LY A675&lt;br&gt;
-	  LS A676, LA A676, LO A676, LY A676, LW A676&lt;br&gt;
-	  LS A679, LY A679, LG A679&lt;br&gt;
+      - &lt;u&gt;SideLED&lt;/u&gt;&lt;br&gt;
+      LS A670, LO A670, LY A670, LG A670, LP A670&lt;br&gt;
+      LB A673, LV A673, LT A673, LW A673&lt;br&gt;
+      LH A674&lt;br&gt;
+      LY A675&lt;br&gt;
+      LS A676, LA A676, LO A676, LY A676, LW A676&lt;br&gt;
+      LS A679, LY A679, LG A679&lt;br&gt;
 
-	  -  &lt;u&gt;Hyper Micro SIDELED®&lt;/u&gt;&lt;br&gt;
-	  LS Y876, LA Y876, LO Y876, LY Y876&lt;br&gt;
-	  LT Y87S&lt;br&gt;
+      -  &lt;u&gt;Hyper Micro SIDELED®&lt;/u&gt;&lt;br&gt;
+      LS Y876, LA Y876, LO Y876, LY Y876&lt;br&gt;
+      LT Y87S&lt;br&gt;
 
-	  - &lt;u&gt;SmartLED&lt;/u&gt;&lt;br&gt;
-	  LW L88C, LW L88S&lt;br&gt;
-	  LB L89C, LB L89S, LG L890&lt;br&gt;
-	  LS L89K, LO L89K, LY L89K&lt;br&gt;
-	  LS L896, LA L896, LO L896, LY L896&lt;br&gt;
+      - &lt;u&gt;SmartLED&lt;/u&gt;&lt;br&gt;
+      LW L88C, LW L88S&lt;br&gt;
+      LB L89C, LB L89S, LG L890&lt;br&gt;
+      LS L89K, LO L89K, LY L89K&lt;br&gt;
+      LS L896, LA L896, LO L896, LY L896&lt;br&gt;
 
-	  - &lt;u&gt;TOPLED&lt;/u&gt;&lt;br&gt;
-	  LS T670, LO T670, LY T670, LG T670, LP T670&lt;br&gt;
-	  LSG T670, LSP T670, LSY T670, LOP T670, LYG T670&lt;br&gt;
-	  LG T671, LOG T671, LSG T671&lt;br&gt;
-	  LB T673, LV T673, LT T673, LW T673&lt;br&gt;
-	  LH T674&lt;br&gt;
-	  LS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676&lt;br&gt;
-	  LB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C&lt;br&gt;
-	  LS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C&lt;br&gt;
-	  LW T67C&lt;br&gt;
-	  LS T679, LY T679, LG T679&lt;br&gt;
-	  LS T770, LO T770, LY T770, LG T770, LP T770&lt;br&gt;
-	  LB T773, LV T773, LT T773, LW T773&lt;br&gt;
-	  LH T774&lt;br&gt;
-	  LS E675, LA E675, LY E675, LS T675&lt;br&gt;
-	  LS T776, LA T776, LO T776, LY T776, LB T776&lt;br&gt;
-	  LHGB T686&lt;br&gt;
-	  LT T68C, LB T68C&lt;br&gt;
+      - &lt;u&gt;TOPLED&lt;/u&gt;&lt;br&gt;
+      LS T670, LO T670, LY T670, LG T670, LP T670&lt;br&gt;
+      LSG T670, LSP T670, LSY T670, LOP T670, LYG T670&lt;br&gt;
+      LG T671, LOG T671, LSG T671&lt;br&gt;
+      LB T673, LV T673, LT T673, LW T673&lt;br&gt;
+      LH T674&lt;br&gt;
+      LS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676&lt;br&gt;
+      LB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C&lt;br&gt;
+      LS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C&lt;br&gt;
+      LW T67C&lt;br&gt;
+      LS T679, LY T679, LG T679&lt;br&gt;
+      LS T770, LO T770, LY T770, LG T770, LP T770&lt;br&gt;
+      LB T773, LV T773, LT T773, LW T773&lt;br&gt;
+      LH T774&lt;br&gt;
+      LS E675, LA E675, LY E675, LS T675&lt;br&gt;
+      LS T776, LA T776, LO T776, LY T776, LB T776&lt;br&gt;
+      LHGB T686&lt;br&gt;
+      LT T68C, LB T68C&lt;br&gt;
 
-	  - &lt;u&gt;Hyper Mini TOPLED®&lt;/u&gt;&lt;br&gt;
-	  LB M676&lt;br&gt;
+      - &lt;u&gt;Hyper Mini TOPLED®&lt;/u&gt;&lt;br&gt;
+      LB M676&lt;br&gt;
 
-	  - &lt;u&gt;Mini TOPLED Santana®&lt;/u&gt;&lt;br&gt;
-	  LG M470&lt;br&gt;
-	  LS M47K, LO M47K, LY M47K&lt;br&gt;
+      - &lt;u&gt;Mini TOPLED Santana®&lt;/u&gt;&lt;br&gt;
+      LG M470&lt;br&gt;
+      LS M47K, LO M47K, LY M47K&lt;br&gt;
 
-	  &lt;p&gt;
-	  Source: http://www.osram.convergy.de/</description>
+      &lt;p&gt;
+      Source: http://www.osram.convergy.de/</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -4482,7 +4439,7 @@
 </deviceset>
 <deviceset name="MOISTURE_SENSOR" prefix="J">
 <description>3.5mm Terminal block
-	  &lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;p&gt;</description>
+      &lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="1X2" x="0" y="0"/>
 </gates>
@@ -4500,7 +4457,7 @@
 </deviceset>
 <deviceset name="MOUNTINGHOLE">
 <description>&lt;b&gt;Mounting Hole&lt;/b&gt;
-	  &lt;p&gt;For #2 screws (0.086"/2.18mm width, 0.094"/2.4mm hole) use 2.5mm&lt;/p&gt;</description>
+      &lt;p&gt;For #2 screws (0.086"/2.18mm width, 0.094"/2.4mm hole) use 2.5mm&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="MOUNTINGHOLE" x="0" y="0"/>
 </gates>
@@ -4627,7 +4584,7 @@
 </deviceset>
 <deviceset name="RGBLED_CA" prefix="LED">
 <description>&lt;b&gt;RGB LED, common-anode&lt;/b&gt;&lt;p&gt;5MM Staggered pins&lt;p&gt;5mm Piranha package
-	  &lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;p&gt;</description>
+      &lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RGBLED_CA" x="2.54" y="0"/>
 </gates>
@@ -4680,18 +4637,18 @@
 </deviceset>
 <deviceset name="SERVO" prefix="M">
 <description>&lt;b&gt;SM-S3317SR&lt;/b&gt; - Small Servo Continuous Rotation
-	  &lt;br&gt;
-	  By SpringRC
-	  &lt;p&gt;Technical Specifications:
-	  &lt;ul&gt;
-	  &lt;li&gt;VCC: 4.8-6V&lt;/li&gt;
-	  &lt;li&gt;Speed at 4.8V: 68 RPM&lt;/li&gt;
-	  &lt;li&gt;Torque at 4.8V: 1.4 kg-cm (16.48 oz-in)&lt;/li&gt;
-	  &lt;li&gt;Speed at 6V: 86 RPM&lt;/li&gt;
-	  &lt;li&gt;Torque at 6V: 1.7 kg-cm (23.65 oz-in)&lt;/li&gt;
-	  &lt;li&gt;Weight: 19g (0.67oz)&lt;/li&gt;
-	  &lt;/ul&gt;
-	  &lt;/p&gt;</description>
+      &lt;br&gt;
+      By SpringRC
+      &lt;p&gt;Technical Specifications:
+      &lt;ul&gt;
+      &lt;li&gt;VCC: 4.8-6V&lt;/li&gt;
+      &lt;li&gt;Speed at 4.8V: 68 RPM&lt;/li&gt;
+      &lt;li&gt;Torque at 4.8V: 1.4 kg-cm (16.48 oz-in)&lt;/li&gt;
+      &lt;li&gt;Speed at 6V: 86 RPM&lt;/li&gt;
+      &lt;li&gt;Torque at 6V: 1.7 kg-cm (23.65 oz-in)&lt;/li&gt;
+      &lt;li&gt;Weight: 19g (0.67oz)&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SM-S3317SR" x="-2.54" y="-2.54"/>
 </gates>
@@ -4830,13 +4787,13 @@
 <deviceset name="VIBRATING_MOTOR" prefix="M">
 <description>&lt;b&gt;VIBRATING_MOTOR&lt;/b&gt; - Coin Vibration Motor
 
-	  
-	  &lt;p&gt;Technical Specifications:
-	  &lt;ul&gt;
-	  &lt;li&gt;Voltage: 2.3-5.0V&lt;/li&gt;
-	  &lt;li&gt;Current: ~90 mA&lt;/li&gt;
-	  &lt;/ul&gt;
-	  &lt;/p&gt;</description>
+      
+      &lt;p&gt;Technical Specifications:
+      &lt;ul&gt;
+      &lt;li&gt;Voltage: 2.3-5.0V&lt;/li&gt;
+      &lt;li&gt;Current: ~90 mA&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VIBRATING_MOTOR" x="0" y="0"/>
 </gates>
