@@ -12368,6 +12368,7 @@ MHz</text>
 <circle x="18.415" y="13.97" radius="1" width="0" layer="21"/>
 <circle x="18.415" y="-13.97" radius="1" width="0" layer="21"/>
 <rectangle x1="-19.685" y1="-5.715" x2="-17.145" y2="5.715" layer="40"/>
+<rectangle x1="-20.955" y1="-16.51" x2="20.955" y2="16.51" layer="39"/>
 </package>
 </packages>
 <symbols>
