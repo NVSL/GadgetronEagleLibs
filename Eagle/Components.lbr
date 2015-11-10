@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1263,10 +1263,10 @@
 <circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
 <wire x1="0.254" y1="-1.905" x2="-1.524" y2="-1.905" width="0.127" layer="25"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-1.905" width="0.127" layer="25"/>
-<pad name="1" x="-2.159" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<pad name="2" x="-0.635" y="-0.9684" drill="0.8" diameter="1.6764" shape="square" rot="R90"/>
-<pad name="3" x="0.889" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
-<pad name="4" x="2.159" y="-0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="1" x="-2.159" y="0.9684" drill="0.9" diameter="1.6764" rot="R90"/>
+<pad name="2" x="-0.635" y="-0.9684" drill="0.9" diameter="1.6764" shape="square" rot="R90"/>
+<pad name="3" x="0.889" y="0.9684" drill="0.9" diameter="1.6764" rot="R90"/>
+<pad name="4" x="2.159" y="-0.9684" drill="0.9" diameter="1.6764" rot="R90"/>
 </package>
 <package name="LSU260">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
