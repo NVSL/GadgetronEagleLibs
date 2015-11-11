@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3268,19 +3268,24 @@
 <text x="1.27" y="-1.27" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="BATTERY_HOLDER">
-<smd name="P$1" x="0" y="-1.27" dx="4.064" dy="4.064" layer="1"/>
-<pad name="P$2" x="-4.270003125" y="-1.27" drill="0.8" diameter="2.032"/>
-<pad name="P$4" x="4.270003125" y="-1.27" drill="0.8" diameter="2.032"/>
-<wire x1="-2.54" y1="3.81" x2="-6.35" y2="2.54" width="0.127" layer="21" curve="90"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="-3.81" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-5.08" x2="6.35" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-3.81" x2="6.35" y2="2.54" width="0.127" layer="21"/>
-<wire x1="6.35" y1="2.54" x2="2.54" y2="3.81" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="21" curve="-112.619865"/>
+<description>Battery Holder source:http://www.memoryprotectiondevices.com/datasheets/BK-913-datasheet.pdf</description>
+<smd name="P$1" x="0" y="1" dx="4.064" dy="4.064" layer="1"/>
+<pad name="P$2" x="-4.540003125" y="1" drill="0.8" diameter="2.032"/>
+<pad name="P$4" x="4.540003125" y="1" drill="0.8" diameter="2.032"/>
 <text x="8.89" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.000003125" y1="-2" x2="-5.000003125" y2="-1" width="0.127" layer="21"/>
+<wire x1="-5.000003125" y1="-1" x2="-5.000003125" y2="4.000003125" width="0.127" layer="21"/>
+<wire x1="-4.000003125" y1="-2" x2="4.000003125" y2="-2" width="0.127" layer="21"/>
+<wire x1="4.000003125" y1="-2" x2="5.000003125" y2="-1" width="0.127" layer="21"/>
+<wire x1="4.000003125" y1="5.000003125" x2="5.000003125" y2="4.000003125" width="0.127" layer="21"/>
+<wire x1="5.000003125" y1="4.000003125" x2="5.000003125" y2="-1" width="0.127" layer="21"/>
+<wire x1="-5.000003125" y1="4.000003125" x2="-4.000003125" y2="5.000003125" width="0.127" layer="21"/>
+<wire x1="-4.000003125" y1="5.000003125" x2="-3.000003125" y2="5.000003125" width="0.127" layer="21"/>
+<wire x1="-3.000003125" y1="5.000003125" x2="-2" y2="4.000003125" width="0.127" layer="21"/>
+<wire x1="-2" y1="4.000003125" x2="2" y2="4.000003125" width="0.127" layer="21"/>
+<wire x1="2" y1="4.000003125" x2="3.000003125" y2="5.000003125" width="0.127" layer="21"/>
+<wire x1="3.000003125" y1="5.000003125" x2="4.000003125" y2="5.000003125" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3667,6 +3672,8 @@
 <circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
 <text x="5.08" y="2.54" size="1.016" layer="96" font="vector">&gt;NAME</text>
 <text x="5.08" y="0" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="3V">
 </symbol>
 </symbols>
 <devicesets>
@@ -4848,6 +4855,17 @@
 </gates>
 <devices>
 <device name="" package="PIN_LEG">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATTERY_HOLDER">
+<gates>
+</gates>
+<devices>
+<device name="" package="BATTERY_HOLDER">
 <technologies>
 <technology name=""/>
 </technologies>
