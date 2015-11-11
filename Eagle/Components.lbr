@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3268,22 +3268,19 @@
 <text x="1.27" y="-1.27" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="BATTERY_HOLDER">
-<smd name="P$1" x="0" y="0" dx="100.584" dy="100.584" layer="1"/>
-<pad name="P$2" x="95.25" y="2.54" drill="0.8" diameter="50.8"/>
-<pad name="P$3" x="-96.52" y="2.54" drill="0.8" diameter="50.8"/>
-<wire x1="-96.52" y1="62.23" x2="-96.52" y2="-68.58" width="0.127" layer="21"/>
-<wire x1="-96.52" y1="-68.58" x2="-96.52" y2="-71.12" width="0.127" layer="21"/>
-<wire x1="95.25" y1="62.23" x2="95.25" y2="-72.39" width="0.127" layer="21"/>
-<wire x1="-60.96" y1="97.79" x2="-96.52" y2="62.23" width="0.127" layer="21" curve="90"/>
-<wire x1="62.23" y1="95.25" x2="95.25" y2="62.23" width="0.127" layer="21" curve="-90"/>
-<wire x1="60.96" y1="95.25" x2="-59.69" y2="97.79" width="0.127" layer="21" curve="-113.745584"/>
-<wire x1="-96.52" y1="-68.58" x2="-71.12" y2="-102.87" width="0.127" layer="21"/>
-<wire x1="-71.12" y1="-102.87" x2="66.04" y2="-102.87" width="0.127" layer="21"/>
-<wire x1="66.04" y1="-102.87" x2="95.25" y2="-72.39" width="0.127" layer="21"/>
-<text x="-36.83" y="109.22" size="1.27" layer="21">&gt;NAME</text>
-<text x="118.11" y="82.55" size="6.4516" layer="25" font="vector">&gt;NAME</text>
-<text x="118.11" y="66.04" size="6.4516" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-60.96" y1="97.79" x2="-59.69" y2="97.79" width="0.127" layer="21"/>
+<smd name="P$1" x="0" y="-1.27" dx="4.064" dy="4.064" layer="1"/>
+<pad name="P$2" x="-4.270003125" y="-1.27" drill="0.8" diameter="2.032"/>
+<pad name="P$4" x="4.270003125" y="-1.27" drill="0.8" diameter="2.032"/>
+<wire x1="-2.54" y1="3.81" x2="-6.35" y2="2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-3.81" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="6.35" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.81" x2="6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="2.54" y2="3.81" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="21" curve="-112.619865"/>
+<text x="8.89" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
