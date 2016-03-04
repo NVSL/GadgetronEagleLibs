@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -793,7 +793,7 @@
 <pad name="3" x="-3.2512" y="-2.2606" drill="1.016" shape="long"/>
 <pad name="4" x="3.2512" y="-2.2606" drill="1.016" shape="long"/>
 </package>
-<package name="BUZZER-12MM">
+<package name="BUZZER-12MM-ADAFRUIT-1536">
 <description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
 <rectangle x1="-2.54" y1="-7.62" x2="2.54" y2="-5.08" layer="39"/>
 <circle x="0" y="0" radius="6" width="0.2032" layer="21"/>
@@ -3002,6 +3002,8 @@
 <rectangle x1="37.465" y1="-6.985" x2="46.99" y2="3.81" layer="39"/>
 <rectangle x1="4.445" y1="-10.795" x2="31.75" y2="10.795" layer="39"/>
 <rectangle x1="15.875" y1="-11.43" x2="33.655" y2="12.065" layer="41"/>
+<rectangle x1="-26.67" y1="-34.29" x2="2.54" y2="34.29" layer="103"/>
+<rectangle x1="2.54" y1="-2.54" x2="5.08" y2="2.54" layer="103"/>
 </package>
 <package name="SPARKFUN_HOBBY_MOTOR_LEFT">
 <wire x1="-18" y1="-33.5" x2="-18" y2="-39.5" width="0.127" layer="59"/>
@@ -3098,6 +3100,7 @@
 <text x="-46.355" y="-5.08" size="1.27" layer="21">&gt;NAME</text>
 <rectangle x1="-46.99" y1="-5.715" x2="-37.465" y2="3.175" layer="102"/>
 <rectangle x1="-46.99" y1="-5.715" x2="-37.465" y2="3.175" layer="39"/>
+<rectangle x1="-3.81" y1="-34.29" x2="26.67" y2="34.29" layer="103"/>
 </package>
 <package name="TO127P521H533-3P">
 <description>TO Cylindrical Style, 1.27 mm pitch;3 pin,5.21 mm W X 5.33 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -3513,6 +3516,15 @@
 <pad name="A1" x="8.97" y="-5.2" drill="0.9"/>
 <pad name="GND1" x="3.89" y="-5.2" drill="0.9"/>
 <pad name="PWR1" x="6.43" y="-5.2" drill="0.9"/>
+</package>
+<package name="BUZZER-12MM-ADAFRUIT-160">
+<description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
+<rectangle x1="-2.54" y1="-7.62" x2="2.54" y2="-5.08" layer="39"/>
+<circle x="0" y="0" radius="6" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="6.2" width="0.2032" layer="39"/>
+<text x="0.3175" y="-6.985" size="0.6096" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<pad name="+" x="2.5" y="0" drill="1" diameter="1.778" shape="square"/>
+<pad name="-" x="-3" y="0" drill="1" diameter="1.778"/>
 </package>
 </packages>
 <symbols>
@@ -4183,7 +4195,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUZZER" prefix="SG">
+<deviceset name="BUZZER" prefix="B">
 <description>&lt;b&gt;Buzzer 12mm&lt;/b&gt;
       Spark Fun Electronics SKU : Comp-Buzzer</description>
 <gates>
@@ -4221,7 +4233,7 @@
 </technology>
 </technologies>
 </device>
-<device name="PTH" package="BUZZER-12MM">
+<device name="PTH" package="BUZZER-12MM-ADAFRUIT-1536">
 <connects>
 <connect gate="G$1" pin="1" pad="+"/>
 <connect gate="G$1" pin="2" pad="-"/>
@@ -4264,6 +4276,15 @@
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ADAFRUIT-160" package="BUZZER-12MM-ADAFRUIT-160">
+<connects>
+<connect gate="G$1" pin="1" pad="+"/>
+<connect gate="G$1" pin="2" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
