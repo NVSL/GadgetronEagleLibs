@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -6201,7 +6201,6 @@ Groups of components that insist on having their own PCB. Usually requires heade
 <text x="-5.588" y="29.972" size="1.016" layer="21" font="vector" ratio="10" align="center-right">~</text>
 <text x="-5.588" y="31.75" size="1.016" layer="21" font="vector" ratio="10" align="center-right">9</text>
 <text x="-5.588" y="32.258" size="1.016" layer="21" font="vector" ratio="10" align="center-right">~</text>
-<rectangle x1="-6" y1="37" x2="6" y2="55" layer="39"/>
 <text x="-6.096" y="22.606" size="1.016" layer="21" font="vector" ratio="10" rot="R90" align="center-right">13</text>
 <text x="-6.096" y="25.146" size="1.016" layer="21" font="vector" ratio="10" rot="R90" align="center-right">12</text>
 <text x="-6.096" y="28.448" size="1.016" layer="21" font="vector" ratio="10" rot="R270" align="center-right">10</text>
@@ -7773,7 +7772,6 @@ MHz</text>
 <rectangle x1="-5.334" y1="13.716" x2="-4.826" y2="14.224" layer="51"/>
 <rectangle x1="-5.334" y1="16.256" x2="-4.826" y2="16.764" layer="51"/>
 <rectangle x1="-5.334" y1="16.256" x2="-4.826" y2="16.764" layer="51"/>
-<rectangle x1="-5.5" y1="37" x2="5.5" y2="51.5" layer="39"/>
 <rectangle x1="-5.572" y1="17.638" x2="-4.9888" y2="18.938" layer="51"/>
 <text x="-5.588" y="27.178" size="1.016" layer="21" font="vector" ratio="10" align="center-right">~</text>
 <text x="-5.588" y="29.972" size="1.016" layer="21" font="vector" ratio="10" align="center-right">~</text>
@@ -9360,7 +9358,6 @@ MHz</text>
 <rectangle x1="-5.334" y1="13.716" x2="-4.826" y2="14.224" layer="51"/>
 <rectangle x1="-5.334" y1="16.256" x2="-4.826" y2="16.764" layer="51"/>
 <rectangle x1="-5.334" y1="16.256" x2="-4.826" y2="16.764" layer="51"/>
-<rectangle x1="-5.5" y1="37" x2="5.5" y2="53.5" layer="39"/>
 <rectangle x1="-5.572" y1="17.638" x2="-4.9888" y2="18.938" layer="51"/>
 <text x="-5.588" y="27.178" size="1.016" layer="21" font="vector" ratio="10" align="center-right">~</text>
 <text x="-5.588" y="29.972" size="1.016" layer="21" font="vector" ratio="10" align="center-right">~</text>
