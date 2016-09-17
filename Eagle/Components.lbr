@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -676,9 +676,9 @@
 <wire x1="-6.4" y1="0" x2="-6.4" y2="6.5" width="0.127" layer="21"/>
 <rectangle x1="-7.62" y1="6.35" x2="7.62" y2="12.7" layer="39"/>
 <rectangle x1="-7.62" y1="6.6675" x2="7.62" y2="12.3825" layer="103"/>
-<text x="-7.9375" y="-4.1275" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<wire x1="-9.8425" y1="-5.08" x2="-9.8425" y2="6.6675" width="0.127" layer="39"/>
-<wire x1="-9.8425" y1="6.6675" x2="7.62" y2="6.6675" width="0.127" layer="39"/>
+<text x="0" y="-5.08" size="1.27" layer="25" font="vector" rot="R180" align="center">&gt;NAME</text>
+<wire x1="-6.6675" y1="-6.35" x2="-6.6675" y2="6.6675" width="0.127" layer="39"/>
+<wire x1="-6.6675" y1="6.6675" x2="6.985" y2="6.6675" width="0.127" layer="39"/>
 <wire x1="1.4" y1="3.7" x2="0.8" y2="3.7" width="0.127" layer="21" curve="180"/>
 <wire x1="2.4" y1="6.6" x2="1.2" y2="6.6" width="0.127" layer="21" curve="180"/>
 <circle x="3.25" y="1.5" radius="1" width="0.127" layer="21"/>
@@ -688,8 +688,8 @@
 <wire x1="6.4" y1="0" x2="-6.4" y2="0" width="0.127" layer="21"/>
 <wire x1="6.4" y1="6.5" x2="-6.4" y2="6.5" width="0.127" layer="21"/>
 <wire x1="6.4" y1="6.5" x2="6.4" y2="0" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-5.08" x2="-9.8425" y2="-5.08" width="0.127" layer="39"/>
-<wire x1="7.62" y1="6.6675" x2="7.62" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="6.985" y1="-6.35" x2="-6.6675" y2="-6.35" width="0.127" layer="39"/>
+<wire x1="6.985" y1="6.6675" x2="6.985" y2="-6.35" width="0.127" layer="39"/>
 <pad name="A" x="5.08" y="-2.8" drill="1.3" shape="square"/>
 <pad name="B" x="0" y="-2.8" drill="1.3"/>
 <pad name="NC" x="-5.08" y="-2.8" drill="1.3"/>
@@ -704,15 +704,15 @@
 <wire x1="-6.4" y1="0" x2="6.4" y2="0" width="0.127" layer="21"/>
 <wire x1="-6.4" y1="6.5" x2="-6.4" y2="0" width="0.127" layer="21"/>
 <wire x1="-6.4" y1="6.5" x2="6.4" y2="6.5" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-5.08" x2="9.2075" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="-6.985" y1="-6.35" x2="6.6675" y2="-6.35" width="0.127" layer="39"/>
 <rectangle x1="-7.62" y1="6.35" x2="7.62" y2="12.7" layer="39"/>
-<wire x1="-7.62" y1="6.6675" x2="-7.62" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="-6.985" y1="6.6675" x2="-6.985" y2="-6.35" width="0.127" layer="39"/>
 <rectangle x1="-7.62" y1="6.6675" x2="7.62" y2="12.7" layer="103"/>
 <circle x="3.25" y="1.5" radius="1" width="0.127" layer="21"/>
 <wire x1="6.4" y1="0" x2="6.4" y2="6.5" width="0.127" layer="21"/>
-<text x="8.5725" y="-4.1275" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<wire x1="9.2075" y1="-5.08" x2="9.2075" y2="6.6675" width="0.127" layer="39"/>
-<wire x1="9.2075" y1="6.6675" x2="-7.62" y2="6.6675" width="0.127" layer="39"/>
+<text x="0" y="-5.08" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
+<wire x1="6.6675" y1="-6.35" x2="6.6675" y2="6.6675" width="0.127" layer="39"/>
+<wire x1="6.6675" y1="6.6675" x2="-6.985" y2="6.6675" width="0.127" layer="39"/>
 <pad name="A" x="-5.08" y="-2.8" drill="1.3" shape="square"/>
 <pad name="B" x="0" y="-2.8" drill="1.3"/>
 <pad name="NC" x="5.08" y="-2.8" drill="1.3"/>
@@ -747,7 +747,7 @@
 <description>Round, colorful tactile button from adafruit
       &lt;br&gt;
       The radius of the faceplate opening is 0.5mm larger than it "should" be to allow for small misalignments between the faceplace and board.</description>
-<text x="-6.985" y="-8.5725" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-6.985" y="-8.5725" size="1.27" layer="21" font="vector">&gt;NAME</text>
 <rectangle x1="-7.62" y1="-8.89" x2="7.62" y2="6.985" layer="39"/>
 <hole x="0" y="-4.5" drill="2"/>
 <circle x="0" y="0" radius="6.25" width="0.127" layer="59"/>
@@ -757,6 +757,10 @@
 <pad name="P2" x="6" y="2.5" drill="1.5"/>
 <pad name="S" x="-6" y="-2.5" drill="1.5"/>
 <pad name="S2" x="6" y="-2.5" drill="1.5"/>
+<wire x1="-5.715" y1="5.715" x2="5.715" y2="5.715" width="0.127" layer="21"/>
+<wire x1="5.715" y1="5.715" x2="5.715" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-5.715" x2="-5.715" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-5.715" x2="-5.715" y2="5.715" width="0.127" layer="21"/>
 </package>
 <package name="BUTTON-TACTILE-SQUARE-ADAFRUIT1010">
 <description>Square, colorful tactile button from adafruit
@@ -12373,15 +12377,19 @@
 <smd name="2" x="0.945" y="0" dx="1.04" dy="0.93" layer="1"/>
 </package>
 <package name="ROTARY-ENCODER-W/BUTTON-ADAFRUIT377">
-<hole x="-5.7" y="0" drill="2.6"/>
+<hole x="-5.7" y="0" drill="2.8"/>
 <circle x="0" y="0" radius="3.5" width="0.1" layer="59"/>
 <circle x="0" y="0" radius="8" width="0.1" layer="100"/>
-<hole x="5.7" y="0" drill="2.6"/>
+<hole x="5.7" y="0" drill="2.8"/>
 <pad name="A" x="-2.5" y="-7.5" drill="1.1"/>
 <pad name="B" x="2.5" y="-7.5" drill="1.1"/>
 <pad name="BUTA" x="-2.5" y="7" drill="1.1" shape="square"/>
 <pad name="BUTB" x="2.5" y="7" drill="1.1"/>
 <pad name="COMMON" x="0" y="-7.5" drill="1.1"/>
+<circle x="0" y="0" radius="3.5" width="0.1" layer="21"/>
+<circle x="0" y="0" radius="8" width="0.1" layer="100"/>
+<circle x="0" y="0" radius="8" width="0.1" layer="21"/>
+<circle x="0" y="0" radius="9.919015625" width="0.127" layer="39"/>
 </package>
 <package name="SERVO_MICRO_SIDE">
 <hole x="-2.15" y="-3.15" drill="2.5"/>
@@ -12451,7 +12459,7 @@
 <wire x1="10.6" y1="25.05" x2="11.95" y2="25.05" width="0.127" layer="21"/>
 <wire x1="10.6" y1="26" x2="10.6" y2="25.05" width="0.127" layer="21"/>
 <rectangle x1="10.795" y1="17.145" x2="23.495" y2="26.035" layer="39"/>
-<text x="11.48" y="-7.14" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="11.48" y="-7.14" size="1.27" layer="21" font="vector">&gt;NAME</text>
 <wire x1="11.95" y1="21.75" x2="23.4" y2="21.75" width="0.127" layer="21"/>
 <wire x1="11.95" y1="25.05" x2="11.95" y2="21.75" width="0.127" layer="21"/>
 <wire x1="15.6" y1="26" x2="10.6" y2="26" width="0.127" layer="21"/>
@@ -12834,19 +12842,19 @@
 <smd name="K" x="0" y="0.75" dx="0.8" dy="0.6" layer="1"/>
 </package>
 <package name="SOLARBOTICS_G2">
-<wire x1="-4" y1="-5" x2="5" y2="-5" width="0.127" layer="51"/>
-<wire x1="-4" y1="0" x2="-4" y2="-5" width="0.127" layer="51"/>
+<wire x1="-4" y1="-5" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-4" y1="0" x2="-4" y2="-5" width="0.127" layer="21"/>
 <wire x1="-5" y1="-6" x2="4" y2="-6" width="0.127" layer="59"/>
 <wire x1="-5" y1="1" x2="-5" y2="-6" width="0.127" layer="59"/>
 <rectangle x1="-6" y1="-6" x2="3.5" y2="1" layer="39"/>
-<wire x1="-7" y1="-40" x2="-7" y2="40" width="0.127" layer="51"/>
-<wire x1="-7" y1="40" x2="0" y2="40" width="0.127" layer="51"/>
+<wire x1="-7" y1="-40" x2="-7" y2="40" width="0.127" layer="21"/>
+<wire x1="-7" y1="40" x2="0" y2="40" width="0.127" layer="21"/>
 <rectangle x1="-8" y1="-41" x2="1" y2="41" layer="60"/>
 <rectangle x1="-8" y1="-41" x2="1" y2="41" layer="59"/>
 <rectangle x1="-8" y1="-41" x2="1" y2="41" layer="39"/>
 <rectangle x1="-8.255" y1="-40.64" x2="1.27" y2="41.275" layer="103"/>
-<wire x1="0" y1="-40" x2="-7" y2="-40" width="0.127" layer="51"/>
-<wire x1="0" y1="-40" x2="0" y2="40" width="0.127" layer="51"/>
+<wire x1="0" y1="-40" x2="-7" y2="-40" width="0.127" layer="21"/>
+<wire x1="0" y1="-40" x2="0" y2="40" width="0.127" layer="21"/>
 <polygon width="0.127" layer="42">
 <vertex x="33" y="9"/>
 <vertex x="33" y="-15"/>
@@ -12865,59 +12873,61 @@
 <vertex x="19" y="-15"/>
 <vertex x="19" y="9"/>
 </polygon>
-<text x="10" y="-23.73" size="3" layer="51" font="vector">SOLARBOTICS</text>
-<text x="10" y="-28.73" size="3" layer="51" font="vector">GM2/8</text>
+<text x="10" y="-23.73" size="3" layer="21" font="vector">SOLARBOTICS</text>
+<text x="10" y="-28.73" size="3" layer="21" font="vector">GM2/8</text>
 <rectangle x1="17.78" y1="-41.91" x2="27.94" y2="-32.385" layer="39"/>
 <wire x1="18" y1="-36" x2="18" y2="-42" width="0.127" layer="59"/>
 <wire x1="18" y1="-42" x2="28" y2="-42" width="0.127" layer="59"/>
-<wire x1="19" y1="-35" x2="5" y2="-35" width="0.127" layer="51"/>
-<wire x1="19" y1="-41" x2="19" y2="-35" width="0.127" layer="51"/>
-<wire x1="19" y1="-5" x2="19" y2="-9" width="0.127" layer="51"/>
-<wire x1="19" y1="-9" x2="27" y2="-9" width="0.127" layer="51"/>
-<wire x1="19" y1="0" x2="28" y2="0" width="0.127" layer="51"/>
-<wire x1="19" y1="8" x2="19" y2="0" width="0.127" layer="51"/>
+<wire x1="19" y1="-35" x2="5" y2="-35" width="0.127" layer="21"/>
+<wire x1="19" y1="-41" x2="19" y2="-35" width="0.127" layer="21"/>
+<wire x1="19" y1="-5" x2="19" y2="-9" width="0.127" layer="21"/>
+<wire x1="19" y1="-9" x2="27" y2="-9" width="0.127" layer="21"/>
+<wire x1="19" y1="0" x2="28" y2="0" width="0.127" layer="21"/>
+<wire x1="19" y1="8" x2="19" y2="0" width="0.127" layer="21"/>
 <wire x1="20" y1="1" x2="20" y2="9" width="0.127" layer="59"/>
 <wire x1="20" y1="9" x2="4" y2="9" width="0.127" layer="59"/>
 <hole x="25.1" y="-10.2" drill="3"/>
 <hole x="25.1" y="3.6" drill="3"/>
-<wire x1="27" y1="-14" x2="27" y2="-15" width="0.127" layer="51"/>
-<wire x1="27" y1="-15" x2="51" y2="-15" width="0.127" layer="51"/>
-<wire x1="27" y1="-35" x2="27" y2="-41" width="0.127" layer="51"/>
-<wire x1="27" y1="-41" x2="19" y2="-41" width="0.127" layer="51"/>
-<wire x1="27" y1="-9" x2="27" y2="-14" width="0.127" layer="51"/>
+<wire x1="27" y1="-14" x2="27" y2="-15" width="0.127" layer="21"/>
+<wire x1="27" y1="-15" x2="51" y2="-15" width="0.127" layer="21"/>
+<wire x1="27" y1="-35" x2="27" y2="-41" width="0.127" layer="21"/>
+<wire x1="27" y1="-41" x2="19" y2="-41" width="0.127" layer="21"/>
+<wire x1="27" y1="-9" x2="27" y2="-14" width="0.127" layer="21"/>
 <wire x1="28" y1="-36" x2="53" y2="-36" width="0.127" layer="59"/>
 <wire x1="28" y1="-42" x2="28" y2="-36" width="0.127" layer="59"/>
-<wire x1="28" y1="-5" x2="19" y2="-5" width="0.127" layer="51"/>
-<wire x1="28" y1="0" x2="28" y2="-5" width="0.127" layer="51"/>
+<wire x1="28" y1="-5" x2="19" y2="-5" width="0.127" layer="21"/>
+<wire x1="28" y1="0" x2="28" y2="-5" width="0.127" layer="21"/>
 <wire x1="29" y1="-14" x2="29" y2="1" width="0.127" layer="59"/>
 <wire x1="29" y1="1" x2="20" y2="1" width="0.127" layer="59"/>
 <rectangle x1="3.81" y1="-36.195" x2="33.02" y2="9.525" layer="39"/>
 <rectangle x1="3.81" y1="-36.83" x2="53.34" y2="-13.97" layer="39"/>
-<wire x1="31.5" y1="-14" x2="27" y2="-14" width="0.127" layer="51"/>
-<wire x1="31.5" y1="8" x2="19" y2="8" width="0.127" layer="51"/>
-<wire x1="31.5" y1="8" x2="31.5" y2="-14" width="0.127" layer="51"/>
-<rectangle x1="36.195" y1="-6.985" x2="46.99" y2="-0.635" layer="102"/>
-<rectangle x1="36.195" y1="-6.985" x2="46.99" y2="-0.635" layer="39"/>
-<text x="36.9128" y="-4.435" size="2.54" layer="51" font="vector">+</text>
+<wire x1="31.5" y1="-14" x2="27" y2="-14" width="0.127" layer="21"/>
+<wire x1="31.5" y1="8" x2="19" y2="8" width="0.127" layer="21"/>
+<wire x1="31.5" y1="8" x2="31.5" y2="-14" width="0.127" layer="21"/>
+<text x="39.4528" y="-1.895" size="2.54" layer="21" font="vector">+</text>
 <wire x1="4" y1="-36" x2="18" y2="-36" width="0.127" layer="59"/>
 <wire x1="4" y1="-6" x2="4" y2="-36" width="0.127" layer="59"/>
 <wire x1="4" y1="1" x2="-5" y2="1" width="0.127" layer="59"/>
 <wire x1="4" y1="9" x2="4" y2="1" width="0.127" layer="59"/>
-<text x="44.3724" y="-4.5286" size="2.54" layer="51" font="vector">-</text>
-<wire x1="5" y1="-35" x2="5" y2="-5" width="0.127" layer="51"/>
-<wire x1="5" y1="0" x2="-4" y2="0" width="0.127" layer="51"/>
-<wire x1="5" y1="8" x2="19" y2="8" width="0.127" layer="51"/>
-<wire x1="5" y1="8" x2="5" y2="0" width="0.127" layer="51"/>
-<wire x1="51" y1="-15" x2="51" y2="-20" width="0.127" layer="51"/>
-<wire x1="51" y1="-20" x2="52" y2="-20" width="0.127" layer="51"/>
-<wire x1="51" y1="-30" x2="51" y2="-35" width="0.127" layer="51"/>
-<wire x1="51" y1="-35" x2="27" y2="-35" width="0.127" layer="51"/>
-<wire x1="52" y1="-20" x2="52" y2="-30" width="0.127" layer="51"/>
-<wire x1="52" y1="-30" x2="51" y2="-30" width="0.127" layer="51"/>
+<text x="41.8324" y="-1.9886" size="2.54" layer="21" font="vector">-</text>
+<wire x1="5" y1="-35" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5" y1="0" x2="-4" y2="0" width="0.127" layer="21"/>
+<wire x1="5" y1="8" x2="19" y2="8" width="0.127" layer="21"/>
+<wire x1="5" y1="8" x2="5" y2="0" width="0.127" layer="21"/>
+<wire x1="51" y1="-15" x2="51" y2="-20" width="0.127" layer="21"/>
+<wire x1="51" y1="-20" x2="52" y2="-20" width="0.127" layer="21"/>
+<wire x1="51" y1="-30" x2="51" y2="-35" width="0.127" layer="21"/>
+<wire x1="51" y1="-35" x2="27" y2="-35" width="0.127" layer="21"/>
+<wire x1="52" y1="-20" x2="52" y2="-30" width="0.127" layer="21"/>
+<wire x1="52" y1="-30" x2="51" y2="-30" width="0.127" layer="21"/>
 <wire x1="53" y1="-14" x2="29" y2="-14" width="0.127" layer="59"/>
 <wire x1="53" y1="-36" x2="53" y2="-14" width="0.127" layer="59"/>
 <pad name="+" x="40.545" y="-3.68" drill="1.27" shape="long" rot="R90"/>
 <pad name="-" x="42.815" y="-3.68" drill="1.27" shape="long" rot="R90"/>
+<text x="38.735" y="-5.715" size="1.27" layer="21" rot="R90">Red</text>
+<text x="45.72" y="-6.35" size="1.27" layer="21" rot="R90">Black</text>
+<rectangle x1="36.83" y1="-6.985" x2="46.355" y2="0.635" layer="39"/>
+<rectangle x1="36.83" y1="-6.985" x2="46.355" y2="0.635" layer="102"/>
 </package>
 <package name="SOLARBOTICS_G2_LEFT">
 <rectangle x1="-1" y1="-41" x2="8" y2="41" layer="60"/>
@@ -12926,58 +12936,56 @@
 <rectangle x1="-1.5" y1="-41.5" x2="8" y2="41" layer="39"/>
 <wire x1="-18" y1="-36" x2="-18" y2="-42" width="0.127" layer="59"/>
 <wire x1="-18" y1="-42" x2="-28" y2="-42" width="0.127" layer="59"/>
-<wire x1="-19" y1="-35" x2="-5" y2="-35" width="0.127" layer="51"/>
-<wire x1="-19" y1="-41" x2="-19" y2="-35" width="0.127" layer="51"/>
-<wire x1="-19" y1="-5" x2="-19" y2="-9" width="0.127" layer="51"/>
-<wire x1="-19" y1="-9" x2="-27" y2="-9" width="0.127" layer="51"/>
-<wire x1="-19" y1="0" x2="-28" y2="0" width="0.127" layer="51"/>
-<wire x1="-19" y1="8" x2="-19" y2="0" width="0.127" layer="51"/>
+<wire x1="-19" y1="-35" x2="-5" y2="-35" width="0.127" layer="21"/>
+<wire x1="-19" y1="-41" x2="-19" y2="-35" width="0.127" layer="21"/>
+<wire x1="-19" y1="-5" x2="-19" y2="-9" width="0.127" layer="21"/>
+<wire x1="-19" y1="-9" x2="-27" y2="-9" width="0.127" layer="21"/>
+<wire x1="-19" y1="0" x2="-28" y2="0" width="0.127" layer="21"/>
+<wire x1="-19" y1="8" x2="-19" y2="0" width="0.127" layer="21"/>
 <wire x1="-20" y1="1" x2="-20" y2="9" width="0.127" layer="59"/>
 <wire x1="-20" y1="9" x2="-4" y2="9" width="0.127" layer="59"/>
 <hole x="-25.1" y="-10.2" drill="3"/>
 <hole x="-25.1" y="3.6" drill="3"/>
-<wire x1="-27" y1="-14" x2="-27" y2="-15" width="0.127" layer="51"/>
-<wire x1="-27" y1="-15" x2="-51" y2="-15" width="0.127" layer="51"/>
-<wire x1="-27" y1="-35" x2="-27" y2="-41" width="0.127" layer="51"/>
-<wire x1="-27" y1="-41" x2="-19" y2="-41" width="0.127" layer="51"/>
-<wire x1="-27" y1="-9" x2="-27" y2="-14" width="0.127" layer="51"/>
+<wire x1="-27" y1="-14" x2="-27" y2="-15" width="0.127" layer="21"/>
+<wire x1="-27" y1="-15" x2="-51" y2="-15" width="0.127" layer="21"/>
+<wire x1="-27" y1="-35" x2="-27" y2="-41" width="0.127" layer="21"/>
+<wire x1="-27" y1="-41" x2="-19" y2="-41" width="0.127" layer="21"/>
+<wire x1="-27" y1="-9" x2="-27" y2="-14" width="0.127" layer="21"/>
 <wire x1="-28" y1="-36" x2="-53" y2="-36" width="0.127" layer="59"/>
 <wire x1="-28" y1="-42" x2="-28" y2="-36" width="0.127" layer="59"/>
-<wire x1="-28" y1="-5" x2="-19" y2="-5" width="0.127" layer="51"/>
-<wire x1="-28" y1="0" x2="-28" y2="-5" width="0.127" layer="51"/>
+<wire x1="-28" y1="-5" x2="-19" y2="-5" width="0.127" layer="21"/>
+<wire x1="-28" y1="0" x2="-28" y2="-5" width="0.127" layer="21"/>
 <wire x1="-29" y1="-14" x2="-29" y2="1" width="0.127" layer="59"/>
 <wire x1="-29" y1="1" x2="-20" y2="1" width="0.127" layer="59"/>
 <rectangle x1="-29.21" y1="-42.545" x2="-17.145" y2="-34.29" layer="39"/>
 <rectangle x1="-3.5" y1="-6" x2="5" y2="1" layer="39"/>
-<wire x1="-31.5" y1="-14" x2="-27" y2="-14" width="0.127" layer="51"/>
-<wire x1="-31.5" y1="8" x2="-19" y2="8" width="0.127" layer="51"/>
-<wire x1="-31.5" y1="8" x2="-31.5" y2="-14" width="0.127" layer="51"/>
+<wire x1="-31.5" y1="-14" x2="-27" y2="-14" width="0.127" layer="21"/>
+<wire x1="-31.5" y1="8" x2="-19" y2="8" width="0.127" layer="21"/>
+<wire x1="-31.5" y1="8" x2="-31.5" y2="-14" width="0.127" layer="21"/>
 <rectangle x1="-33.655" y1="-36.195" x2="-3.175" y2="9.525" layer="39"/>
-<text x="-38.9128" y="-4.435" size="2.54" layer="51" font="vector">+</text>
+<text x="-41.4528" y="-0.625" size="2.54" layer="21" font="vector">+</text>
 <wire x1="-4" y1="-36" x2="-18" y2="-36" width="0.127" layer="59"/>
 <wire x1="-4" y1="-6" x2="-4" y2="-36" width="0.127" layer="59"/>
 <wire x1="-4" y1="1" x2="5" y2="1" width="0.127" layer="59"/>
 <wire x1="-4" y1="9" x2="-4" y2="1" width="0.127" layer="59"/>
-<text x="-46" y="-23.73" size="3" layer="51" font="vector">SOLARBOTICS</text>
-<text x="-46" y="-28.73" size="3" layer="51" font="vector">GM2/8</text>
-<text x="-47.0074" y="-4.5286" size="2.54" layer="51" font="vector">-</text>
-<rectangle x1="-47.625" y1="-6.35" x2="-36.83" y2="0" layer="102"/>
-<rectangle x1="-47.625" y1="-6.35" x2="-36.83" y2="0" layer="39"/>
-<wire x1="-5" y1="-35" x2="-5" y2="-5" width="0.127" layer="51"/>
-<wire x1="-5" y1="0" x2="4" y2="0" width="0.127" layer="51"/>
-<wire x1="-5" y1="8" x2="-19" y2="8" width="0.127" layer="51"/>
-<wire x1="-5" y1="8" x2="-5" y2="0" width="0.127" layer="51"/>
-<wire x1="-51" y1="-15" x2="-51" y2="-20" width="0.127" layer="51"/>
-<wire x1="-51" y1="-20" x2="-52" y2="-20" width="0.127" layer="51"/>
-<wire x1="-51" y1="-30" x2="-51" y2="-35" width="0.127" layer="51"/>
-<wire x1="-51" y1="-35" x2="-27" y2="-35" width="0.127" layer="51"/>
-<wire x1="-52" y1="-20" x2="-52" y2="-30" width="0.127" layer="51"/>
-<wire x1="-52" y1="-30" x2="-51" y2="-30" width="0.127" layer="51"/>
+<text x="-46" y="-23.73" size="3" layer="21" font="vector">SOLARBOTICS</text>
+<text x="-46" y="-28.73" size="3" layer="21" font="vector">GM2/8</text>
+<text x="-44.4674" y="-0.7186" size="2.54" layer="21" font="vector">-</text>
+<wire x1="-5" y1="-35" x2="-5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5" y1="0" x2="4" y2="0" width="0.127" layer="21"/>
+<wire x1="-5" y1="8" x2="-19" y2="8" width="0.127" layer="21"/>
+<wire x1="-5" y1="8" x2="-5" y2="0" width="0.127" layer="21"/>
+<wire x1="-51" y1="-15" x2="-51" y2="-20" width="0.127" layer="21"/>
+<wire x1="-51" y1="-20" x2="-52" y2="-20" width="0.127" layer="21"/>
+<wire x1="-51" y1="-30" x2="-51" y2="-35" width="0.127" layer="21"/>
+<wire x1="-51" y1="-35" x2="-27" y2="-35" width="0.127" layer="21"/>
+<wire x1="-52" y1="-20" x2="-52" y2="-30" width="0.127" layer="21"/>
+<wire x1="-52" y1="-30" x2="-51" y2="-30" width="0.127" layer="21"/>
 <wire x1="-53" y1="-14" x2="-29" y2="-14" width="0.127" layer="59"/>
 <wire x1="-53" y1="-36" x2="-53" y2="-14" width="0.127" layer="59"/>
 <rectangle x1="-53.975" y1="-36.195" x2="-3.175" y2="-13.335" layer="39"/>
-<wire x1="0" y1="-40" x2="0" y2="40" width="0.127" layer="51"/>
-<wire x1="0" y1="-40" x2="7" y2="-40" width="0.127" layer="51"/>
+<wire x1="0" y1="-40" x2="0" y2="40" width="0.127" layer="21"/>
+<wire x1="0" y1="-40" x2="7" y2="-40" width="0.127" layer="21"/>
 <polygon width="0.127" layer="42">
 <vertex x="-33" y="9"/>
 <vertex x="-18" y="9"/>
@@ -12996,14 +13004,18 @@
 <vertex x="-18" y="-15"/>
 <vertex x="-33" y="-15"/>
 </polygon>
-<wire x1="4" y1="-5" x2="-5" y2="-5" width="0.127" layer="51"/>
-<wire x1="4" y1="0" x2="4" y2="-5" width="0.127" layer="51"/>
+<wire x1="4" y1="-5" x2="-5" y2="-5" width="0.127" layer="21"/>
+<wire x1="4" y1="0" x2="4" y2="-5" width="0.127" layer="21"/>
 <wire x1="5" y1="-6" x2="-4" y2="-6" width="0.127" layer="59"/>
 <wire x1="5" y1="1" x2="5" y2="-6" width="0.127" layer="59"/>
-<wire x1="7" y1="-40" x2="7" y2="40" width="0.127" layer="51"/>
-<wire x1="7" y1="40" x2="0" y2="40" width="0.127" layer="51"/>
+<wire x1="7" y1="-40" x2="7" y2="40" width="0.127" layer="21"/>
+<wire x1="7" y1="40" x2="0" y2="40" width="0.127" layer="21"/>
 <pad name="+" x="-40.545" y="-3.68" drill="1.27" shape="long" rot="R90"/>
 <pad name="-" x="-43.45" y="-3.68" drill="1.27" shape="long" rot="R90"/>
+<text x="-37.465" y="-5.08" size="1.27" layer="21" rot="R90">Red</text>
+<text x="-45.085" y="-5.715" size="1.27" layer="21" rot="R90">Black</text>
+<rectangle x1="-48.26" y1="-7.62" x2="-36.195" y2="1.905" layer="102"/>
+<rectangle x1="-48.26" y1="-7.62" x2="-36.195" y2="1.905" layer="39"/>
 </package>
 <package name="SOT23-R">
 <description>&lt;b&gt;SOT23&lt;/b&gt; - Reflow soldering</description>
@@ -13054,7 +13066,6 @@
 <wire x1="-4" y1="2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-5" y1="-3.5" x2="4" y2="-3.5" width="0.127" layer="59"/>
 <wire x1="-5" y1="3.5" x2="-5" y2="-3.5" width="0.127" layer="59"/>
-<text x="10" y="-21.23" size="3" layer="21" font="vector">SPARKFUN</text>
 <text x="10" y="-26.23" size="3" layer="21" font="vector">HOBBY MOTOR</text>
 <rectangle x1="13.97" y1="-12.065" x2="33.655" y2="12.065" layer="42"/>
 <rectangle x1="15.875" y1="-11.43" x2="33.655" y2="12.065" layer="41"/>
