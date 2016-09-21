@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1787,7 +1787,7 @@ Groups of components that insist on having their own PCB. Usually requires heade
 <text x="-19.47" y="1.35" size="1.016" layer="51" font="vector">G</text>
 <text x="-2.159" y="12.954" size="1.016" layer="22" font="vector" rot="R180">-</text>
 <wire x1="-2.692" y1="0.82" x2="-1.946" y2="8.058" width="0.4064" layer="51"/>
-<text x="-20.066" y="-11.938" size="1.27" layer="22" font="vector">0.56" 7-segment LED HT16K33 Backpack </text>
+<text x="-20.066" y="-11.938" size="1.27" layer="21" font="vector">0.56" 7-segment LED HT16K33 Backpack </text>
 <text x="-20.22" y="-6.7" size="1.016" layer="51" font="vector">D</text>
 <wire x1="-21.376" y1="8.058" x2="-15.328" y2="8.058" width="0.4064" layer="51"/>
 <circle x="-21.844" y="-11.43" radius="1" width="0" layer="160"/>
@@ -11958,8 +11958,8 @@ SIM Card</text>
 <text x="-5.461" y="-9.398" size="1.016" layer="21" font="vector" ratio="15">GND</text>
 <text x="-5.461" y="0.762" size="1.016" layer="21" font="vector" ratio="15">STBY</text>
 <text x="-5.461" y="3.302" size="1.016" layer="21" font="vector" ratio="15">AIN1</text>
-<text x="-5.461" y="5.842" size="1.016" layer="27" font="vector" ratio="15">AIN2</text>
-<text x="-5.461" y="8.382" size="1.016" layer="25" font="vector" ratio="15">PWMA</text>
+<text x="-5.461" y="5.842" size="1.016" layer="21" font="vector" ratio="15">AIN2</text>
+<text x="-5.461" y="8.382" size="1.016" layer="21" font="vector" ratio="15">PWMA</text>
 <rectangle x1="-7.874" y1="-1.524" x2="-7.366" y2="-1.016" layer="51" rot="R270"/>
 <rectangle x1="-7.874" y1="-4.064" x2="-7.366" y2="-3.556" layer="51" rot="R270"/>
 <rectangle x1="-7.874" y1="-6.604" x2="-7.366" y2="-6.096" layer="51" rot="R270"/>
@@ -13208,7 +13208,10 @@ THIS DOES NOT HAVE THE FTDI PINS. IF YOU WERE PLANNING ON USING FTDI PINS, KILL 
 <connect gate="G$1" pin="VBUS1" pad="VBUS1"/>
 </connects>
 <technologies>
-<technology name=""/>
+  <technology name="">
+    <attribute name="DIST" value="Adafruit"/>
+    <attribute name="DISTPN" value="2000"/>
+  </technology>
 </technologies>
 </device>
 </devices>
