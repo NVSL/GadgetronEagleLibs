@@ -1,0 +1,105 @@
+# Library Script
+#
+# PCB Libraries
+SET WIRE_BEND 2;
+Grid mm;
+SET COLOR_LAYER 29 3
+SET COLOR_LAYER 31 11
+SET COLOR_LAYER 39 13
+SET COLOR_LAYER 40 5
+SET COLOR_LAYER 51 6
+SET COLOR_LAYER 52 6
+SET FILL_LAYER 29 9
+SET FILL_LAYER 31 1
+SET FILL_LAYER 39 1
+SET FILL_LAYER 40 1
+SET FILL_LAYER 51 1
+SET FILL_LAYER 52 1
+Layer 1 Top;
+Layer 16 Bottom;
+Layer 17 Pads;
+Layer 18 Vias;
+Layer 19 Unrouted;
+Layer 20 Dimension;
+Layer 21 tPlace;
+Layer 22 bPlace;
+Layer 23 tOrigins;
+Layer 24 bOrigins;
+Layer 25 tNames;
+Layer 26 bNames;
+Layer 27 tValues;
+Layer 28 bValues;
+Layer 29 tStop;
+Layer 30 bStop;
+Layer 31 tCream;
+Layer 32 bCream;
+Layer 33 tFinish;
+Layer 34 bFinish;
+Layer 35 tGlue;
+Layer 36 bGlue;
+Layer 37 tTest;
+Layer 38 bTest;
+Layer 39 tKeepout;
+Layer 40 bKeepout;
+Layer 41 tRestrict;
+Layer 42 bRestrict;
+Layer 43 vRestrict;
+Layer 44 Drills;
+Layer 45 Holes;
+Layer 46 Milling;
+Layer 47 Measures;
+Layer 48 Document;
+Layer 49 Reference;
+Layer 51 tDocu;
+Layer 52 bDocu;
+
+Edit DIP310W18P100L775H210Q16P.pac;
+Description 'DIP, 0.310 in lead span, 0.100 in pitch;16 pin,0.775 in L X 0.250 in W X 0.210 in H body<p><i>PCB Libraries Packages</i>';
+Change Drill 0.8636;
+Layer 1;
+PAD '1' Square 1.3716 R90 FIRST (-8.89 -3.937);
+PAD '2' Round 1.3716 R0 (-6.35 -3.937);
+PAD '3' Round 1.3716 R0 (-3.81 -3.937);
+PAD '4' Round 1.3716 R0 (-1.27 -3.937);
+PAD '5' Round 1.3716 R0 (1.27 -3.937);
+PAD '6' Round 1.3716 R0 (3.81 -3.937);
+PAD '7' Round 1.3716 R0 (6.35 -3.937);
+PAD '8' Round 1.3716 R0 (8.89 -3.937);
+PAD '9' Round 1.3716 R0 (8.89 3.937);
+PAD '10' Round 1.3716 R0 (6.35 3.937);
+PAD '11' Round 1.3716 R0 (3.81 3.937);
+PAD '12' Round 1.3716 R0 (1.27 3.937);
+PAD '13' Round 1.3716 R0 (-1.27 3.937);
+PAD '14' Round 1.3716 R0 (-3.81 3.937);
+PAD '15' Round 1.3716 R0 (-6.35 3.937);
+PAD '16' Round 1.3716 R0 (-8.89 3.937);
+Layer 39;
+Wire 0.0508 (-10.1092 -4.8768) (-10.1092 4.8768) (10.1092 4.8768) (10.1092 -4.8768)\
+            (-10.1092 -4.8768);
+Circle 0.0508 (0 0) (0.3175 0);
+Wire 0.0508 (0 0.4064) (0 -0.4064);
+Wire 0.0508 (-0.4064 0) (0.4064 0);
+Layer 51;
+Wire 0.0254 (-9.8425 -3.175) (-9.8425 3.175) (9.8425 3.175) (9.8425 -3.175)\
+            (-9.8425 -3.175);
+Layer 21;
+Wire 0.127 (-9.8552 -4.572) (-9.8552 3.175);
+Wire 0.127 (9.8552 -3.175) (9.8552 3.175);
+Layer 51;
+Wire 0.127 (9.8552 -3.175) (-8.5852 -3.175) (-9.8552 -1.905) (-9.8552 3.175)\
+           (9.8552 3.175) (9.8552 -3.175);
+Layer 25;
+Change Size 1.19;
+Change Ratio 10;
+Change Font Vector;
+Text '>NAME' R0 (0 0);
+Layer 27;
+Change Size 1.19;
+Change Ratio 10;
+Change Font Vector;
+Text '>VALUE' R0 (0 0);
+Layer 51;
+Change Size 2.01;
+Change Ratio 10;
+Change Font Vector;
+Text '>NAME' R0 (0 0);
