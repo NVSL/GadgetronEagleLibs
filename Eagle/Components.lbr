@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -218,8 +218,8 @@
 <rectangle x1="-14.55165625" y1="-8.072121875" x2="14.65834375" y2="7.802878125" layer="39"/>
 <rectangle x1="-14.55165625" y1="7.802878125" x2="14.65834375" y2="17.962878125" layer="103"/>
 <text x="-2.96165625" y="-21.237121875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="3.48334375" y="-12.517121875" size="1.27" layer="21" font="vector" rot="R90" align="bottom-right">BLACK</text>
-<text x="0.94334375" y="-12.517121875" size="1.27" layer="21" font="vector" rot="R90" align="bottom-right">RED</text>
+<text x="0.94334375" y="-12.517121875" size="1.27" layer="21" font="vector" rot="R90" align="bottom-right">BLACK</text>
+<text x="3.48334375" y="-12.517121875" size="1.27" layer="21" font="vector" rot="R90" align="bottom-right">RED</text>
 <text x="-1.59665625" y="-12.517121875" size="1.27" layer="21" font="vector" rot="R90" align="bottom-right">WHITE</text>
 <wire x1="-13.28165625" y1="-7.697121875" x2="-4.58165625" y2="-7.697121875" width="0.127" layer="21"/>
 <wire x1="-13.28165625" y1="-4.897121875" x2="-13.28165625" y2="-7.697121875" width="0.127" layer="21"/>
@@ -11773,6 +11773,93 @@
 <pad name="PWR1" x="0" y="41.91" drill="0.9" rot="R90"/>
 <rectangle x1="-5.715" y1="38.735" x2="3.81" y2="48.895" layer="39"/>
 </package>
+<package name="MICRO_GRIPPER_STRAIGHT_MOUNT">
+<wire x1="-1.6" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
+<wire x1="-10" y1="0" x2="-1.6" y2="0" width="0.127" layer="21"/>
+<wire x1="-10" y1="0" x2="-10" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-10" y1="0.1" x2="-11.6" y2="1.7" width="0.127" layer="21" curve="90"/>
+<wire x1="-11.6" y1="9.8" x2="-9.6" y2="11.8" width="0.127" layer="21" curve="90"/>
+<wire x1="-11.7" y1="0" x2="-10" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.7" y1="0" x2="-11.7" y2="9.8" width="0.127" layer="21"/>
+<wire x1="-11.7" y1="11.92" x2="11.7" y2="11.92" width="0.127" layer="21"/>
+<wire x1="-11.7" y1="9.8" x2="-11.6" y2="9.8" width="0.127" layer="21"/>
+<wire x1="-11.7" y1="9.8" x2="-11.7" y2="11.92" width="0.127" layer="21"/>
+<wire x1="-13.4" y1="0" x2="-1.6" y2="0" width="0.127" layer="21" curve="118.541731"/>
+<wire x1="-13.4" y1="0" x2="-11.7" y2="0" width="0.127" layer="21"/>
+<circle x="-13.8" y="5.8" radius="1.1" width="0.127" layer="21"/>
+<wire x1="-16.2" y1="0" x2="-13.4" y2="0" width="0.127" layer="21"/>
+<wire x1="-16.2" y1="0" x2="-16.2" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-16.2" y1="11.92" x2="-11.7" y2="11.92" width="0.127" layer="21"/>
+<wire x1="-16.2" y1="6.6" x2="-16.2" y2="11.92" width="0.127" layer="21"/>
+<text x="1.325" y="24.575" size="1.27" layer="21" font="vector" rot="R90">Red</text>
+<text x="-1.31" y="24.575" size="1.27" layer="21" font="vector" rot="R90">Black</text>
+<text x="3.825" y="24.475" size="1.27" layer="21" font="vector" rot="R90">White</text>
+<wire x1="-19.8" y1="-6.6" x2="-13.4" y2="-0.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-19.8" y1="-7.4" x2="-19.8" y2="-6.6" width="0.127" layer="21"/>
+<text x="-3.9375" y="21.6675" size="1" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="-22.2" y1="-22" x2="-23.2" y2="-20.4" width="0.127" layer="21"/>
+<rectangle x1="-4.8975" y1="20.6875" x2="3.9925" y2="30.2125" layer="102" rot="R90"/>
+<wire x1="-22.8" y1="-22.6" x2="-22.2" y2="-22" width="0.127" layer="21"/>
+<wire x1="-23.2" y1="-20.4" x2="-19.8" y2="-7.4" width="0.127" layer="21" curve="-93.324262"/>
+<wire x1="-25" y1="-25" x2="-22.8" y2="-22.6" width="0.127" layer="21" curve="-180"/>
+<circle x="-25.2" y="-19.6" radius="1" width="0.127" layer="21"/>
+<wire x1="-25.8" y1="-25.8" x2="-16.2" y2="6.6" width="0.127" layer="21" curve="-74.033678"/>
+<wire x1="-25.8" y1="-25.8" x2="-25" y2="-25" width="0.127" layer="21"/>
+<hole x="-9.7" y="15.2" drill="3.4"/>
+<polygon width="0.127" layer="103">
+<vertex x="-13.335" y="8.255"/>
+<vertex x="-27.94" y="-10.16"/>
+<vertex x="-34.29" y="-33.655"/>
+<vertex x="33.655" y="-33.655"/>
+<vertex x="28.575" y="-10.16"/>
+<vertex x="13.335" y="8.255"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="13.335" y="19.94"/>
+<vertex x="13.335" y="12.065"/>
+<vertex x="-12.7" y="12.065"/>
+<vertex x="-12.7" y="20.075"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="-13.335" y="12.065"/>
+<vertex x="-20.32" y="12.065"/>
+<vertex x="-34.29" y="-26.67"/>
+<vertex x="33.02" y="-26.67"/>
+<vertex x="22.225" y="12.065"/>
+<vertex x="13.335" y="12.065"/>
+</polygon>
+<circle x="0.2" y="15.2" radius="1.769178125" width="0.127" layer="21"/>
+<wire x1="10.2" y1="0" x2="11.7" y2="0" width="0.127" layer="21"/>
+<wire x1="10.2" y1="0" x2="11.7" y2="1.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="11.7" y1="0" x2="11.7" y2="1.5" width="0.127" layer="21"/>
+<wire x1="11.7" y1="0" x2="13.8" y2="0" width="0.127" layer="21"/>
+<wire x1="11.7" y1="1.5" x2="11.7" y2="10" width="0.127" layer="21"/>
+<wire x1="11.7" y1="10" x2="11.7" y2="11.92" width="0.127" layer="21"/>
+<wire x1="11.7" y1="11.92" x2="16.2" y2="11.92" width="0.127" layer="21"/>
+<wire x1="13.8" y1="0" x2="16.2" y2="0" width="0.127" layer="21"/>
+<circle x="13.8" y="5.8" radius="1.1" width="0.127" layer="21"/>
+<wire x1="16.2" y1="0" x2="16.2" y2="11.92" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="10.2" y2="0" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="13.8" y2="0" width="0.127" layer="21" curve="118.541731"/>
+<wire x1="20.4" y1="-7" x2="13.8" y2="-0.2" width="0.127" layer="22" curve="90"/>
+<wire x1="20.4" y1="-7.8" x2="20.4" y2="-7" width="0.127" layer="22"/>
+<wire x1="22.8" y1="-22.4" x2="23.8" y2="-20.8" width="0.127" layer="22"/>
+<wire x1="23.4" y1="-23" x2="22.8" y2="-22.4" width="0.127" layer="22"/>
+<wire x1="23.4" y1="-23" x2="25.2" y2="-25.2" width="0.127" layer="21" curve="-191.309932"/>
+<wire x1="23.8" y1="-20.8" x2="20.4" y2="-7.8" width="0.127" layer="22" curve="93.324262"/>
+<circle x="26" y="-19.6" radius="1" width="0.127" layer="21"/>
+<wire x1="26.4" y1="-26.2" x2="16.2" y2="6.2" width="0.127" layer="22" curve="74.033678"/>
+<wire x1="26.4" y1="-26.2" x2="25.2" y2="-25.2" width="0.127" layer="22"/>
+<wire x1="9.8" y1="11.9" x2="11.7" y2="10" width="0.127" layer="21" curve="90"/>
+<hole x="9.9" y="15.2" drill="3.4"/>
+<pad name="A1" x="3.04" y="22.91" drill="0.9" rot="R90"/>
+<pad name="GND1" x="-2.04" y="22.91" drill="0.9" rot="R90"/>
+<pad name="PWR1" x="0.5" y="22.91" drill="0.9" rot="R90"/>
+<wire x1="-12.5" y1="12" x2="-12.5" y2="19.5" width="0.127" layer="21"/>
+<wire x1="-12.5" y1="19.5" x2="13" y2="19.5" width="0.127" layer="21"/>
+<wire x1="13" y1="19.5" x2="13" y2="12" width="0.127" layer="21"/>
+<rectangle x1="-6" y1="19.5" x2="5" y2="30.5" layer="39"/>
+</package>
 <package name="MINI-TOPLED-SANTANA">
 <description>&lt;b&gt;Mini TOPLED Santana®&lt;/b&gt;&lt;p&gt;
       Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
@@ -16576,6 +16663,19 @@ Added bigger pads to the TO-92 package</description>
 </gates>
 <devices>
 <device name="" package="MICRO_GRIPPER">
+<connects>
+<connect gate="G$1" pin="DATA" pad="A1"/>
+<connect gate="G$1" pin="GND" pad="GND1"/>
+<connect gate="G$1" pin="VCC" pad="PWR1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST" value="Sparkfun"/>
+<attribute name="DISTPN" value="13177-assembly"/>
+</technology>
+</technologies>
+</device>
+<device name="-STRAIGHT" package="MICRO_GRIPPER_STRAIGHT_MOUNT">
 <connects>
 <connect gate="G$1" pin="DATA" pad="A1"/>
 <connect gate="G$1" pin="GND" pad="GND1"/>
