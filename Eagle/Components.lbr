@@ -15870,7 +15870,7 @@ Added bigger pads to the TO-92 package</description>
 <technologies>
 <technology name="">
 <attribute name="DIST" value="digikey"/>
-<attribute name="DISTPN" value="ED10561-ND"/>
+<attribute name="DISTPN" value="ED10562-ND"/>
 <attribute name="PIN1" value="1" constant="no"/>
 <attribute name="PIN2" value="2" constant="no"/>
 <attribute name="PIN3" value="3" constant="no"/>
@@ -15957,7 +15957,21 @@ Added bigger pads to the TO-92 package</description>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CASE" value="" constant="no"/>
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DIST1" value="" constant="no"/>
+<attribute name="DIST1PN" value="" constant="no"/>
+<attribute name="DISTPN" value="ED10563-ND"/>
+<attribute name="MFR" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="PIN1" value="1" constant="no"/>
+<attribute name="PIN2" value="2" constant="no"/>
+<attribute name="PIN3" value="3" constant="no"/>
+<attribute name="PIN4" value="4" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
