@@ -15338,6 +15338,7 @@ SIM Card</text>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1049"/>
+<attribute name="ROUGH_HEIGHT" value="21"/>
 </technology>
 </technologies>
 </device>
@@ -15352,6 +15353,7 @@ SIM Card</text>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1614"/>
+<attribute name="ROUGH_HEIGHT" value="21"/>
 </technology>
 </technologies>
 </device>
@@ -15366,6 +15368,7 @@ SIM Card</text>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1050"/>
+<attribute name="ROUGH_HEIGHT" value="21"/>
 </technology>
 </technologies>
 </device>
@@ -15380,6 +15383,7 @@ SIM Card</text>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1051"/>
+<attribute name="ROUGH_HEIGHT" value="21"/>
 </technology>
 </technologies>
 </device>
@@ -15394,6 +15398,7 @@ SIM Card</text>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1052"/>
+<attribute name="ROUGH_HEIGHT" value="21"/>
 </technology>
 </technologies>
 </device>
@@ -15648,6 +15653,7 @@ THIS DOES NOT HAVE THE FTDI PINS. IF YOU WERE PLANNING ON USING FTDI PINS, KILL 
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="2000"/>
+<attribute name="ROUGH_HEIGHT" value="22"/>
 </technology>
 </technologies>
 </device>
@@ -15698,6 +15704,7 @@ THIS DOES NOT HAVE THE FTDI PINS. IF YOU WERE PLANNING ON USING FTDI PINS, KILL 
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="2000"/>
+<attribute name="ROUGH_HEIGHT" value="22"/>
 </technology>
 </technologies>
 </device>
@@ -16124,6 +16131,7 @@ THIS DOES NOT HAVE THE FTDI PINS. IF YOU WERE PLANNING ON USING FTDI PINS, KILL 
 <technology name="">
 <attribute name="DIST" value="Sparkfun"/>
 <attribute name="DISTPN" value="9457-assembly"/>
+<attribute name="ROUGH_HEIGHT" value="15"/>
 </technology>
 </technologies>
 </device>

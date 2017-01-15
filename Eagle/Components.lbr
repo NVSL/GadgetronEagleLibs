@@ -14356,6 +14356,31 @@
 <rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 </package>
+<package name="BATTERY-AA-BK-92">
+<pad name="P2" x="-16.765" y="0" drill="1.9" shape="long" rot="R90"/>
+<pad name="N1" x="16.765" y="0" drill="1.9" shape="long" rot="R90"/>
+<pad name="P1" x="-24.385" y="0" drill="1.9" shape="long" rot="R90"/>
+<pad name="N2" x="24.385" y="0" drill="1.9" shape="long" rot="R90"/>
+<text x="-11" y="0" size="4" layer="21" font="vector" ratio="4" align="center">+</text>
+<text x="12" y="0" size="4" layer="21" font="vector" ratio="4" align="center">-</text>
+<wire x1="-27.5" y1="7.25" x2="27.5" y2="7.25" width="0.127" layer="21"/>
+<wire x1="27.5" y1="7.25" x2="27.5" y2="-7.25" width="0.127" layer="21"/>
+<wire x1="27.5" y1="-7.25" x2="-27.5" y2="-7.25" width="0.127" layer="21"/>
+<wire x1="-27.5" y1="-7.25" x2="-27.5" y2="7.25" width="0.127" layer="21"/>
+<wire x1="-27.5" y1="-7.25" x2="-27.5" y2="7.25" width="0.127" layer="39"/>
+<wire x1="-27.5" y1="7.25" x2="27.5" y2="7.25" width="0.127" layer="39"/>
+<wire x1="27.5" y1="7.25" x2="27.5" y2="-7.25" width="0.127" layer="39"/>
+<wire x1="27.5" y1="-7.25" x2="-27.5" y2="-7.25" width="0.127" layer="39"/>
+<wire x1="14.5" y1="3.5" x2="14.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="14.5" y1="-3.5" x2="-13" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-13" y1="-3.5" x2="-13" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-13" y1="-1.5" x2="-14.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-14.5" y1="-1.5" x2="-14.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-14.5" y1="1.5" x2="-13" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-13" y1="1.5" x2="-13" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-13" y1="3.5" x2="14.5" y2="3.5" width="0.127" layer="21"/>
+<text x="0.5" y="0" size="2.5" layer="21" font="vector" ratio="4" align="center">AA 1.5V</text>
+</package>
 </packages>
 <symbols>
 <symbol name="1X2">
@@ -15289,6 +15314,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Pololu"/>
 <attribute name="DISTPN" value="2450"/>
+<attribute name="ROUGH_HEIGHT" value="13.4"/>
 </technology>
 </technologies>
 </device>
@@ -15302,6 +15328,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Pololu"/>
 <attribute name="DISTPN" value="2450"/>
+<attribute name="ROUGH_HEIGHT" value="13.4"/>
 </technology>
 </technologies>
 </device>
@@ -15385,6 +15412,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Digikey"/>
 <attribute name="DISTPN" value="36-968-ND"/>
+<attribute name="ROUGH_HEIGHT" value="53"/>
 </technology>
 </technologies>
 </device>
@@ -15404,6 +15432,20 @@ Added bigger pads to the TO-92 package</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="-AA-CLIP" package="BATTERY-AA-BK-92">
+<connects>
+<connect gate="G$1" pin="N" pad="N1 N2"/>
+<connect gate="G$1" pin="P" pad="P1 P2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="BK-92-ND"/>
+<attribute name="QTY" value="2"/>
+<attribute name="ROUGH_HEIGHT" value="16"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -15433,6 +15475,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Digikey"/>
 <attribute name="DISTPN" value="SW843-ND"/>
+<attribute name="ROUGH_HEIGHT" value="3.5"/>
 </technology>
 </technologies>
 </device>
@@ -15445,6 +15488,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Digikey"/>
 <attribute name="DISTPN" value="SW842-ND"/>
+<attribute name="ROUGH_HEIGHT" value="3.5"/>
 </technology>
 </technologies>
 </device>
@@ -15490,6 +15534,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1009"/>
+<attribute name="ROUGH_HEIGHT" value="12.4"/>
 </technology>
 </technologies>
 </device>
@@ -15504,6 +15549,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1010"/>
+<attribute name="ROUGH_HEIGHT" value="12.4" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -15539,6 +15585,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="160"/>
+<attribute name="ROUGH_HEIGHT" value="7"/>
 </technology>
 </technologies>
 </device>
@@ -15633,6 +15680,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1200"/>
+<attribute name="ROUGH_HEIGHT" value="6.5"/>
 </technology>
 </technologies>
 </device>
@@ -15989,7 +16037,6 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="digikey"/>
 <attribute name="DISTPN" value="ED10562-ND"/>
-
 <attribute name="PIN1" value="1" constant="no"/>
 <attribute name="PIN2" value="2" constant="no"/>
 <attribute name="PIN3" value="3" constant="no"/>
@@ -16464,6 +16511,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="297"/>
+<attribute name="ROUGH_HEIGHT" value="13"/>
 </technology>
 </technologies>
 </device>
@@ -16476,6 +16524,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="300"/>
+<attribute name="ROUGH_HEIGHT" value="13"/>
 </technology>
 </technologies>
 </device>
@@ -16488,6 +16537,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="301"/>
+<attribute name="ROUGH_HEIGHT" value="13"/>
 </technology>
 </technologies>
 </device>
@@ -16500,6 +16550,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="754"/>
+<attribute name="ROUGH_HEIGHT" value="13"/>
 </technology>
 </technologies>
 </device>
@@ -16512,6 +16563,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="1793"/>
+<attribute name="ROUGH_HEIGHT" value="13"/>
 </technology>
 </technologies>
 </device>
@@ -16524,6 +16576,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="388"/>
+<attribute name="ROUGH_HEIGHT" value="13"/>
 </technology>
 </technologies>
 </device>
@@ -16805,6 +16858,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Sparkfun"/>
 <attribute name="DISTPN" value="13177-assembly"/>
+<attribute name="ROUGH_HEIGHT" value="35"/>
 </technology>
 </technologies>
 </device>
@@ -16818,6 +16872,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Sparkfun"/>
 <attribute name="DISTPN" value="13176-assembly"/>
+<attribute name="ROUGH_HEIGHT" value="35"/>
 </technology>
 </technologies>
 </device>
@@ -16927,7 +16982,9 @@ Added bigger pads to the TO-92 package</description>
 <devices>
 <device name="" package="PENHOLDER">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ROUGH_HEIGHT" value="100"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -16978,6 +17035,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Gadgetron"/>
 <attribute name="DISTPN" value="proto-area-10x10"/>
+<attribute name="ROUGH_HEIGHT" value="15"/>
 </technology>
 </technologies>
 </device>
@@ -17009,6 +17067,7 @@ Added bigger pads to the TO-92 package</description>
 <attribute name="DIST-1-PN" value="EBK-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MFR-PN" value="CFR-12"/>
+<attribute name="ROUGH_HEIGHT" value="2"/>
 </technology>
 </technologies>
 </device>
@@ -17033,6 +17092,7 @@ Added bigger pads to the TO-92 package</description>
 <attribute name="DIST" value="Adafruit"/>
 <attribute name="DISTPN" value="302"/>
 <attribute name="FIELD_OF_VIEW" value="" constant="no"/>
+<attribute name="ROUGH_HEIGHT" value="13"/>
 </technology>
 </technologies>
 </device>
@@ -17096,7 +17156,9 @@ Added bigger pads to the TO-92 package</description>
 <connect gate="G$1" pin="VCC" pad="PWR1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ROUGH_HEIGHT" value="20"/>
+</technology>
 </technologies>
 </device>
 <device name="-MICRO_SIDE_GLUE" package="SERVO_MICRO_SIDE_GLUE">
@@ -17109,6 +17171,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Gadgetron"/>
 <attribute name="DISTPN" value="side-servo"/>
+<attribute name="ROUGH_HEIGHT" value="20"/>
 </technology>
 </technologies>
 </device>
@@ -17185,6 +17248,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Solarbotics"/>
 <attribute name="DISTPN" value="gm2-assembly"/>
+<attribute name="ROUGH_HEIGHT" value="26"/>
 </technology>
 </technologies>
 </device>
@@ -17197,6 +17261,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Sparkfun"/>
 <attribute name="DISTPN" value="13258-assembly"/>
+<attribute name="ROUGH_HEIGHT" value="26"/>
 </technology>
 </technologies>
 </device>
@@ -17225,6 +17290,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Solarbotics"/>
 <attribute name="DISTPN" value="gm2-assembly"/>
+<attribute name="ROUGH_HEIGHT" value="26"/>
 </technology>
 </technologies>
 </device>
@@ -17237,6 +17303,7 @@ Added bigger pads to the TO-92 package</description>
 <technology name="">
 <attribute name="DIST" value="Sparkfun"/>
 <attribute name="DISTPN" value="13258-assembly"/>
+<attribute name="ROUGH_HEIGHT" value="26"/>
 </technology>
 </technologies>
 </device>
